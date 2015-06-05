@@ -1,0 +1,81 @@
+# Site wide configuration
+title: "Unified Networking Lab"
+description: "A sofware by Andrea Dainese"
+locale: "en_US"
+#url: http://192.168.67.129:4000/
+timezone: Europe/Rome
+encoding: utf-8
+
+# Jekyll configuration
+permalink: /:year/:month/:title/
+#paginate: 10
+markdown: kramdown
+highlighter: pygments
+sass:
+    sass_dir: _sass
+    style: compressed
+gems:
+- jekyll-sitemap
+#- jekyll-redirect-from
+kramdown:
+    auto_ids: true
+    footnote_nr: 1
+    entity_output: as_char
+    toc_levels: 1..6
+    use_coderay: false
+
+
+
+# Authors
+authors:
+    andrea:
+        name: Andrea Dainese
+        display_name: Andrea
+        email: andrea.dainese@gmail.com
+        web: http://www.routereflector.com/
+        twitter: adainese
+        github: dainok
+        linkedin: adainese
+        gplus: AndreaDainese
+    test:
+        name: Test Test
+        display_name: Test
+
+series:
+    intronsx:
+        name: "Introduction to VMware NSX"
+
+# Site owner
+owner:
+  name: Andrea Dainese
+  avatar: bio-photo.jpg
+  bio: "Data Center Engineer - CCIE #38620"
+  email: 
+  disqus-shortname: 
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: #username
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

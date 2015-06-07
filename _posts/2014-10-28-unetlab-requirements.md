@@ -98,7 +98,6 @@ comments:
     menu, VT-d and virtualization were enabled.\r\nAny idea why I get the error?\r\n\r\nThanks
     again!"
 ---
-
 UNetLab is currently released as an OVA file. An OVA is a Open Virtual Appliance format. It's an archive (TAR) which holds disks and configuration file (OVF or Open Virtualization File) for the virtual machine. UNetLab can be also directly installed on the physical hardware, without any virtualization. Because UNetLab runs many hypervisor, it's strongly recommended a physical server dedicated for UNetLab, without any virtualization software. Mind that nested virtualization is not a good thing and can lead to poor performance.
 
 <a id="more"></a><a id="more-69"></a>
@@ -113,8 +112,6 @@ UNetLab requires:
 * VMware Workstation 9 or later (version 10 is suggested, Intel i7 processors are mandatory).
 * VMware Fusion 5 or later (version 6 is suggested, Intel i7 processors are mandatory).
 * VMware Player 5 or later (version 6 is suggested, Intel i7 processors are mandatory).
-
-
 
 Required CPU and RAM depend on how many nodes are needed to run. 1 CPU and 2GB of RAM can be enough for IOU/IOL and Dynamips only, but will be insufficient for topology with CSR1000V routers.
 

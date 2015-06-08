@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "Installing UNetLab on Apple OS X with VMware Fusion"
 excerpt:
-  "HowTo install UNetLab on Apple OS X with VMware Fusion"
+  "HowTo install UNetLab on Apple OS X with VMware Fusion."
 authors:
 - andrea
 tags:

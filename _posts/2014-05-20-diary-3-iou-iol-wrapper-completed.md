@@ -1,32 +1,17 @@
 ---
 layout: post
-status: publish
 published: true
-title: ! 'Diary #2: IOU (IOL) wrapper completed'
-author:
-  display_name: Andrea Dainese
-  login: admin
-  email: andrea.dainese@gmail.com
-  url: ''
-author_login: admin
-author_email: andrea.dainese@gmail.com
-excerpt: ! "During last days a lab structure has been defined. Let's see an example:\r\n\r\n"
-wordpress_id: 14
-wordpress_url: http://www.unetlab.com/?p=14
-date: !binary |-
-  MjAxNC0wNS0yMCAxNjoyNDoyMSArMDIwMA==
-date_gmt: !binary |-
-  MjAxNC0wNS0yMCAxNDoyNDoyMSArMDIwMA==
-categories:
-- Diary
+title: "Diary #2: IOU (IOL) wrapper completed"
+excerpt:
+  "Let's see how a lab file is defined."
+authors:
+- andrea
 tags:
-- Diary
-comments: []
+- UNetLab
+- Preview
 ---
-
 During last days a lab structure has been defined. Let's see an example:
 
-<a id="more"></a><a id="more-14"></a>
 ~~~
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <lab id="21347b51-b7a4-4496-8feb-8eda0c708660" name="TestLab" version="1" editable='true' restricted='false' author="Andrea Dainese">
@@ -118,45 +103,42 @@ During last days a lab structure has been defined. Let's see an example:
     </attach>
 </lab>
 ~~~
+
 Let me describe it:
 
-* an XML file is used, no more "database.sdb", the WEB-UI will be able to import, open and manage xml files;
+* an XML file is used, no more `database.sdb`, the WEB-UI will be able to import, open and manage XML files;
 * each node is defined, and all startup options are included:
 
 * R1 and R2 are defined;
-* they both run on the same hypervisor (unl01);
-* they are both connected to network 0 and network 1;
-* a serial map is provided for serial communication (1:unl01:1:1 means connect local interface 1 to remote device 1 interface 1 running on unl01);
-
-
+    * they both run on the same hypervisor (unl01);
+    * they are both connected to network 0 and network 1;
+    * a serial map is provided for serial communication (1:unl01:1:1 means connect local interface 1 to remote device 1 interface 1 running on unl01);
 * each network is defined:
-
-* one bridge network;
-* one serial network;
-
-
-* two attach are present and uuencoded: startup-configs are provided for both R1 and R2;
+    * one bridge network;
+    * one serial network;
+* two attachment are present and uuencoded: startup-configs are provided for both R1 and R2;
 * few macro are available:
-
-* TENANT_ID
-* DEVICE_ID
-* LAB_NAME
-* DEVICE_NAME
-
-
+    * TENANT_ID
+    * DEVICE_ID
+    * LAB_NAME
+    * DEVICE_NAME
 
 The entire lab can be started typing:
+
 ~~~
 # ./unl_wrapper.py -T 0 -D -1 -f test.unl -a start
 ~~~
+
 Both R1 and R2 will start, ethernet interfaces will be bridged to the vnet0_0 bridge:
+
 ~~~
 # brctl show
 bridge name     bridge id               STP enabled     interfaces
 vnet0_0         8000.6e52761450be       no              vunl0_0_0
-                                                        vunl0_1_0
 ~~~
+
 As you can see all is IPv6 capable:
+
 ~~~
 # netstat -anp | grep iol_wrapper
 tcp6       0      0 :::32768                :::*                    LISTEN      6172/iol_wrapper
@@ -164,9 +146,11 @@ tcp6       0      0 :::32769                :::*                    LISTEN      
 udp6       0      0 :::32768                :::*                                6172/iol_wrapper
 udp6       0      0 :::32769                :::*                                6271/iol_wrapper
 ~~~
+
 TCP is used for consoles, UDP for serial to serial communication.
 
 R1 console is available on port 32768:
+
 ~~~
 R1#show ip interface brief
 Interface              IP-Address      OK? Method Status                Protocol
@@ -179,7 +163,9 @@ Serial1/1              unassigned      YES unset  administratively down down
 Serial1/2              unassigned      YES unset  administratively down down
 Serial1/3              unassigned      YES unset  administratively down down
 ~~~
+
 Both ethernet and serial pings work:
+
 ~~~
 R1#ping 10.0.12.2
 Type escape sequence to abort.

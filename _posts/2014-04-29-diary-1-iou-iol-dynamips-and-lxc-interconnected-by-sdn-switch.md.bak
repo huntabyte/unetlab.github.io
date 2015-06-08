@@ -13,7 +13,7 @@ tags:
 The first brick has been developed: now IOU (IOL) can be connected to a Openflow capable switch. In the following example we'll see three devices:
 
 * one Cisco IOU/IOL instance;
-* one Cisco 2600 router (powered by Dynamips);
+* one Cisco 2600 router (powered by Dynamps);
 * one Linux VM (powered by LXC).
 
 All of them are interconnected together through a OpenFlow capable switches managed by the OpenDaylight controller:

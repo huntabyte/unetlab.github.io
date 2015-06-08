@@ -27,10 +27,12 @@ comments: []
 <a id="more"></a><a id="more-258"></a>
 ## A: Use the dpkg tool
 Simply type:
-<pre># dpkg -l unetlab
+~~~
+# dpkg -l unetlab
 Desired=Unknown/Install/Remove/Purge/Hold
 | Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
 |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
 ||/ Name                                  Version                 Architecture            Description
 +++-=====================================-=======================-=======================-===============================================================================
-ii  unetlab                               0.8.5-36                amd64                   A new generation software for networking labs.</pre>
+ii  unetlab                               0.8.5-36                amd64                   A new generation software for networking labs.
+~~~

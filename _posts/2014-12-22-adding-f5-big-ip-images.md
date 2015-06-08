@@ -26,35 +26,35 @@ The following procedure refers to the most recent and supported image only. Olde
 
 Install required packages:
 
-{% highlight bash %}
+~~~
 apt-get -y install unzip
-{% endhighlight %}
+~~~
 
 Upload the downloaded image to the UNetLab master node using for example [FileZilla](https://filezilla-project.org/ "FileZilla") or [WinSCP](http://winscp.net/ "WinSCP"). Then login as root using SSH protocol and uncompress it:
 
-{% highlight bash %}
+~~~
 mkdir tmp
 cd tmp
 unzip ../BIGIP-11.6.0.0.0.401.ALL.qcow2.zip
-{% endhighlight %}
+~~~
 
 Create the UNetLab image:
 
-{% highlight bash %}
+~~~
 mkdir -p /opt/unetlab/addons/qemu/bigip-11.6.0
 mv BIGIP-11.6.0.0.0.401.qcow2 hda.qcow2
 mv BIGIP-11.6.0.0.0.401.DATASTOR.ALL.qcow2 hdb.qcow2
 mv hda.qcow2 /opt/unetlab/addons/qemu/bigip-11.6.0
 mv hdb.qcow2 /opt/unetlab/addons/qemu/bigip-11.6.0
-{% endhighlight %}
+~~~
 
 Clean and fix permissions:
 
-{% highlight bash %}
+~~~
 cd ..
 rm -rf tmp
 /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
-{% endhighlight %}
+~~~
 
 Default username is `root` with password `default`.
 

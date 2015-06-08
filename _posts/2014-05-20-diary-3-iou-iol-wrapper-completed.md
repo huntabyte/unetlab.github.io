@@ -27,7 +27,8 @@ comments: []
 During last days a lab structure has been defined. Let's see an example:
 
 <a id="more"></a><a id="more-14"></a>
-<pre><?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+~~~
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <lab id="21347b51-b7a4-4496-8feb-8eda0c708660" name="TestLab" version="1" editable='true' restricted='false' author="Andrea Dainese">
     <topology>
         <nodes>
@@ -115,7 +116,8 @@ During last days a lab structure has been defined. Let's see an example:
             IDAKbGluZSB2dHkgMCA0CiEKZW5kCg==
         </file>
     </attach>
-</lab></pre>
+</lab>
+~~~
 Let me describe it:
 
 * an XML file is used, no more "database.sdb", the WEB-UI will be able to import, open and manage xml files;
@@ -144,22 +146,29 @@ Let me describe it:
 
 
 The entire lab can be started typing:
-<pre># ./unl_wrapper.py -T 0 -D -1 -f test.unl -a start</pre>
+~~~
+# ./unl_wrapper.py -T 0 -D -1 -f test.unl -a start
+~~~
 Both R1 and R2 will start, ethernet interfaces will be bridged to the vnet0_0 bridge:
-<pre># brctl show
+~~~
+# brctl show
 bridge name     bridge id               STP enabled     interfaces
 vnet0_0         8000.6e52761450be       no              vunl0_0_0
-                                                        vunl0_1_0</pre>
+                                                        vunl0_1_0
+~~~
 As you can see all is IPv6 capable:
-<pre># netstat -anp | grep iol_wrapper
+~~~
+# netstat -anp | grep iol_wrapper
 tcp6       0      0 :::32768                :::*                    LISTEN      6172/iol_wrapper
 tcp6       0      0 :::32769                :::*                    LISTEN      6271/iol_wrapper
 udp6       0      0 :::32768                :::*                                6172/iol_wrapper
-udp6       0      0 :::32769                :::*                                6271/iol_wrapper</pre>
+udp6       0      0 :::32769                :::*                                6271/iol_wrapper
+~~~
 TCP is used for consoles, UDP for serial to serial communication.
 
 R1 console is available on port 32768:
-<pre>R1#show ip interface brief
+~~~
+R1#show ip interface brief
 Interface              IP-Address      OK? Method Status                Protocol
 Ethernet0/0            10.0.12.1       YES manual up                    up
 Ethernet0/1            unassigned      YES unset  administratively down down
@@ -168,9 +177,11 @@ Ethernet0/3            unassigned      YES unset  administratively down down
 Serial1/0              10.0.0.1        YES manual up                    up
 Serial1/1              unassigned      YES unset  administratively down down
 Serial1/2              unassigned      YES unset  administratively down down
-Serial1/3              unassigned      YES unset  administratively down down</pre>
+Serial1/3              unassigned      YES unset  administratively down down
+~~~
 Both ethernet and serial pings work:
-<pre>R1#ping 10.0.12.2
+~~~
+R1#ping 10.0.12.2
 Type escape sequence to abort.
 Sending 5, 100-byte ICMP Echos to 10.0.12.2, timeout is 2 seconds:
 !!!!!
@@ -179,7 +190,8 @@ R1#ping 10.0.0.2
 Type escape sequence to abort.
 Sending 5, 100-byte ICMP Echos to 10.0.0.2, timeout is 2 seconds:
 !!!!!
-Success rate is 100 percent (5/5), round-trip min/avg/max = 19/24/29 ms</pre>
+Success rate is 100 percent (5/5), round-trip min/avg/max = 19/24/29 ms
+~~~
 Broadcast is also supported, of course.
 
 Because SDN distributed switches filter CDP, PagP and other protocols, standard bridges are supported. Standard bridges cannot be distributed on different hypervisor.

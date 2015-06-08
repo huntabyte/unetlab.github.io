@@ -26,34 +26,34 @@ The following procedure refers to the most recent and supported image only. Olde
 
 Upload the downloaded image to the UNetLab master node using for example [FileZilla](https://filezilla-project.org/ "FileZilla") or [WinSCP](http://winscp.net/ "WinSCP"). Then login as root using SSH protocol and uncompress it:
 
-{% highlight bash %}
+~~~
 mkdir tmp
 cd tmp
 tar ../PA-VM-ESX-6.1.0.ova
-{% endhighlight %}
+~~~
 
 Then convert the disk to the qcow2 format:
 
-{% highlight bash %}
+~~~
 qemu-img convert -f vmdk -O qcow2 PA-VM-ESX-6.1.0-disk1.vmdk virtioa.qcow2
-{% endhighlight %}
+~~~
 
 Create the UNetLab image:
 
-{% highlight bash %}
+~~~
 mkdir -p /opt/unetlab/addons/qemu/paloalto-6.1.0
 mv virtioa.qcow2 /opt/unetlab/addons/qemu/paloalto-6.1.0
-{% endhighlight %}
+~~~
 
 Clean and fix permissions:
 
-{% highlight bash %}
+~~~
 cd ..
 rm -rf tmp
 /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
-{% endhighlight %}
+~~~
 
-Default username is "<strong>admin</strong>" with password "<strong>admin</strong>".
+Default username is "**admin**" with password "**admin**".
 
 ## References
 

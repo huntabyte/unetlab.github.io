@@ -13,7 +13,7 @@ author_email: andrea.dainese@gmail.com
 excerpt: ! "A critical step in UNetLab installation is check if virtualization technology
   is enabled or not. If the following tests fail, be sure Virtualization Technology
   is enabled on BIOS. See the following links:\r\n\r\n\t* <a title=\"HP Z1/Z420/Z620/Z820
-  Workstation\" href=\"http://h20566.www2.hp.com/portal/site/hpsc/template.PAGE/public/kb/docDisplay?docId=mmr_kc-0105673&amp;ac.admitted=1414586828368.876444892.199480143\">HP
+  Workstation\" href=\"http://h20566.www2.hp.com/portal/site/hpsc/template.PAGE/public/kb/docDisplay?docId=mmr_kc-0105673&ac.admitted=1414586828368.876444892.199480143\">HP
   Z1/Z420/Z620/Z820 Workstation</a>\r\n\r\n## "
 wordpress_id: 79
 wordpress_url: http://www.unetlab.com/?p=79
@@ -49,7 +49,7 @@ comments:
 
 A critical step in UNetLab installation is check if virtualization technology is enabled or not. If the following tests fail, be sure Virtualization Technology is enabled on BIOS. See the following links:
 
-* <a title="HP Z1/Z420/Z620/Z820 Workstation" href="http://h20566.www2.hp.com/portal/site/hpsc/template.PAGE/public/kb/docDisplay?docId=mmr_kc-0105673&amp;ac.admitted=1414586828368.876444892.199480143">HP Z1/Z420/Z620/Z820 Workstation</a>
+* <a title="HP Z1/Z420/Z620/Z820 Workstation" href="http://h20566.www2.hp.com/portal/site/hpsc/template.PAGE/public/kb/docDisplay?docId=mmr_kc-0105673&ac.admitted=1414586828368.876444892.199480143">HP Z1/Z420/Z620/Z820 Workstation</a>
 
 ## <a id="more"></a><a id="more-79"></a>Microsoft Windows
 Download one of the following, depending by your CPU vendor:
@@ -90,8 +90,10 @@ The report shows that hardware virtualization is supported.
 VMware Workstation or Player can be used to install UNetLab as virtual machine.
 ## Ubuntu Linux 14.04
 Processors supported features are included in the /proc/cpuinfo file. Just check for vmx or svm features:
-<pre># grep --color -e vmx -e svm /proc/cpuinfo | tail -n1
-flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall mmxext fxsr_opt pdpe1gb rdtscp lm 3dnowext 3dnow constant_tsc nonstop_tsc pni cx16 popcnt lahf_lm cmp_legacy svm extapic cr8_legacy altmovcr8 abm sse4a misalignsse 3dnowprefetch osvw</pre>
+~~~
+# grep --color -e vmx -e svm /proc/cpuinfo | tail -n1
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall mmxext fxsr_opt pdpe1gb rdtscp lm 3dnowext 3dnow constant_tsc nonstop_tsc pni cx16 popcnt lahf_lm cmp_legacy svm extapic cr8_legacy altmovcr8 abm sse4a misalignsse 3dnowprefetch osvw
+~~~
 If the output is printed out, then either Intel VT-x (vmx) or AMD-V (svm) is supported.
 
 UNetLab can be directly installed for maximum performance.

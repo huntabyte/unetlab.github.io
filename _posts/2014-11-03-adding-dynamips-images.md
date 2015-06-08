@@ -187,28 +187,43 @@ Dynamips is a Cisco router emulator. Supported platforms are 1700, 2600, 3600, 3
 The following procedure refers to the most recent and supported image only. Older images should work too. Remember that UNetLab image names are strongly suggested for lab portability.
 
 Install required packages:
-<pre># apt-get -y install unzip</pre>
+~~~
+# apt-get -y install unzip
+~~~
 Upload the downloaded image to the UNetLab master node using for example <a title="FileZilla" href="https://filezilla-project.org/">FileZilla</a> or <a title="WinSCP" href="http://winscp.net/">WinSCP</a>. Then login as root using SSH protocol and uncompress it:
-<pre># mkdir tmp
+~~~
+# mkdir tmp
 # cd tmp
-# unzip -p c1710-bk9no3r2sy-mz.124-23.bin > c1710-bk9no3r2sy-mz.124-23.image</pre>
+# unzip -p c1710-bk9no3r2sy-mz.124-23.bin > c1710-bk9no3r2sy-mz.124-23.image
+~~~
 Create the UNetLab image:
-<pre># mkdir -p /opt/unetlab/addons/dynamips
-# mv c1710-bk9no3r2sy-mz.124-23.image /opt/unetlab/addons/dynamips/</pre>
+~~~
+# mkdir -p /opt/unetlab/addons/dynamips
+# mv c1710-bk9no3r2sy-mz.124-23.image /opt/unetlab/addons/dynamips/
+~~~
 Clean and fix permissions:
-<pre># cd ..
+~~~
+# cd ..
 # rm -rf tmp
-# /opt/unetlab/wrappers/unl_wrapper -a fixpermissions</pre>
+# /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
+~~~
 ## Calculating Idle PC
 If an unsupported image is added to the UNetLab platform, an Idle PC value must be identified. Start a Dynamips instance with basic configuration:
-<pre># dynamips -P 1700 -t 1710 /opt/unetlab/addons/dynamips/c1710-bk9no3r2sy-mz.124-23.image</pre>
+~~~
+# dynamips -P 1700 -t 1710 /opt/unetlab/addons/dynamips/c1710-bk9no3r2sy-mz.124-23.image
+~~~
 CPU usage is very high, a whole CPU for each instance:
-<pre>  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
- 3521 root      20   0  412236 125408 109904 S 99.5 25.4   3:27.82 dynamips</pre>
+~~~
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 3521 root      20   0  412236 125408 109904 S 99.5 25.4   3:27.82 dynamips
+~~~
 Wait for the following line on the console:
-<pre>Would you like to enter the initial configuration dialog? [yes/no]:</pre>
+~~~
+Would you like to enter the initial configuration dialog? [yes/no]:
+~~~
 After few more seconds press &ldquo;CTRL&rdquo; + &ldquo;]&rdquo; then &ldquo;i&rdquo;. Dynamips will show suggested Idle PC values:
-<pre>Please wait while gathering statistics...
+~~~
+Please wait while gathering statistics...
 Done. Suggested idling PC:
    0x80369ac4 (count=35)
    0x8023afac (count=51)
@@ -220,12 +235,17 @@ Done. Suggested idling PC:
    0x80363d48 (count=28)
    0x80363d78 (count=74)
    0x803645d0 (count=76)
-Restart the emulator with "--idle-pc=0x80369ac4" (for example)</pre>
+Restart the emulator with "--idle-pc=0x80369ac4" (for example)
+~~~
 Select one and restart dynamips with the IDle PC value:
-<pre># dynamips -P 1700 -t 1710 --idle-pc 0x80369ac4 /opt/unetlab/addons/dynamips/c1710-bk9no3r2sy-mz.124-23.image</pre>
+~~~
+# dynamips -P 1700 -t 1710 --idle-pc 0x80369ac4 /opt/unetlab/addons/dynamips/c1710-bk9no3r2sy-mz.124-23.image
+~~~
 If CPU usage is lower, then a good Idle PC value has been found:
-<pre>  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
- 3598 root      20   0  346700 125328 109828 S  5.3 25.3   0:03.98 dynamips</pre>
+~~~
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 3598 root      20   0  346700 125328 109828 S  5.3 25.3   0:03.98 dynamips
+~~~
 If CPU is still busy, then another value must be tested.
 ## References
 

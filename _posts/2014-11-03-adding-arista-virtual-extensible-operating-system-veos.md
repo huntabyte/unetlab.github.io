@@ -298,8 +298,8 @@ comments:
     -device e1000,netdev=net3,mac=52:00:00:04:00:03 -netdev tap,id=net3,ifname=vunl0_4_3,script=no
     -hda \"\\\"/opt/unetlab/tmp/0/Test1/4/hda.qcow2\\\"\"
     -cdrom \"\\\"/opt/unetlab/tmp/0/Test1/4/cdrom.iso\\\"\"
-    >> \"/opt/unetlab/tmp/0/Test1/4/../vEOS\" 2>&amp;1
-    &amp;\r\n\r\nAnybody seen this before?\r\n\r\nRegards,\r\nMitch"
+    >> \"/opt/unetlab/tmp/0/Test1/4/../vEOS\" 2>&1
+    &\r\n\r\nAnybody seen this before?\r\n\r\nRegards,\r\nMitch"
 ---
 
 The Arista vEOS is available as a virtual router also.
@@ -331,18 +331,24 @@ Aboot-qemu-serial-2.0.8.iso</td>
 The following procedure refers to the most recent and supported image only. Older images should work too. Remember that UNetLab image names are strongly suggested for lab portability.
 
 Upload the downloaded image to the UNetLab master node using for example <a title="FileZilla" href="https://filezilla-project.org/">FileZilla</a> or <a title="WinSCP" href="http://winscp.net/">WinSCP</a>. Then login as root using SSH protocol and convert it:
-<pre># mkdir tmp
+~~~
+# mkdir tmp
 # cd tmp
-# qemu-img convert -f vmdk -O qcow2 ../vEOS-4.14.0F.vmdk hda.qcow2</pre>
+# qemu-img convert -f vmdk -O qcow2 ../vEOS-4.14.0F.vmdk hda.qcow2
+~~~
 Create the UNetLab image:
-<pre># mkdir -p /opt/unetlab/addons/qemu/veos-4.14.0F
+~~~
+# mkdir -p /opt/unetlab/addons/qemu/veos-4.14.0F
 # mv hda.qcow2 /opt/unetlab/addons/qemu/veos-4.14.0F
-# mv Aboot-qemu-serial-2.0.8.iso /opt/unetlab/addons/qemu/veos-4.14.0F/cdrom.iso</pre>
+# mv Aboot-qemu-serial-2.0.8.iso /opt/unetlab/addons/qemu/veos-4.14.0F/cdrom.iso
+~~~
 Clean and fix permissions:
-<pre># cd ..
+~~~
+# cd ..
 # rm -rf tmp
-# /opt/unetlab/wrappers/unl_wrapper -a fixpermissions</pre>
-Default username is "<strong>admin</strong>" without password.
+# /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
+~~~
+Default username is "**admin**" without password.
 ## References
 
 * <a title="Arista EOS" href="https://eos.arista.com/">Arista EOS</a>

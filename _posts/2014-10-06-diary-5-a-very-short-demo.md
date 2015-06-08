@@ -228,7 +228,8 @@ Select Actions -> Open this lab, and start each node using the context menu:
 <a href="/images/posts/2014/10/demo14.png"><img class="aligncenter wp-image-46" src="/images/posts/2014/10/demo14.png" alt="Demo #13" width="300" height="292" /></a>
 
 As you can see, each node shows a play/stop icon, reflecting its status. Dynamips and IOL nodes are pre configured with hostname, a loopback and a EIGRP process:
-<pre>c1710-1#show cdp neighbors
+~~~
+c1710-1#show cdp neighbors
 Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater
 
@@ -273,5 +274,6 @@ c1710-1#ping 10.3.255.4
 Type escape sequence to abort.
 Sending 5, 100-byte ICMP Echos to 10.3.255.4, timeout is 2 seconds:
 !!!!!
-Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms</pre>
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+~~~
 Sounds good, isn't it?

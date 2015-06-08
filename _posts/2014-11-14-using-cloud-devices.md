@@ -29,7 +29,7 @@ Now power on the VM and proceed with next step: configuring clouds
 
 Currently a manual configuration is needed. Login as SSH and confirm the UNetLab VM can see all configured network interfaces:
 
-{% highlight bash %}
+~~~
 ifconfig  -a | grep ^eth
 eth0      Link encap:Ethernet  HWaddr 00:0c:29:a3:57:dd
 eth1      Link encap:Ethernet  HWaddr 00:0c:29:a3:57:e7
@@ -41,14 +41,14 @@ eth6      Link encap:Ethernet  HWaddr 00:0c:29:a3:57:19
 eth7      Link encap:Ethernet  HWaddr 00:0c:29:a3:57:23
 eth8      Link encap:Ethernet  HWaddr 00:0c:29:a3:57:2d
 eth9      Link encap:Ethernet  HWaddr 00:0c:29:a3:57:37
-{% endhighlight %}
+~~~
 
 Now install a text editor tool like nano (vi is already available):
 
-{% highlight bash %}
+~~~
 apt-get update
 apt-get install nano
-{% endhighlight %}
+~~~
 
 Then edit the `/etc/network/interfaces` file adding all pnet bridges:
 
@@ -125,13 +125,13 @@ iface pnet9 inet manual
 
 Finally bring pnet interfaces up or reboot the VM:
 
-{% highlight bash %}
+~~~
 for i in $(seq 1 9); do ifup pnet${i}; done
-{% endhighlight %}
+~~~
 
 Now ten "Cloud" devices are available:
 
-{% highlight bash %}
+~~~
 brctl show
 bridge name     bridge id               STP enabled     interfaces
 pnet0           8000.000c29a357dd       no              eth0
@@ -144,7 +144,7 @@ pnet6           8000.000c29a35719       no              eth6
 pnet7           8000.000c29a35723       no              eth7
 pnet8           8000.000c29a3572d       no              eth8
 pnet9           8000.000c29a35737       no              eth9
-{% endhighlight %}
+~~~
 
 ## Using a Cloud device within a lab
 
@@ -158,12 +158,12 @@ Link one or more nodes to the Cloud network, start nodes (Cloud is always up):
 
 The router can get an IP address from the DHCP configured on the same network where the `pnet0` is:
 
-{% highlight bash %}
+~~~
 Router#show ip int brie
 Interface                  IP-Address      OK? Method Status                Protocol
 Ethernet0                  192.168.67.134  YES DHCP   up                    up
 FastEthernet0              unassigned      YES unset  administratively down down
-{% endhighlight %}
+~~~
 
 ## Warning
 

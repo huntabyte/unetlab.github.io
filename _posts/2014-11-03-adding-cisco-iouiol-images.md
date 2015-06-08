@@ -528,14 +528,19 @@ Because IOL is an internal tool, IOL can be used by Cisco employers or by author
 The following procedure refers to the most recent and supported image only. Older images should work too. Remember that UNetLab image names are strongly suggested for lab portability.
 
 Upload the downloaded image to the UNetLab master node using for example <a title="FileZilla" href="https://filezilla-project.org/">FileZilla</a> or <a title="WinSCP" href="http://winscp.net/">WinSCP</a>; destination path is "/opt/unetlab/addons/iol/bin/". Then login as root using SSH protocol and fix permissions:
-<pre># /opt/unetlab/wrappers/unl_wrapper -a fixpermissions</pre>
+~~~
+# /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
+~~~
 IOL images must end with the ".bin" extension and must be executable. License must be stored under the same path:
-<pre># cat /opt/unetlab/addons/iol/bin/iourc
+~~~
+# cat /opt/unetlab/addons/iol/bin/iourc
 [license]
-unl01 = 0123456789abcdef;</pre>
+unl01 = 0123456789abcdef;
+~~~
 ## Testing Cisco IOU/IOL images
 IOU/IOL license is bound to the hostname and domain name. A test should be made to check if IOU/IOL images can run properly:
-<pre># cd /opt/unetlab/addons/iol/bin
+~~~
+# cd /opt/unetlab/addons/iol/bin
 # touch NETMAP
 # LD_LIBRARY_PATH=/opt/unetlab/addons/iol/lib /opt/unetlab/addons/iol/bin/L3-ADVENTERPRISEK9_IVS-M-15.3-0.9T.bin 1
 ***************************************************************
@@ -557,5 +562,6 @@ Software clause at DFARS sec. 252.227-7013.
 
            cisco Systems, Inc.
            170 West Tasman Drive
-           San Jose, California 95134-1706</pre>
+           San Jose, California 95134-1706
+~~~
 If the IOL/IOU instance doen't start, then you won't be able to use IOL/IOU nodes inside UNetLab.

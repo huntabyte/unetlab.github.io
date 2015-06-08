@@ -257,25 +257,33 @@ The Cisco XRv router is available as a virtual router also.
 The following procedure refers to the most recent and supported image only. Older images should work too. Remember that UNetLab image names are strongly suggested for lab portability.
 
 Upload the downloaded image to the UNetLab master node using for example <a title="FileZilla" href="https://filezilla-project.org/">FileZilla</a> or <a title="WinSCP" href="http://winscp.net/">WinSCP</a>. Then login as root using SSH protocol and uncompress it:
-<pre># mkdir tmp
+~~~
+# mkdir tmp
 # cd tmp
-# tar xf ../iosxrv-k9-demo-5.1.1_2.ova</pre>
+# tar xf ../iosxrv-k9-demo-5.1.1_2.ova
+~~~
 Then convert the disk to the qcow2 format:
-<pre># qemu-img convert -f vmdk -O qcow2 iosxrv-demo.vmdk hda.qcow2</pre>
+~~~
+# qemu-img convert -f vmdk -O qcow2 iosxrv-demo.vmdk hda.qcow2
+~~~
 Create the UNetLab image:
-<pre># mkdir -p /opt/unetlab/addons/qemu/xrv-k9-5.1.1
-# mv hda.qcow2 /opt/unetlab/addons/qemu/xrv-k9-5.1.1</pre>
+~~~
+# mkdir -p /opt/unetlab/addons/qemu/xrv-k9-5.1.1
+# mv hda.qcow2 /opt/unetlab/addons/qemu/xrv-k9-5.1.1
+~~~
 Clean and fix permissions:
-<pre># cd ..
+~~~
+# cd ..
 # rm -rf tmp
-# /opt/unetlab/wrappers/unl_wrapper -a fixpermissions</pre>
+# /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
+~~~
 From the 5.5.2 image, the conversion could create a very small qcow2 file. In this case:
 <ol>
 * import the ova file into a VMware platform;
 * grab the deployed vmdk;
 * convert the vmdk to qcow2.
 </ol>
-Default username is "<strong>admin</strong>" without password.
+Default username is "**admin**" without password.
 ## References
 
 * <a title="Cisco IOS XRv Software" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xrv-software/tsd-products-support-series-home.html">Cisco IOS XRv Software</a>

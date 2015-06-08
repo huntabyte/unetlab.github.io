@@ -65,8 +65,10 @@ comments:
 <a id="more"></a><a id="more-234"></a>
 
 Cannot fix permissions on a downloaded UNetLab installation with the following errors:
-<pre>/opt/unetlab/wrappers/unl_wrapper -a fixpermissions
+~~~
+/opt/unetlab/wrappers/unl_wrapper -a fixpermissions
 ERROR: invalid action "fixpermissions".
-ERROR: Action is not valid.</pre>
+ERROR: Action is not valid.
+~~~
 ## A: Just <a title="Upgrade UNetLab installation" href="http://www.unetlab.com/2014/11/upgrade-unetlab-installation/">upgrade</a> to latest.
 The "fixpermissions" action has been introduced from <a title="UNetLab 0.8.5-36 Released" href="http://www.unetlab.com/2014/11/unetlab-0-8-5-36-released/">0.8.5-36 release</a>.

@@ -139,5 +139,7 @@ Non default options will require proxy hostname and port (default is "proxy.exam
 After the last confirm the UNetLab will reboot. When the VM is up and running, SSH can be used to manage the VM, not before.
 
 Finally you should upgrade system and UNetLab to latest version:
-<pre># apt-get update
-# apt-get -y upgrade</pre>
+~~~
+# apt-get update
+# apt-get -y upgrade
+~~~

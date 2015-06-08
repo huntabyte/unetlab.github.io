@@ -431,19 +431,27 @@ The Juniper Firefly Perimeter (vSRX) is available as a virtual router also.
 The following procedure refers to the most recent and supported image only. Older images should work too. Remember that UNetLab image names are strongly suggested for lab portability.
 
 Upload the downloaded image to the UNetLab master node using for example <a title="FileZilla" href="https://filezilla-project.org/">FileZilla</a> or <a title="WinSCP" href="http://winscp.net/">WinSCP</a>. Then login as root using SSH protocol and uncompress it:
-<pre># mkdir tmp
+~~~
+# mkdir tmp
 # cd tmp
-# tar xf ../junos-vsrx-12.1X44-D10.4-domestic.ova</pre>
+# tar xf ../junos-vsrx-12.1X44-D10.4-domestic.ova
+~~~
 Then convert the disk to the qcow2 format:
-<pre># qemu-img convert -f vmdk -O qcow2 junos-vsrx-12.1X44-D10.4-domestic-disk1.vmdk hda.qcow2</pre>
+~~~
+# qemu-img convert -f vmdk -O qcow2 junos-vsrx-12.1X44-D10.4-domestic-disk1.vmdk hda.qcow2
+~~~
 Create the UNetLab image:
-<pre># mkdir -p /opt/unetlab/addons/qemu/vsrx-12.1X44-D10.4-domestic
-# mv hda.qcow2 /opt/unetlab/addons/qemu/vsrx-12.1X44-D10.4-domestic</pre>
+~~~
+# mkdir -p /opt/unetlab/addons/qemu/vsrx-12.1X44-D10.4-domestic
+# mv hda.qcow2 /opt/unetlab/addons/qemu/vsrx-12.1X44-D10.4-domestic
+~~~
 Clean and fix permissions:
-<pre># cd ..
+~~~
+# cd ..
 # rm -rf tmp
-# /opt/unetlab/wrappers/unl_wrapper -a fixpermissions</pre>
-Default username is "<strong>admin</strong>" without password.
+# /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
+~~~
+Default username is "**admin**" without password.
 ## References
 
 * <a title="Juniper Firefly Perimeter" href="http://www.juniper.net/us/en/products-services/security/firefly-perimeter/">Juniper Firefly Perimeter</a>

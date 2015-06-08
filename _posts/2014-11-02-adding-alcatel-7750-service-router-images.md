@@ -456,19 +456,27 @@ The Alcatel 7750 Service Router (SR) is available as a virtual router also.
 The following procedure refers to the most recent and supported image only. Older images should work too. Remember that UNetLab image names are strongly suggested for lab portability.
 
 Install required packages:
-<pre># apt-get -y install unzip</pre>
+~~~
+# apt-get -y install unzip
+~~~
 Upload the downloaded image to the UNetLab master node using for example <a title="FileZilla" href="https://filezilla-project.org/">FileZilla</a> or <a title="WinSCP" href="http://winscp.net/">WinSCP</a>. Then login as root using SSH protocol and uncompress it:
-<pre># mkdir tmp
+~~~
+# mkdir tmp
 # cd tmp
-# unzip ../TiMOS-SR-12.0.R6-vm.zip</pre>
+# unzip ../TiMOS-SR-12.0.R6-vm.zip
+~~~
 Create the UNetLab image:
-<pre># mkdir -p /opt/unetlab/addons/qemu/timos-12.0.R6
-# mv vm/7xxx-i386/sros-vm.qcow2 /opt/unetlab/addons/qemu/timos-12.0.R6/hda.qcow2</pre>
+~~~
+# mkdir -p /opt/unetlab/addons/qemu/timos-12.0.R6
+# mv vm/7xxx-i386/sros-vm.qcow2 /opt/unetlab/addons/qemu/timos-12.0.R6/hda.qcow2
+~~~
 Clean and fix permissions:
-<pre># cd ..
+~~~
+# cd ..
 # rm -rf tmp
-# /opt/unetlab/wrappers/unl_wrapper -a fixpermissions</pre>
-Default username is "<strong>admin</strong>" with password "<strong>admin</strong>".
+# /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
+~~~
+Default username is "**admin**" with password "**admin**".
 ## References
 
 * <a title="Alcatel 7750 Service Router" href="http://www.alcatel-lucent.com/products/7750-service-router">Alcatel 7750 Service Router</a>

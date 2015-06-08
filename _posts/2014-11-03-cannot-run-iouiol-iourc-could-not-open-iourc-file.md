@@ -27,11 +27,15 @@ comments: []
 <a id="more"></a><a id="more-251"></a>
 
 Cannot run IOU/IOL test with the following error:
-<pre>IOURC: Could not open iourc file</pre>
+~~~
+IOURC: Could not open iourc file
+~~~
 ## A: You need to create the license.
 The IOU/IOL file is under:
-<pre># cat /opt/unetlab/addons/iol/bin/iourc
+~~~
+# cat /opt/unetlab/addons/iol/bin/iourc
 [license]
-unl01 = 0123456789abcdef;</pre>
+unl01 = 0123456789abcdef;
+~~~
 
 You need a valid license. Only Cisco guys and authorized partners can use IOU/IOL and obtain a valid license.

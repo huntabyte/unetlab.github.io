@@ -216,17 +216,26 @@ The Cisco XRv router is available as a virtual router also.
 The following procedure refers to the most recent and supported image only. Older images should work too. Remember that UNetLab image names are strongly suggested for lab portability.
 
 Upload the downloaded image to the UNetLab master node using for example <a title="FileZilla" href="https://filezilla-project.org/">FileZilla</a> or <a title="WinSCP" href="http://winscp.net/">WinSCP</a>. Then login as root using SSH protocol and uncompress it:
-<pre># mkdir tmp
+~~~
+# mkdir tmp
 # cd tmp
-# tar xf ../csr1000v-universalk9.03.13.00.S.154-3.S-ext.ova</pre>
+# tar xf ../csr1000v-universalk9.03.13.00.S.154-3.S-ext.ova
+~~~
 Then convert the disk to the qcow2 format:
-<pre># qemu-img convert -f vmdk -O qcow2 csr1000v_harddisk.vmdk hda.qcow2</pre>
+~~~
+# qemu-img convert -f vmdk -O qcow2 csr1000v_harddisk.vmdk hda.qcow2
+~~~
 Start the first boot installation:
-<pre># /usr/bin/qemu-system-x86_64 --enable-kvm -serial mon:stdio -nographic -boot order=c,once=d -smp 1 -m 3072 -usb -hda hda.qcow2 -cdrom csr1000v-universalk9.03.13.00.S.154-3.S-ext.iso</pre>
+~~~
+# /usr/bin/qemu-system-x86_64 --enable-kvm -serial mon:stdio -nographic -boot order=c,once=d -smp 1 -m 3072 -usb -hda hda.qcow2 -cdrom csr1000v-universalk9.03.13.00.S.154-3.S-ext.iso
+~~~
 Press any key to interrupt the boot process, and select the following image:
-<pre>CSR 1000V Serial Console -- Sun-27-Jul-14-15:56</pre>
+~~~
+CSR 1000V Serial Console -- Sun-27-Jul-14-15:56
+~~~
 After installation, the CSR is automatically rebooted. Output will be available without any further action:
-<pre>[...]
+~~~
+[...]
 cisco CSR1000V (VXE) processor (revision VXE) with 1195119K/6147K bytes of memory.
 Processor board ID 9Z9MH2DD18C
 1 Gigabit Ethernet interface
@@ -236,16 +245,21 @@ Processor board ID 9Z9MH2DD18C
 
          --- System Configuration Dialog ---
 
-Would you like to enter the initial configuration dialog? [yes/no]:</pre>
+Would you like to enter the initial configuration dialog? [yes/no]:
+~~~
 Now kill the process and create the UNetLab image:
-<pre># killall qemu-system-x86_64
+~~~
+# killall qemu-system-x86_64
 # mkdir -p /opt/unetlab/addons/qemu/csr1000v-universalk9-15.4-3S
-# mv hda.qcow2 /opt/unetlab/addons/qemu/csr1000v-universalk9-15.4-3S</pre>
+# mv hda.qcow2 /opt/unetlab/addons/qemu/csr1000v-universalk9-15.4-3S
+~~~
 Clean and fix permissions:
-<pre># cd ..
+~~~
+# cd ..
 # rm -rf tmp
-# /opt/unetlab/wrappers/unl_wrapper -a fixpermissions</pre>
-Default username is "<strong>admin</strong>" without password.
+# /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
+~~~
+Default username is "**admin**" without password.
 ## References
 
 * <a title="Cisco Cloud Services Router 1000V Series" href="http://www.cisco.com/c/en/us/products/routers/cloud-services-router-1000v-series/index.html">Cisco Cloud Services Router 1000V Series</a>

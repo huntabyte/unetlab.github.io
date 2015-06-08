@@ -30,7 +30,7 @@ Or
 
 Compressed images can be uncompressed using the following:
 
-{% highlight bash %}
+~~~
 qemu-img convert -f qcow2 -O qcow2 /opt/unetlab/addons/qemu/appliance-name/hda.qcow2 /opt/unetlab/addons/qemu/appliance-name/hda.qcow2.new
 mv /opt/unetlab/addons/qemu/appliance-name/hda.qcow2.new /opt/unetlab/addons/qemu/appliance-name/hda.qcow2
-{% endhighlight %}
+~~~

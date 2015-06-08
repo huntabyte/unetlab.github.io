@@ -558,34 +558,50 @@ The Cisco vIOS router is released for OnePk developers within the All-in-One Vir
 The following procedure refers to the most recent and supported image only. Older images should work too. Remember that UNetLab image names are strongly suggested for lab portability.
 
 Upload the downloaded image to the UNetLab master node using for example <a title="FileZilla" href="https://filezilla-project.org/">FileZilla</a> or <a title="WinSCP" href="http://winscp.net/">WinSCP</a>. Then login as root using SSH protocol and uncompress it:
-<pre># mkdir tmp
+~~~
+# mkdir tmp
 # cd tmp
-# tar xf ../all-in-one-VM-1.3.0.181.ova</pre>
+# tar xf ../all-in-one-VM-1.3.0.181.ova
+~~~
 The vIOS images is stored inside the vmdk file. The virtual disk file can be mounted in &ldquo;read-only&rdquo; mode:
-<pre># modprobe nbd max_part=32
-# qemu-nbd -r -c /dev/nbd0 all-in-one-VM-1.3.0.181-disk1.vmdk</pre>
+~~~
+# modprobe nbd max_part=32
+# qemu-nbd -r -c /dev/nbd0 all-in-one-VM-1.3.0.181-disk1.vmdk
+~~~
 The vmdk contains the following partitions:
-<pre># file -s /dev/nbd0p*
+~~~
+# file -s /dev/nbd0p*
 /dev/nbd0p1: Linux rev 1.0 ext4 filesystem data, UUID=d650adb8-b5b9-4889-9d88-94dab7d263d9 (extents) (large files) (huge files)
 /dev/nbd0p2: x86 boot sector
-/dev/nbd0p5: Linux/i386 swap file (new style), version 1 (4K pages), size 523519 pages, no label, UUID=5f28906f-ef02-48c7-a2f8-96d05409077b</pre>
+/dev/nbd0p5: Linux/i386 swap file (new style), version 1 (4K pages), size 523519 pages, no label, UUID=5f28906f-ef02-48c7-a2f8-96d05409077b
+~~~
 The first partition can be mounted:
-<pre># mount -t ext4 /dev/nbd0p1 /mnt -o ro</pre>
+~~~
+# mount -t ext4 /dev/nbd0p1 /mnt -o ro
+~~~
 Uncompress the vIOS OVA to the temporary directory:
-<pre># tar xf /mnt/usr/share/vmcloud/data/images/vios-adventerprisek9-m.ova</pre>
+~~~
+# tar xf /mnt/usr/share/vmcloud/data/images/vios-adventerprisek9-m.ova
+~~~
 Convert the vmdk file to a QEMU compatible format:
-<pre># qemu-img convert -f vmdk -O qcow2 vios-adventerprisek9-m.vmdk hda.qcow2</pre>
+~~~
+# qemu-img convert -f vmdk -O qcow2 vios-adventerprisek9-m.vmdk hda.qcow2
+~~~
 Now create the UNetLab image:
-<pre># mkdir -p /opt/unetlab/addons/qemu/vios-adventerprisek9-m-15.4-1.3.0-181
+~~~
+# mkdir -p /opt/unetlab/addons/qemu/vios-adventerprisek9-m-15.4-1.3.0-181
 # mv hda.qcow2 /opt/unetlab/addons/qemu/vios-adventerprisek9-m-15.4-1.3.0-181/
-</pre>
+
+~~~
 Clean and fix permissions:
-<pre># cd ..
+~~~
+# cd ..
 # umount /mnt
 # qemu-nbd -d /dev/nbd0
 # rmmod nbd
 # rm -rf tmp
-# /opt/unetlab/wrappers/unl_wrapper -a fixpermissions</pre>
+# /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
+~~~
 ## References
 
 * <a title="Cisco All-in-One Virtual Machine" href="https://developer.cisco.com/site/onepk/downloads/all-in-one-vm/index.gsp">Cisco All-in-One Virtual Machine</a>

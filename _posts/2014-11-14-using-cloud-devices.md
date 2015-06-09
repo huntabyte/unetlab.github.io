@@ -10,7 +10,6 @@ tags:
 - UNetLab
 - HowTo
 ---
-
 A "Cloud" device is a special network which allows the lab to be bound with an external network. In other words a "Cloud" allows a lab to communicate with external hosts. This can be useful to integrate a lab with any external devices. Each "Cloud" is bound to a network interface. By default only `pnet0` is available.
 
 ## Adding more network interfaces using VMware
@@ -21,7 +20,7 @@ The first step requires to add more network interfaces to the UNetLab virtual ma
 * Edit setting using the VMware vSphere/Workstation/Fusion/Player interface
 * Add up to a total of 10 vNICs (it's a VMware limit):
 
-[Adding vNICs to a VM](/images/posts/2014/11/cloud-1.png "Adding vNICs to a VM")
+![Adding vNICs to a VM](/images/posts/2014/11/cloud-1.png "Adding vNICs to a VM")
 
 Now power on the VM and proceed with next step: configuring clouds
 
@@ -150,11 +149,11 @@ pnet9           8000.000c29a35737       no              eth9
 
 A Cloud is a network bound to a pnet interface. Just add a network and choose a pnet interface:
 
-[Adding a Cloud in the lab](/images/posts/2014/11/cloud-2.png "Adding a Cloud in the lab")
+![Adding a Cloud in the lab](/images/posts/2014/11/cloud-2.png "Adding a Cloud in the lab")
 
 Link one or more nodes to the Cloud network, start nodes (Cloud is always up):
 
-[Lab with Cloud device](/images/posts/2014/11/cloud-3.png "Lab with Cloud device")
+![Lab with Cloud device](/images/posts/2014/11/cloud-3.png "Lab with Cloud device")
 
 The router can get an IP address from the DHCP configured on the same network where the `pnet0` is:
 

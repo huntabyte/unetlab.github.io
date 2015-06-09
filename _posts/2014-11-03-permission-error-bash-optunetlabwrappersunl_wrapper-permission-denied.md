@@ -1,29 +1,15 @@
 ---
 layout: post
-status: publish
 published: true
-title: ! 'Permission error (-bash: /opt/unetlab/wrappers/unl_wrapper:
-  Permission denied)'
-author:
-  display_name: Andrea Dainese
-  login: admin
-  email: andrea.dainese@gmail.com
-  url: ''
-author_login: admin
-author_email: andrea.dainese@gmail.com
-excerpt: ! "## Q: Cannot Fix Permissions (-bash: /opt/unetlab/wrappers/unl_wrapper:
-  Permission denied)\r\n"
-wordpress_id: 249
-wordpress_url: http://www.unetlab.com/?p=249
-date: !binary |-
-  MjAxNC0xMS0wMyAxNTo0NDo0NSArMDEwMA==
-date_gmt: !binary |-
-  MjAxNC0xMS0wMyAxNDo0NDo0NSArMDEwMA==
-categories:
-- HowTo
+title: "How to fix: Permission error (-bash: /opt/unetlab/wrappers/unl_wrapper:
+  Permission denied)"
+excerpt:
+  "HowTo solve permission deny error on unl_wrapper."
+authors:
+- andrea
 tags:
-- FAQ
-comments: []
+- UNetLab
+- QA
 ---
 ## Q: Cannot Fix Permissions (-bash: /opt/unetlab/wrappers/unl_wrapper: Permission denied)
 <a id="more"></a><a id="more-249"></a>

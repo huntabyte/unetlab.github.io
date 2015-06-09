@@ -8,8 +8,7 @@ authors:
 - andrea
 tags:
 - UNetLab
-- Beta
-- Release
+- HowTo
 ---
 UNetLab is currently using two console types:
 

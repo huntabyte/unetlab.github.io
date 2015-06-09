@@ -1,34 +1,19 @@
 ---
 layout: post
-status: publish
 published: true
-title: Which UNetLab version is running?
-author:
-  display_name: Andrea Dainese
-  login: admin
-  email: andrea.dainese@gmail.com
-  url: ''
-author_login: admin
-author_email: andrea.dainese@gmail.com
-excerpt: ! "## Q: Which UNetLab version is running?\r\n"
-wordpress_id: 258
-wordpress_url: http://www.unetlab.com/?p=258
-date: !binary |-
-  MjAxNC0xMS0wMyAxNjozODozMSArMDEwMA==
-date_gmt: !binary |-
-  MjAxNC0xMS0wMyAxNTozODozMSArMDEwMA==
-categories:
-- HowTo
+title: "Which UNetLab version is running?"
+excerpt:
+  "HowTo check which UNetLab version is running."
+authors:
+- andrea
 tags:
-- FAQ
-comments: []
+- UNetLab
+- QA
 ---
-## Q: Which UNetLab version is running?
-<a id="more"></a><a id="more-258"></a>
-## A: Use the dpkg tool
-Simply type:
+UNetLab software is distributed as a DEB file. Use DPKG to check the installed version:
+
 ~~~
-# dpkg -l unetlab
+dpkg -l unetlab
 Desired=Unknown/Install/Remove/Purge/Hold
 | Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
 |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)

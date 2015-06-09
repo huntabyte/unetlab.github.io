@@ -18,7 +18,9 @@ The Alcatel 7750 Service Router (SR) is available as a virtual router also.
 | UNetLab Image Name | Downloaded Filename | Version | vCPUs | vRAM |
 |:--|:--|:-:|:-:|:-:|
 | `timos-12.0.R4` | `TiMOS-SR-12.0.R4-vm.zip` | B-12.0.R4 | 2 | 2048 |
+|----
 | `timos-12.0.R6` | `TiMOS-SR-12.0.R6-vm.zip` | B-12.0.R6 | 2 | 2048 |
+|----
 {: rules="groups"}
 
 ## Importing Alcatel 7750 Service Router images
@@ -54,7 +56,7 @@ rm -rf tmp
 /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
 ~~~
 
-Default username is "**admin**" with password "**admin**".
+Default username is `admin` with password `admin`.
 
 ## References
 

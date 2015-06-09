@@ -18,6 +18,7 @@ The F5 BIG-IP is available as a virtual appliance also.
 | UNetLab Image Name | Downloaded Filename | Version | vCPUs | vRAM |
 |:--|:--|:-:|:-:|:-:|
 | `bigip-11.6.0` | `BIGIP-11.6.0.0.0.401.ALL.qcow2.zip` | 11.6.0 | 2 | 2048 |
+|----
 {: rules="groups"}
 
 ## Importing F5 BIG-IP images

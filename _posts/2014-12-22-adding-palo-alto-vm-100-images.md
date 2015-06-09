@@ -18,6 +18,7 @@ The Palo Alto firewall is available as a virtual appliance.
 | UNetLab Image Name | Downloaded Filename | Version | vCPUs | vRAM |
 |:--|:--|:-:|:-:|:-:|
 | `paloalto-6.1.0` | `PA-VM-ESX-6.1.0.ova` | 11.6.0 | 2 | 4096 |
+|----
 {: rules="groups"}
 
 ## Importing Palo Alto VM-100 images
@@ -35,7 +36,7 @@ tar ../PA-VM-ESX-6.1.0.ova
 Then convert the disk to the qcow2 format:
 
 ~~~
-qemu-img convert -f vmdk -O qcow2 PA-VM-ESX-6.1.0-disk1.vmdk virtioa.qcow2
+/opt/qemu/bin/qemu-img convert -f vmdk -O qcow2 PA-VM-ESX-6.1.0-disk1.vmdk virtioa.qcow2
 ~~~
 
 Create the UNetLab image:
@@ -53,7 +54,7 @@ rm -rf tmp
 /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
 ~~~
 
-Default username is "**admin**" with password "**admin**".
+Default username is `admin` with password `admin`.
 
 ## References
 

@@ -21,6 +21,10 @@ img, input[type='image'] {
 	max-width: 100%;
 }
 
+input {
+        border: 1px solid #58585a;
+}
+
 #logo_rr {
 	background-color: #3ba9ba;
 	width: 100%;

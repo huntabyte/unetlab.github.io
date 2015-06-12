@@ -2,9 +2,9 @@
 title: "Unified Networking Lab"
 description: "A sofware by Andrea Dainese"
 locale: "en_US"
-#url: http://192.168.67.129:4000/
 timezone: Europe/Rome
 encoding: utf-8
+logo: "logo_rr.png"
 
 # Jekyll configuration
 permalink: /:year/:month/:title/

@@ -4,10 +4,12 @@ published: true
 title: "About Unified Networking Lab"
 excerpt:
   "About UNetLab software and developers."
+section: "About"
 authors:
 - andrea
 tags:
 - UNetLab
+keywords: [UNetLab, UNL, Andrea, Dainese]
 ---
 The UNetLab project is under heavy development. If you want to stay updated with beta release and enhancement, you can subscribe to our mailing list.
 

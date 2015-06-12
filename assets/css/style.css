@@ -214,6 +214,7 @@ img, input[type='image'] {
 }
 
 #middle_right img {
+    /* Force height for old browsers */
     height: 450px;
 }
 

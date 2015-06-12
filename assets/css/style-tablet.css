@@ -205,6 +205,14 @@ img, input[type='image'] {
 	top: 28px;
 }
 
+#logo_rr img {
+    height: 100px;
+}
+
+#middle_right img {
+    height: 252px;
+}
+
 #middle_image {
 	bottom: 0px;
 	left: 0px;

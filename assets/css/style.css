@@ -41,6 +41,10 @@ img, input[type='image'] {
 	width: 100%;
 }
 
+#logo_rr img {
+    height: 180px;
+}
+
 #logo_description {
 	background-color: #ffffff;
 	font-family: 'DIN Light', Helvetica, Arial, sans-serif;
@@ -207,6 +211,10 @@ img, input[type='image'] {
 	position: absolute;
 	right: 0px;
 	top: 50px;
+}
+
+#middle_right img {
+    height: 450px;
 }
 
 #middle_image {

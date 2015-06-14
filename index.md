@@ -13,5 +13,5 @@ keywords: [UNetLab, UNL, VIRL , GNS3, Simulator, OVS, QEMU, Dynamips, Dynagen, I
 ---
 <ul>
 {% for post in site.posts limit:100 %}
-	<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>:<br/><cite>{{ post.excerpt | strip_html }}</cite></li>
+	<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>:<br/><blockquote>{{ post.excerpt | strip_html }}</blockquote></li>
 {% endfor %}

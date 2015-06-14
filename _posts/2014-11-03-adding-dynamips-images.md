@@ -112,4 +112,4 @@ If CPU is still busy, then another value must be tested.
 
 ## References
 
-* [Dynamips[https://sourceforge.net/projects/gns-3/files/Dynamips/ "Dynamips")
+* [Dynamips](https://sourceforge.net/projects/gns-3/files/Dynamips/ "Dynamips")

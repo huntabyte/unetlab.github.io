@@ -14,7 +14,7 @@ tags:
 The back end is almost completed, a single command line can manage the whole lab:
 
 ~~~
-# unl -F test.unl -T 0 -D all -a start
+unl -F test.unl -T 0 -D all -a start
 ~~~
 
 And all devices will come up. In this case we have:

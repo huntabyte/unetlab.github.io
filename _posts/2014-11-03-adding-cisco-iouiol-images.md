@@ -16,7 +16,7 @@ Because IOL is an internal tool, IOL can be used by Cisco employers or by author
 
 ## Supported Cisco IOU/IOL images
 
-| Type | UNetLab Image Name | Downloaded Filename | Version | vCPUs | vRAM |
+| Type | UNetLab Image Name | Version | vRAM |
 |:--|:--|:--|:-:|:-:|:-:|
 | L2 | `L2-ADVENTERPRISEK9-M-15.1-20130726.bin` | I86BI_LINUXL2-ADVENTERPRISEK9-M 15.1(20130726:213425) | 192 |
 |----

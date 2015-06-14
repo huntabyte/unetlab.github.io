@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: "How to fix: ERROR: invalid action \"fixpermissions\")?"
+title: "How to fix: ERROR: invalid action 'fixpermissions')?"
 excerpt:
   "HowTo solve fixpermissions error on UNetLab software."
 authors:

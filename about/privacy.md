@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: privacy
 published: true
 title: "Privacy Policy"
 excerpt:
@@ -29,11 +29,11 @@ You can prevent the setting of cookies by adjusting the settings on your browser
 
 HowTo disable cookies on:
 
-* [Chrome] (https://support.google.com/accounts/answer/61416 "HowTo disable cookies on Chrome")
+* [Chrome](https://support.google.com/accounts/answer/61416 "HowTo disable cookies on Chrome")
 * [Firefox](https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences "HowTo disable cookies on Firefox")
-* [Internet Explorer] (http://windows.microsoft.com/en-us/windows-vista/block-or-allow-cookies "HowTo disable cookies on Internet Explorer")
-* [Opera] (http://www.opera.com/help/tutorials/security/privacy/ "HowTo disable cookies on Opera")
-* [Safari] (https://support.apple.com/kb/PH17191 "HowTo disable cookies on Safari")
+* [Internet Explorer](http://windows.microsoft.com/en-us/windows-vista/block-or-allow-cookies "HowTo disable cookies on Internet Explorer")
+* [Opera](http://www.opera.com/help/tutorials/security/privacy/ "HowTo disable cookies on Opera")
+* [Safari](https://support.apple.com/kb/PH17191 "HowTo disable cookies on Safari")
 
 ## The Cookies We Set
 
@@ -51,7 +51,7 @@ Both UNetLab website and software depends on external services, like:
 * [Google Plus](https://plus.google.com "Google Plus"), for social sharing ([see Google Plus privacy policy](https://www.google.com/+/policy/pagesterm.html "See Google Plus privacy policy"))
 * [LinkedIN](https://www.linkedin.com/ "LinkedIN"), for social sharing ([see LinkedIN privacy policy](https://www.linkedin.com/legal/privacy-policy "See LinkedIN privacy policy"))
 * [Twitter](https://twitter.com/ "Twitter"), for social sharing ([see Twitter privacy policy](https://twitter.com/privacy "See Twitter privacy policy"))
-* [Xing]i(https://www.xing.com/ "Xing"), for social sharing ([see Xing privacy policy](https://www.xing.com/privacy "See Xing privacy policy"))
+* [Xing](https://www.xing.com/ "Xing"), for social sharing ([see Xing privacy policy](https://www.xing.com/privacy "See Xing privacy policy"))
 
 ## More Information
 

@@ -13,5 +13,4 @@ tags:
 ---
 Fixed on this release:
 
-* Few more fixes on the web-ui, "start all" button still have some issues.
-* 
+* Few more fixes on the web-ui, `start all` button still have some issues.

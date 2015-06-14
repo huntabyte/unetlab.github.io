@@ -18,11 +18,11 @@ The first brick has been developed: now IOU (IOL) can be connected to a Openflow
 
 All of them are interconnected together through a OpenFlow capable switches managed by the OpenDaylight controller:
 
-![OpenDaylight dashboard](/images/posts/2014/04/diary1-1.png alt="OpenDaylight dashboard")
+![OpenDaylight dashboard](/images/posts/2014/04/diary1-1.png "OpenDaylight dashboard")
 
 The following shows the configured flows and related MAC addresses:
 
-![OpenDaylight flows](/images/posts/2014/04/diary1-2.png alt="OpenDaylight flows")
+![OpenDaylight flows](/images/posts/2014/04/diary1-2.png "OpenDaylight flows")
 
 Let's see how the Open vSwitch is configured:
 

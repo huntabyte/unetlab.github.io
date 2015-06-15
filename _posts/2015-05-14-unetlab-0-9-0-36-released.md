@@ -4,6 +4,7 @@ published: true
 title: "UNetLab 0.9.0-36 Released"
 excerpt:
   "What's new on UNetLab 0.9.0-36 (beta)."
+section: "Release"
 authors:
 - andrea
 tags:

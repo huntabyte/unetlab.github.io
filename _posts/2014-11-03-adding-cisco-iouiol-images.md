@@ -4,6 +4,7 @@ published: true
 title: "Adding Cisco IOU/IOL images"
 excerpt:
   "HowTo add Cisco IOY/IOL to UNetLab software."
+section: "HowTo"
 authors:
 - andrea
 tags:

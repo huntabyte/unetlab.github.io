@@ -5,11 +5,12 @@ title: "How to fix: Permission error (-bash: /opt/unetlab/wrappers/unl_wrapper:
   Permission denied)"
 excerpt:
   "HowTo solve permission deny error on unl_wrapper."
+section: "FAQ"
 authors:
 - andrea
 tags:
 - UNetLab
-- QA
+- FAQ
 ---
 On a very early release, `unl_wrapper` perimssins was wrong:
 

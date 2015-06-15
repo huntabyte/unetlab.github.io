@@ -4,6 +4,7 @@ published: true
 title: "Upgrade UNetLab installation"
 excerpt:
   "HowTo upgrade UNetLab software."
+section: "HowTo"
 authors:
 - andrea
 tags:

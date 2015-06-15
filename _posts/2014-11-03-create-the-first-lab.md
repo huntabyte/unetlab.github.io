@@ -4,11 +4,13 @@ published: true
 title: "Create the first lab"
 excerpt:
   "HowTo create the first lab on UNetLab software."
+section: "HowTo"
 authors:
 - andrea
 tags:
 - UNetLab
 - HowTo
+- Using
 ---
 After the installation, open the browser and point it to the URL showed on the UNetLab console:
 

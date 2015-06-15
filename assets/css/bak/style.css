@@ -9,6 +9,7 @@
 }
 
 body, html {
+	/* TODO setting min-width/min-height */
 	height: 100%;
 	overflow: auto;
 	position: relative;
@@ -49,6 +50,7 @@ input {
 }
 
 #logo_description {
+	background-color: #ffffff;
 	font-family: 'DIN Light', Helvetica, Arial, sans-serif;
 	font-size: 1.2em;
 	height: 50px;
@@ -62,6 +64,7 @@ input {
 }
 
 #header_right {
+	background-color: #ffffff;
 	position: absolute;
 	height: 100%;
 	left: 410px;
@@ -475,7 +478,7 @@ td {
 }
 
 #privacy-body {
-	color: #58585a;
-	font-family: 'DIN Regular', Helvetica, Arial, sans-serif;
-	margin: 20px;
+    color: #58585a;
+    font-family: 'DIN Regular', Helvetica, Arial, sans-serif;
+    margin: 20px;
 }

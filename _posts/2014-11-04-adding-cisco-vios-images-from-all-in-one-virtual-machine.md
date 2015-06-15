@@ -4,6 +4,7 @@ published: true
 title: "Adding Cisco vIOS images (from All-in-One Virtual Machine)"
 excerpt:
   "HowTo add Cisco vIOS to UNetLab software."
+section: "HowTo"
 authors:
 - andrea
 tags:

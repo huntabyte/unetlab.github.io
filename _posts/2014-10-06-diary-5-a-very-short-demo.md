@@ -4,6 +4,7 @@ published: true
 title: "Diary #5: a very short demo"
 excerpt:
   "Let's see a very short UNetLab demo."
+section: "Preview"
 authors:
 - andrea
 tags:

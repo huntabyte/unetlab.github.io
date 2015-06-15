@@ -32,7 +32,7 @@ side a UNetLab host, and a lab is a single file including all information needed
 ## Latest posts
 
 <ul>
-{% for post in site.posts limit:100 %}
+{% for post in site.posts limit:20 %}
 	<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>:<br/><blockquote>{{ post.excerpt | strip_html }}</blockquote></li>
 {% endfor %}
 </ul>

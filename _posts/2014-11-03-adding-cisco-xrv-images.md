@@ -4,6 +4,7 @@ published: true
 title: "Adding Cisco XRv images"
 excerpt:
   "HowTo add Cisco XRv to UNetLab software."
+section: "HowTo"
 authors:
 - andrea
 tags:

@@ -4,11 +4,12 @@ published: true
 title: "Which UNetLab version is running?"
 excerpt:
   "HowTo check which UNetLab version is running."
+section: "FAQ"
 authors:
 - andrea
 tags:
 - UNetLab
-- QA
+- FAQ
 ---
 UNetLab software is distributed as a DEB file. Use DPKG to check the installed version:
 

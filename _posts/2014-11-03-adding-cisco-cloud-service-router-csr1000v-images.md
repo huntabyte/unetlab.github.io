@@ -4,6 +4,7 @@ published: true
 title: "Adding Cisco Cloud Service Router (CSR1000V) images"
 excerpt:
   "HowTo add Cisco CSR1000V to UNetLab software."
+section: "HowTo"
 authors:
 - andrea
 tags:

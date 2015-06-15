@@ -4,6 +4,7 @@ published: true
 title: "Diary #3: Dynamips, vIOS and IOU/IOL"
 excerpt:
   "Let's see an example lab and start it."
+section: "Preview"
 authors:
 - andrea
 tags:

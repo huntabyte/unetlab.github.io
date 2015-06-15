@@ -4,11 +4,13 @@ published: true
 title: "Using Cloud devices"
 excerpt:
   "HowTo use cloud devices on UNetLab software."
+section: "HowTo"
 authors:
 - andrea
 tags:
 - UNetLab
 - HowTo
+- Using
 ---
 A "Cloud" device is a special network which allows the lab to be bound with an external network. In other words a "Cloud" allows a lab to communicate with external hosts. This can be useful to integrate a lab with any external devices. Each "Cloud" is bound to a network interface. By default only `pnet0` is available.
 

@@ -4,11 +4,12 @@ published: true
 title: "Why I cannot write configuration? Seems it cannot write to local disk."
 excerpt:
   "HowTo solve writing configuration on some QEMU devices."
+section: "FAQ"
 authors:
 - andrea
 tags:
 - UNetLab
-- QA
+- FAQ
 ---
 On a previous HOWTO UNetLab images have been built compressed. Sometimes compressed images do not work well, so the suggestion is to omit the `-c` flag. Example of error can be:
 

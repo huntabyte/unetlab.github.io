@@ -4,11 +4,12 @@ published: true
 title: "I'm running out of space, how can I add more storage to UNetLab VM?"
 excerpt:
   "HowTo increase available space on your UNetLab VM."
+section: "FAQ"
 authors:
 - andrea
 tags:
 - UNetLab
-- QA
+- FAQ
 ---
 You need to add a virtual disk and expand volume and filesystem.
 

@@ -4,6 +4,7 @@ published: true
 title: "What to expect in the UNetLab upcoming release?"
 excerpt:
   "What we're working on for next UNetLab release."
+section: "Release"
 authors:
 - andrea
 tags:

@@ -4,6 +4,7 @@ published: true
 title: "Adding Alcatel 7750 Service Router images."
 excerpt:
   "HowTo add Alcatel 7750 Service Router images to UNetLab software."
+section: "HowTo"
 authors:
 - andrea
 tags:

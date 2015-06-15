@@ -4,6 +4,7 @@ published: true
 title: "UNetLab 0.8.5-40 Released"
 excerpt:
   "What's new on UNetLab 0.8.5-40 (beta)."
+section: "Release"
 authors:
 - andrea
 tags:

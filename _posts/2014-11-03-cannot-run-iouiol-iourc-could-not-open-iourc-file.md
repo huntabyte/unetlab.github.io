@@ -4,11 +4,12 @@ published: true
 title: "How to fix: Could not open iourc file)?"
 excerpt:
   "HowTo solve IOU/IOL license error on UNetLab software."
+section: "FAQ"
 authors:
 - andrea
 tags:
 - UNetLab
-- QA
+- FAQ
 ---
 If no license is installed, IOU/IOL fails to run with the following error:
 

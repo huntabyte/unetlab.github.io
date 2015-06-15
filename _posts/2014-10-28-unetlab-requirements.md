@@ -4,6 +4,7 @@ published: true
 title: "UNetLab Requirements"
 excerpt:
   "Requirements for UNetLab software."
+section: "HowTo"
 authors:
 - andrea
 tags:

@@ -4,6 +4,7 @@ published: true
 title: "Adding Palo Alto VM-100 images"
 excerpt:
   "HowTo add Palo Alto VM-100 to UNetLab software."
+section: "HowTo"
 authors:
 - andrea
 tags:

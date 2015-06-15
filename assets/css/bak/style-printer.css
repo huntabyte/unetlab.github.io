@@ -1,9 +1,15 @@
 * {
 	border: 0px;
+	color: #58585a;
 	font-family: 'DIN Regular', Helvetica, Arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	resize: both;
+	text-decoration: none;
 }
 
 body, html {
+	/* TODO setting min-width/min-height */
 	height: 100%;
 	overflow: auto;
 	position: relative;

@@ -4,6 +4,7 @@ published: true
 title: "Diary #1: IOU (IOL), Dynamips and LXC interconnected by SDN switch"
 excerpt:
   "UNetLab can now interconnect IOU, Dynamips and LXC nodes using an SDN switch."
+section: "Preview"
 authors:
 - andrea
 tags:

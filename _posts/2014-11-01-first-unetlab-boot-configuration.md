@@ -4,6 +4,7 @@ published: true
 title: "How to configure UNetLab during first boot"
 excerpt:
   "HowTo configure proxy, DNS, IP and other settings on UNetLab software."
+section: "HowTo"
 authors:
 - andrea
 tags:

@@ -4,6 +4,7 @@ published: true
 title: "Adding F5 BIG-IP images"
 excerpt:
   "HowTo add F5 BIGIP to UNetLab software."
+section: "HowTo"
 authors:
 - andrea
 tags:

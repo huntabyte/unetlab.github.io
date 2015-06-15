@@ -4,6 +4,7 @@ published: true
 title: "Installing UNetLab on VMware Player"
 excerpt:
   "HowTo install UNetLab software within VMware Player."
+section: "HowTo"
 authors:
 - andrea
 tags:

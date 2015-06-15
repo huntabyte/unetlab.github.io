@@ -33,7 +33,8 @@ Clients should be configured to automatically open telnet://, ssh:// and vnc:// 
 
 Check also:
 
-* <a title="First steps with Unetlab (by Stuart Fordham)" href="http://www.802101.com/2015/02/first-steps-with-unetlab.html">First steps with Unetlab (by Stuart Fordham)</a>
+* [YouTuve Channel](https://www.youtube.com/channel/UCh-RxHfEpYzo2Sgflq4_vAA "YouTuve Channel")
+* [First steps with Unetlab (by Stuart Fordham)](http://www.802101.com/2015/02/first-steps-with-unetlab.html >First steps with Unetlab (by Stuart Fordham)")
 
 ## Importing External Images
 

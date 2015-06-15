@@ -235,12 +235,36 @@ input {
 	position: relative;
 }
 
-#main a,#main a:visited {
+#privacy-container a, #privacy-container a:visited, #main a,#main a:visited {
     border-bottom: 2px solid #3ba9ba;
 }
 
-#main  a:hover, #main  a:active {
+#privacy-container a:hover, #privacy-container a:active, #main  a:hover, #main  a:active {
     border-bottom: 5px solid #3ba9ba;
+}
+
+#privacy-buttons {
+    text-align: center;
+    margin: 3% 0px 2% 0px;
+    width: 100%;
+}
+
+#privacy-buttons input[type='submit'] {
+    background-size: 100% 100%;
+    background: url('/assets/images/button-aqua.png') 100% no-repeat;
+    color: #ffffff;
+    display: inline;
+    font-family: 'DIN Bold', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    padding: 1px;
+    text-transform: uppercase;
+    height: 37px;
+    width: 200px;
+}
+
+#privacy-buttons input[type='submit']:active {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
 }
 
 #main_circle {
@@ -297,23 +321,13 @@ h1 {
 	position: relative;
 }
 
-#main_privacy {
-    background-image: url("/assets/images/diagonal.gif");
-    border: 1px solid #d6d7d7;
-    font-family: 'DIN Regular', Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    padding: 10px;
-    margin: auto auto 20px auto;
-}
-
-#main_privacy span {
-    font-family: 'DIN Bold', Helvetica, Arial, sans-serif;
-    font-size: 1.3em;
-    font-weight: bold;
+#main_date {
+    font-size: 0.9em;
+    margin: auto auto 10px auto;
+    text-align: right;
 }
 
 blockquote {
-p
     background-image: url("/assets/images/diagonal.gif");
     border: 1px solid #d6d7d7;
     border-left: 5px solid #46a6b6;
@@ -425,4 +439,46 @@ td {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+}
+
+.opaque {
+    opacity: 0.5;
+}
+
+#privacy-container {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+#privacy-content {
+    position: absolute;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    border: 2px #46a6b6 solid;
+    background-color: #ffffff;
+    left: 33%;
+    right: 33%;
+    top: 20%;
+}
+
+#privacy-head {
+    height: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px #46a6b6 solid;
+    color: #46a6b6;
+    display: inline-block;
+    font-family: 'DIN Bold', Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    margin: 2% auto 2% 2%;
+    text-transform: uppercase; 
+    vertical-align: text-top;
+    width: 90%;
+}
+
+#privacy-body {
+    color: #58585a;
+    font-family: 'DIN Regular', Helvetica, Arial, sans-serif;
+    margin: 20px;
 }

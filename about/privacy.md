@@ -20,8 +20,10 @@ For more general information on cookies see the [Wikipedia article on HTTP Cooki
 
 ## How We Use Cookies
 
-We use cookies for a variety of reasons detailed below. Unfortunately we cannot selectively disable services on a per user basis, but you can still disable cookies acting on your browser settings. If you disable all cookies, you'll loose all social sharing plugin, but website will continue to work fine; moreover you won't be able to use UNetLab software without cookies..
+We use cookies for a variety of reasons detailed below. Unfortunately we cannot selectively disable services on a per user basis, but you can still disable cookies acting on your browser settings. If you disable all cookies, you'll loose all social sharing plugin, but website will continue to work fine; moreover you won't be able to use UNetLab software without cookies.
 The only cookie required for UNetLab software is `unetlab_session`.
+
+If you accept this privacy policy, a cookie will be set to remember your action. The cookie is `privacy` and it expires after 90 days.
 
 ## Disabling Cookies
 

@@ -33,8 +33,9 @@ Clients should be configured to automatically open telnet://, ssh:// and vnc:// 
 
 Check also:
 
-* [YouTuve Channel](https://www.youtube.com/channel/UCh-RxHfEpYzo2Sgflq4_vAA "YouTuve Channel")
-* [First steps with Unetlab (by Stuart Fordham)](http://www.802101.com/2015/02/first-steps-with-unetlab.html >First steps with Unetlab (by Stuart Fordham)")
+* [YouTube Channel](https://www.youtube.com/c/UnifiedNetworkingLab "YouTuve Channel")
+* [First steps with Unetlab (by Stuart Fordham)](http://www.802101.com/2015/02/first-steps-with-unetlab.html "First steps with Unetlab (by Stuart Fordham)")
+* [Что такое UNetLab](http://www.ciscolab.ru/labs/42-unetlab-stroim-stend-dlya-podgotovki-k-ccie-rs-sp-dc-sec.html "Что такое UNetLab")
 
 ## Importing External Images
 
@@ -45,6 +46,7 @@ Use the following guides only if you are entitled to download and install the re
     {% assign posts = tag | last %}
     {% if t == "Images" %}
 <ul>
+    <li><a href="/documentation/supported-images/" title="List of all supported images">List of all supported images</a></li>
         {% for post in posts %}
             {% if post.tags contains t %}
     <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>

@@ -46,6 +46,7 @@ Use the following guides only if you are entitled to download and install the re
     {% assign posts = tag | last %}
     {% if t == "Images" %}
 <ul>
+    <li><a href="/documentation/supported-images/" title="List of all supported images">List of all supported images</a></li>
         {% for post in posts %}
             {% if post.tags contains t %}
     <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>

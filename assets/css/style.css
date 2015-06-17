@@ -446,6 +446,20 @@ td {
     opacity: 0.5;
 }
 
+#social {
+	margin: 20px auto auto auto;
+}
+
+#social a, #social a:visited {
+	border: 0px;
+	margin: 0px 7px 0px 7px;
+}
+
+#social a:active, #social a:hover {
+	border: 0px;
+	margin: 0px 7px 0px 7px;
+}
+
 #privacy-container {
     position: absolute;
     top: 0px;

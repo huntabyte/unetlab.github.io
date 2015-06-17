@@ -10,6 +10,8 @@ tags:
 - UNetLab
 - Privacy
 ---
+{% include toc.html %}
+
 UNetLab provides this Privacy Policy to inform you of our policies and procedures regarding the collection and use of information that apply to our service and software, as well as your choices regarding the collection and use of information.
 
 ## What Are Cookies

@@ -497,3 +497,10 @@ td {
 	font-family: 'DIN Regular', Helvetica, Arial, sans-serif;
 	margin: 20px;
 }
+
+#toc {
+	position: absolute;
+	top 0px;
+	left: -300px;
+	right: -100px;
+}

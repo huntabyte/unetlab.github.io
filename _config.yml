@@ -17,15 +17,13 @@ sass:
     style: compressed
 gems:
 - jekyll-sitemap
-#- jekyll-redirect-from
+
 kramdown:
     auto_ids: true
     footnote_nr: 1
     entity_output: as_char
     toc_levels: 1..6
     use_coderay: false
-
-
 
 # Authors
 authors:
@@ -38,45 +36,10 @@ authors:
         github: dainok
         linkedin: adainese
         gplus: AndreaDainese
-    test:
-        name: Test Test
-        display_name: Test
 
 series:
     intronsx:
         name: "Introduction to VMware NSX"
-
-# Site owner
-owner:
-  name: Andrea Dainese
-  avatar: bio-photo.jpg
-  bio: "Data Center Engineer - CCIE #38620"
-  email: 
-  disqus-shortname: 
-  twitter: #username
-  facebook: #username
-  google:
-    plus: #username
-    analytics: 
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
-  github: #username
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

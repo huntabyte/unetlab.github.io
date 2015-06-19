@@ -36,14 +36,14 @@ tar -xvf ../AIR-CTVM-K9-8-1-102-0.ova
 Convert the vmdk file to a QEMU compatible format:
 
 ~~~
-/opt/qemu/bin/qemu-img convert -f vmdk -O qcow2 AS_CTVM_8_1_102_0.vmdk hda.qcow2
+/opt/qemu/bin/qemu-img convert -f vmdk -O qcow2 AS_CTVM_8_1_102_0.vmdk megasasa.qcow2
 ~~~
 
 Now create the UNetLab image:
 
 ~~~
 mkdir -p /opt/unetlab/addons/qemu/vwlc-8.1.102.0
-mv hda.qcow2 /opt/unetlab/addons/qemu/vwlc-8.1.102.0
+mv megasasa.qcow2 /opt/unetlab/addons/qemu/vwlc-8.1.102.0
 mv AS_CTVM_8_1_102_0.iso /opt/unetlab/addons/qemu/vwlc-8.1.102.0/cdrom.iso 
 ~~~
 

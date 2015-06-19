@@ -11,13 +11,13 @@ tags:
 - UNetLab
 - Images
 ---
-The Cisco vIOS router is released for OnePk developers within the All-in-One Virtual Machine.
+The Cisco virtual Wireless LAN Controller 8vWLC) is available as a virtual appliance also.
 
-## Supported Cisco vIOS images
+## Supported Cisco vWLC images
 
 | UNetLab Image Name | Downloaded Filename | Version | vCPUs | vRAM |
 |:--|:--|:-:|:-:|:-:|
-| `vwlc-8.1.102.0` | `AIR-CTVM-K9-8-1-102-0.ova` | VIOS-ADVENTERPRISEK9-M 15.4(1.24)T0.9 | 1 | 256 |
+| `vwlc-8.1.102.0` | `AIR-CTVM-K9-8-1-102-0.ova` | 8.1.102.0 | 1 | 256 |
 |----
 {: rules="groups"}
 

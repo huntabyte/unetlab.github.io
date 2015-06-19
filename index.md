@@ -26,7 +26,6 @@ side a UNetLab host, and a lab is a single file including all information needed
 | Everything runs inside a single VM | IOU/IOL requires another VM |
 | Users can add pitures with active links | |
 | Self-funding | Crowfunding |
-| Free and available for everyone | Latest versions are available for supporters only |
 {: rules="groups"}
 
 ## Latest posts

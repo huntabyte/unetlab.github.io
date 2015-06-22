@@ -1,7 +1,7 @@
 ---
 layout: home
 published: true
-title: "Unified Nerworking Lab"
+title: "Unified Networking Lab"
 excerpt:
   "A network simulator by Andrea Dainese"
 section: "Home"

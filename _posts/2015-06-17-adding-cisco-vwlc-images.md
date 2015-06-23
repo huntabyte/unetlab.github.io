@@ -11,7 +11,7 @@ tags:
 - UNetLab
 - Images
 ---
-The Cisco virtual Wireless LAN Controller 8vWLC) is available as a virtual appliance also.
+The Cisco virtual Wireless LAN Controller (vWLC) is available as a virtual appliance also.
 
 ## Supported Cisco vWLC images
 

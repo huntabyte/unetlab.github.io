@@ -58,16 +58,16 @@ Description: Linux kernel binary image for version 3.16.7-ckt8-unetlab
  image package
 
 Package: unetlab
-Version: 0.9.0-52
+Version: 0.9.0-54
 Architecture: amd64
 Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
 Installed-Size: 9912
 Depends: apache2, bridge-utils, cpulimit, dialog, dmidecode, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, lvm2, openvswitch-controller, openvswitch-switch, php5, php5-cli, php5-imagick, php5-sqlite, plymouth-label, uml-utilities, unetlab-dynamips, unetlab-qemu
-Filename: pool/trusty/u/unetlab/unetlab_0.9.0-52_amd64.deb
-Size: 4769130
-MD5sum: fee7b8a081d0b378b35ea914a9782894
-SHA1: f3d3973cd1b0956a60cb5c03d55dd2e9e6fed15d
-SHA256: 142238883dd95bb31a89692182a6f4ef7f8d1c4df86723fbe438714142f865fb
+Filename: pool/trusty/u/unetlab/unetlab_0.9.0-54_amd64.deb
+Size: 4769114
+MD5sum: 421f3a7a89918dd524bfbe58b7a0c376
+SHA1: b163972b073291c6db068ab55e2230661f58bb0d
+SHA256: ae81164f1f80780a5780638a7c7c17bf54daecfd3c5754728c6806279f4c8c10
 Section: devel
 Priority: optional
 Homepage: http://www.unetlab.com/
@@ -103,22 +103,6 @@ Size: 26672146
 MD5sum: 055411022ef0ca7e6737bf1656023a04
 SHA1: 7a3ff075f3f4ab5aea1bb5c58d8a4f1f97de88ba
 SHA256: a0d58acd634fb76a42413bcb30864ff1a760ac11409641894ee78e9b3af06b75
-Section: devel
-Priority: optional
-Homepage: http://www.unetlab.com/
-Description: QEMU files for UNetLab.
-Name: Unified Networking Lab - QEMU
-
-Package: unetlab-qemu
-Version: 0.8.6-44
-Architecture: amd64
-Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
-Installed-Size: 95564
-Filename: pool/trusty/u/unetlab-qemu/unetlab-qemu_0.8.6-44_amd64.deb
-Size: 31809264
-MD5sum: 3cf8ece633feaa708f517843978623c6
-SHA1: 57a37bc46154295123d23e7a293684eb327304e9
-SHA256: 58f5108657c9975976a5a6724e96ec3fd6e87d8aa63cebc675ce855477efd6c1
 Section: devel
 Priority: optional
 Homepage: http://www.unetlab.com/

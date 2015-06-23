@@ -13,6 +13,7 @@ tags:
 - Release
 ---
 New features:
+
 * Customized interface name for all supported nodes.
 
 New supported images:

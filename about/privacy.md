@@ -42,7 +42,7 @@ HowTo disable cookies on:
 ## The Cookies We Set
 
 UNetLab software set a session cookie called `unetlab_session` after login process and a cookie called `privacy` to remember user selection abou privacy. Without this cookies, UNetLab software won't work properly.
-Both UNetLab website and software can set cookies via 3rd party software.
+RR Labs website and both UNetLab website and software can set cookies via 3rd party software.
 
 ## Third Party Cookies
 

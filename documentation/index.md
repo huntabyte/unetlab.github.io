@@ -25,7 +25,7 @@ After installation, proceed with the next two steps using both of the following 
 1. <a title="First UNetLab boot configuration" href="/2014/11/first-unetlab-boot-configuration/">First UNetLab boot configuration</a>
 2. <a title="Upgrade UNetLab installation" href="/2014/11/upgrade-unetlab-installation/">Upgrade UNetLab installation</a>
 
-Now UNetLab is properly installed and configured. External images must be manually imported because of copyright.
+Now UNetLab is properly installed and configured. External images must be manually imported because of copyright. Default username is `admin` with password `unl`.
 
 Clients should be configured to automatically open telnet://, ssh:// and vnc:// Urls:
 

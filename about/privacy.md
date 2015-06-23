@@ -3,7 +3,7 @@ layout: privacy
 published: true
 title: "Privacy Policy"
 excerpt:
-  "About UNetLab privacy policy."
+  "About privacy policy."
 authors:
 - andrea
 tags:

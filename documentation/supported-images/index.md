@@ -76,3 +76,4 @@ keywords: [UNetLab, UNL, supported, images, QEMU, Dynamips, IOU, IOL, ASA, ASAv,
 * MS Windows 7
 * MS Windows XP
 * MS Windows Server 2008R2
+* MS Windows Server 2003 and 2003 R2

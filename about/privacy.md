@@ -46,7 +46,7 @@ Both UNetLab website and software can set cookies via 3rd party software.
 
 ## Third Party Cookies
 
-Both UNetLab website and software depends on external services, like:
+RR Labs website and both UNetLab website and software depends on external services, like:
 
 * [Disqus](https://www.disqus.com/ "Disqus"), for commenting ([see Disqus privacy policy](https://help.disqus.com/customer/portal/articles/466259-privacy-policy "See Disqus privacy policy"))
 * [Facebook](https://www.facebook.com/ "Facebook"), for social sharing ([see Facebook privacy policy](https://www.facebook.com/policy.php "See Facebook privacy policy"))

@@ -24,7 +24,7 @@ New features:
 
 * Authentication with multi user support (default username is `admin` with password `unl`).
 * Initial config support for both IOU/IOL and Dynamips nodes.
-* No more 
+* Error should report a better description. 
 * Default QEMU is now 2.3.0.
 
 New supported images:

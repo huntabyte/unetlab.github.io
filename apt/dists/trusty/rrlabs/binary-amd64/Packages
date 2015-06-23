@@ -1,0 +1,127 @@
+Package: linux-headers-3.16.7-ckt8-unetlab
+Source: linux-source-3.16.7-ckt8-unetlab
+Version: 3.16.7-ckt8-unetlab-10.00.Custom
+Architecture: amd64
+Maintainer: Unknown Kernel Package Maintainer <unknown@unconfigured.in.etc.kernel-pkg.conf>
+Installed-Size: 52597
+Depends: libc6 (>= 2.14)
+Recommends: libc6-dev | libc-dev, gcc | c-compiler, make (>= 3.80-10), binutils (>= 2.12), util-linux (>= 2.10o)
+Suggests: module-init-tools (>= 0.9.10), e2fsprogs (>= 1.29)
+Provides: linux-headers, linux-headers-3.16
+Filename: pool/trusty/l/linux-headers-3.16.7-ckt8-unetlab/linux-headers-3.16.7-ckt8-unetlab_3.16.7-ckt8-unetlab-10.00.Custom_amd64.deb
+Size: 6901834
+MD5sum: 5a9d6ec5053e1b5af0025b7a7d024e9e
+SHA1: 85d89e8345a633896eb83be76aacefe170d6afdc
+SHA256: 9825fa85d69c12534ebc89c744b9e5215cc822838fbe6989d14189583a669c06
+Section: devel
+Priority: optional
+Description: Header files related to Linux kernel, specifically,
+ version 3.16.7-ckt8-unetlab
+ .
+ This package provides kernel header files for sites
+ that want the latest kernel headers for version
+ 3.16.7-ckt8-unetlab.
+ Please read
+ /usr/share/doc/linux-headers-3.16.7-ckt8-unetlab/debian.README.gz
+ for details
+
+Package: linux-image-3.16.7-ckt8-unetlab
+Source: linux-source-3.16.7-ckt8-unetlab
+Version: 3.16.7-ckt8-unetlab-10.00.Custom
+Architecture: amd64
+Maintainer: Unknown Kernel Package Maintainer <unknown@unconfigured.in.etc.kernel-pkg.conf>
+Installed-Size: 203681
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Suggests: fdutils, linux-doc-3.16.7-ckt8-unetlab | linux-source-3.16.7-ckt8-unetlab, ksymoops, linux-image-3.16.7-ckt8-unetlab-dbg
+Provides: linux-image, linux-image-3.16
+Filename: pool/trusty/l/linux-image-3.16.7-ckt8-unetlab/linux-image-3.16.7-ckt8-unetlab_3.16.7-ckt8-unetlab-10.00.Custom_amd64.deb
+Size: 50010018
+MD5sum: 7426ef2b1f4cd3dc0ceb4d93f9aff754
+SHA1: ec8e9881b144988846e223a86005178165f01db1
+SHA256: 3fdec218689990033c52f803071067878e33e075b76ac2abb5f8fb46c0ad9714
+Section: kernel
+Priority: optional
+Description: Linux kernel binary image for version 3.16.7-ckt8-unetlab
+ This package contains the Linux kernel image for version
+ 3.16.7-ckt8-unetlab.
+ .
+ It also contains the corresponding System.map file, and the modules
+ built by the packager.  It also contains scripts that try to ensure
+ that the system is not left in a unbootable state after an update.
+ .
+ Kernel image packages are generally produced using kernel-package,
+ and it is suggested that you install that package if you wish to
+ create a custom kernel from the sources. Please look at kernel-img.conf(5),
+ and /usr/share/doc/kernel-package/README.gz  from the package kernel-package
+ for details on how to tailor the  installation of this or any other kernel
+ image package
+
+Package: unetlab
+Version: 0.9.0-52
+Architecture: amd64
+Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
+Installed-Size: 9912
+Depends: apache2, bridge-utils, cpulimit, dialog, dmidecode, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, lvm2, openvswitch-controller, openvswitch-switch, php5, php5-cli, php5-imagick, php5-sqlite, plymouth-label, uml-utilities, unetlab-dynamips, unetlab-qemu
+Filename: pool/trusty/u/unetlab/unetlab_0.9.0-52_amd64.deb
+Size: 4769130
+MD5sum: fee7b8a081d0b378b35ea914a9782894
+SHA1: f3d3973cd1b0956a60cb5c03d55dd2e9e6fed15d
+SHA256: 142238883dd95bb31a89692182a6f4ef7f8d1c4df86723fbe438714142f865fb
+Section: devel
+Priority: optional
+Homepage: http://www.unetlab.com/
+Description: A new generation software for networking labs.
+ UNetLab is a new generation software for networking lab. It can be considered the next major version of iou-web, but the software has been rewritten from scratch. The major advantage over GNS3 and iou-web itself is about multi-hypervisor support within a single entity. UNetLab allows to design labs using IOU, Dynamips and QEMU nodes without dealing with multi virtual machines: everything run inside a UNetLab host, and a lab is a single file including all information needed.
+Name: Unified Networking Lab
+
+Package: unetlab-dynamips
+Version: 0.8.6-44
+Architecture: amd64
+Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
+Installed-Size: 1044
+Conflicts: dynamips
+Replaces: dynamips
+Filename: pool/trusty/u/unetlab-dynamips/unetlab-dynamips_0.8.6-44_amd64.deb
+Size: 366510
+MD5sum: e476bfa3f0f52b7323f82da61441e011
+SHA1: ca33d1d6eb097d6ff74850bc605aacb6cedcddd1
+SHA256: 93d6c2dee1597f213f2e32561743f740737bb7f0f1ba7a0968e3195eee67ecee
+Section: devel
+Priority: optional
+Homepage: http://www.unetlab.com/
+Description: Dynamips files for UNetLab.
+Name: Unified Networking Lab - Dynamips
+
+Package: unetlab-qemu
+Version: 0.9.0-52
+Architecture: amd64
+Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
+Installed-Size: 80420
+Filename: pool/trusty/u/unetlab-qemu/unetlab-qemu_0.9.0-52_amd64.deb
+Size: 26672146
+MD5sum: 055411022ef0ca7e6737bf1656023a04
+SHA1: 7a3ff075f3f4ab5aea1bb5c58d8a4f1f97de88ba
+SHA256: a0d58acd634fb76a42413bcb30864ff1a760ac11409641894ee78e9b3af06b75
+Section: devel
+Priority: optional
+Homepage: http://www.unetlab.com/
+Description: QEMU files for UNetLab.
+Name: Unified Networking Lab - QEMU
+
+Package: unetlab-qemu
+Version: 0.8.6-44
+Architecture: amd64
+Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
+Installed-Size: 95564
+Filename: pool/trusty/u/unetlab-qemu/unetlab-qemu_0.8.6-44_amd64.deb
+Size: 31809264
+MD5sum: 3cf8ece633feaa708f517843978623c6
+SHA1: 57a37bc46154295123d23e7a293684eb327304e9
+SHA256: 58f5108657c9975976a5a6724e96ec3fd6e87d8aa63cebc675ce855477efd6c1
+Section: devel
+Priority: optional
+Homepage: http://www.unetlab.com/
+Description: QEMU files for UNetLab.
+Name: Unified Networking Lab - QEMU
+

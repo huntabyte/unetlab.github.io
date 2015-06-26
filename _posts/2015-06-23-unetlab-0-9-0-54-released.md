@@ -15,7 +15,7 @@ tags:
 Fixed on this release:
 
 * IOU/IOL nodes do not crash anymore enabling IS-IS protocol.
-* IOU/IOL nodes do not stop if `stop all` button is pressed (issue is still present if serial links are used).
+* IOU/IOL nodes do not stop if `start all` button is pressed.
 * Fixed network issue on Cisco CSR routers.
 * Adding multiple networks/nodes work as expected.
 * ASAv now use serial console (see [Adding Cisco ASAv images](/2015/06/adding-cisco-asav-images/ "Adding Cisco ASAv images") post).

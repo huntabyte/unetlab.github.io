@@ -58,16 +58,16 @@ Description: Linux kernel binary image for version 3.16.7-ckt8-unetlab
  image package
 
 Package: unetlab
-Version: 0.9.0-68
+Version: 0.9.0-54
 Architecture: amd64
 Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
 Installed-Size: 9912
-Depends: apache2, bridge-utils, cpulimit, dialog, dmidecode, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lvm2, openvswitch-controller, openvswitch-switch, php5, php5-cli, php5-imagick, php5-sqlite, plymouth-label, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 0.9.0-66), tcpdump, zip
-Filename: pool/trusty/u/unetlab/unetlab_0.9.0-68_amd64.deb
-Size: 4375952
-MD5sum: eee50ef8465959e45b2adc7938dcd60c
-SHA1: c412e83c21d0ccfd4165281b14e1739a241809f3
-SHA256: ccda751f56984112b232b97910137d5364f141604f25f488b07f13d0ca026538
+Depends: apache2, bridge-utils, cpulimit, dialog, dmidecode, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, lvm2, openvswitch-controller, openvswitch-switch, php5, php5-cli, php5-imagick, php5-sqlite, plymouth-label, uml-utilities, unetlab-dynamips, unetlab-qemu
+Filename: pool/trusty/u/unetlab/unetlab_0.9.0-54_amd64.deb
+Size: 4769114
+MD5sum: 421f3a7a89918dd524bfbe58b7a0c376
+SHA1: b163972b073291c6db068ab55e2230661f58bb0d
+SHA256: ae81164f1f80780a5780638a7c7c17bf54daecfd3c5754728c6806279f4c8c10
 Section: devel
 Priority: optional
 Homepage: http://www.unetlab.com/

@@ -14,11 +14,13 @@ keywords: [UNetLab, UNL, VIRL , GNS3, Simulator, OVS, QEMU, Dynamips, Dynagen, I
 UNetLab can be considered the next major version of iou-web, but the software has been rewritten from scratch. The major advantage over GNS3 and iou-web itself is about multi-hypervisor support within a single entity. UNetLab allows to design labs using IOU, Dynamips and QEMU nodes without dealing with multi virtual machines: everything run in-
 side a UNetLab host, and a lab is a single file including all information needed.
 
-## Differences between current UNetLab and GNS3 1.3.3
+## Differences between current UNetLab and GNS3
 
 | UNetLab | GNS3 |
 |:--|:--|
 | User interface is web based | Users must install a client on the PC |
+| No need to install clinet except wireshark, putty and vnc | Installation for each OS |
+| No OS dependency - works on all of them | Each OS has its own issues and bugs |
 | Everything (but vendor images) is within a single VM | Need to be installed on the PC |
 | No limitation on RAM under QEMU | Under Windows, QEMU supports up to 2GB of RAM |
 | No limitation on networks under QEMU | QEMU limits network to 16 maximum |

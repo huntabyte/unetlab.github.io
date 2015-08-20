@@ -19,7 +19,7 @@ side a UNetLab host, and a lab is a single file including all information needed
 | UNetLab | GNS3 |
 |:--|:--|
 | User interface is web based | Users must install a client on the PC |
-| No need to install clinet except wireshark, putty and vnc | Installation for each OS |
+| No need to install client except WireShark, PuTTY and VNC | Installation for each OS |
 | No OS dependency - works on all of them | Each OS has its own issues and bugs |
 | Everything (but vendor images) is within a single VM | Need to be installed on the PC |
 | No limitation on RAM under QEMU | Under Windows, QEMU supports up to 2GB of RAM |

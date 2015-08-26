@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: "UNetLab 0.9.0-70 Released"
 excerpt:
   "What's new on UNetLab 0.9.0-70 (beta)."

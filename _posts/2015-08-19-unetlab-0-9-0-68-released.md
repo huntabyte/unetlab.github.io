@@ -46,4 +46,3 @@ The web-UI is changing, we're migrating it to the new style. This version comes 
 * Wireshark integration needs to download and install a REG and a BAT files on Windows. Please download from your VM the file stored in `/files/windows.zip` and unpack it under `C:\Program Files\UNetLab'.
 
 Please also check video on our [YouTube channel](https://www.youtube.com/c/UnifiedNetworkingLab "UNetLab YouTube Channel").
-

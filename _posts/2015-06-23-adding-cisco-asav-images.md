@@ -56,4 +56,3 @@ ciscoasa(config)# copy coredump.cfg disk0:/use_ttyS0
 ## References
 
 * [Cisco Adaptive Security Virtual Appliance (ASAv)](http://www.cisco.com/c/en/us/products/security/virtual-adaptive-security-appliance-firewall/index.html "Cisco Adaptive Security Virtual Appliance")
-

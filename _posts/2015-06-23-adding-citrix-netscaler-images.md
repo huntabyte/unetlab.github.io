@@ -58,4 +58,3 @@ rm -rf tmp
 
 * [Citrix Netscaler in UNetLab by Michal Adamopulos](http://www.ccie.cz/?p=56 "Citrix Netscaler in UNetLab by Michal Adamopulos")
 * [NetScaler Application Delivery Controller](http://www.citrix.com/products/netscaler-application-delivery-controller/overview.html "NetScaler Application Delivery Controller")
-

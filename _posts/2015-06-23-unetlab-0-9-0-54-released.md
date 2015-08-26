@@ -30,4 +30,3 @@ New features:
 New supported images:
 
 * Cisco Sourcefire
-

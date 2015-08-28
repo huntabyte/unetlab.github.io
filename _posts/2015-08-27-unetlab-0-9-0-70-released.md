@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: "UNetLab 0.9.0-70 Released"
 excerpt:
   "What's new on UNetLab 0.9.0-70 (beta)."
@@ -16,12 +16,12 @@ Fixed on this release:
 
 * Ostinato template now work as expected.
 * Wireshark wrapper performs better. Please download again your /files/windows.zip from UNetLab VM.
+* Fixed import labs with larger files.
+* When a single node is stopped, no other node die anymore.
 
 New features:
 
 * Few improvements on Web-UI.
-* Fixed import labs with larger files.
-* When a single node is stopped, no other node die anymore.
 
 New supported images:
 

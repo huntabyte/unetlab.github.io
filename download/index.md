@@ -15,3 +15,9 @@ Currently UNetLab is released as OVA only:
 
 * [Google Drive mirror](https://drive.google.com/open?id=0B2AgRhS2cfxCWVl6aGlRMnQxSms&amp;authuser=0 "Google Drive mirror")
 * [UNetLab Mega Mirror](https://mega.co.nz/#!gFFnCBxD!SUjCe3kxjoAGcJ1-MpFqITdHpoUMa0y1IR3T9j6XJk4 "UNetLab Mega Mirror")
+
+| Algorithm | Checksum |
+|:--|:--|
+MD5 | `18fe2c4525b028e871d4b898a9556ca4`
+SHA1 | `3b5363ade4fdc70e7028a879092df693f6d0173e`
+{: rules="groups"}

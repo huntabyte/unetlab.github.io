@@ -13,7 +13,7 @@ tags:
 ---
 UNetLab is supported on VMware Workstation 9 or later. Version 10 is suggested and this guide will use that version.
 
-Download from [VMware website](http://www.vmware.com/it/products/workstation/ "VMware Workstation" the VMware Workstation software and install it on your desktop, then run it:
+Download from [VMware website](http://www.vmware.com/it/products/workstation/ "VMware Workstation") the VMware Workstation software and install it on your desktop, then run it:
 
 ![VMware Workstation home](/images/posts/2014/10/workstation-1.png "VMware Workstation home")
 

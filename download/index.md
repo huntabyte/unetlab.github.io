@@ -21,3 +21,5 @@ Currently UNetLab is released as OVA only:
 MD5 | `18fe2c4525b028e871d4b898a9556ca4`
 SHA1 | `3b5363ade4fdc70e7028a879092df693f6d0173e`
 {: rules="groups"}
+
+UNetLab sources are available on [GitHub](https://github.com/dainok/unetlab "UNetLab repository on GitHub").

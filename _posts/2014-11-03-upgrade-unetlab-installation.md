@@ -11,7 +11,6 @@ tags:
 - UNetLab
 - HowTo
 ---
----
 UNetLab is based on Ubuntu 14.04 Linux. Weekly you should check for updates and upgrade your system:
 
 ~~~
@@ -23,7 +22,7 @@ If it's required to update UNetLab only, just restrict the upgrade phase:
 
 ~~~
 apt-get update
-apt-get -o Dpkg::Options::="--force-overwrite" install unetlab unetlab-qemu
+apt-get install unetlab
 ~~~
 
 UNetLab VM must be able to access Internet directly or through a proxy.

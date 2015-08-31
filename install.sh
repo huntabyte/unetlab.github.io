@@ -4,7 +4,7 @@ echo -ne "Adding RR Labs APT key... "
 curl -s http://www.unetlab.com/rrlabs.key | apt-key add - > /dev/null 2>&1
 if [ $? -eq 0 ]; then
 	echo "DONE"
-elif
+else
 	echo "FAILED"
 	exit 1
 fi

@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: "Installing UNetLab on a physical server (baremetal installation)"
 excerpt:
   "HowTo install UNetLab software on a physical server without nested-virtualization."
@@ -127,6 +127,23 @@ Now get the installation script and run it:
 
 ~~~
 curl -s http://www.unetlab.com/install.sh | bash
+~~~
+
+Output should be like the following:
+
+~~~
+Adding RR Labs APT key... DONE
+Adding UNetLab APT repository... DONE
+Setting APT HTTP proxy... DONE
+Setting APT HTTPS proxy... DONE
+Updating APT repositories...
+[...]
+Updating APT repositories... DONE
+Installing UNetLab...
+[...]
+Installing UNetLab... DONE
+Now you should migrate IP address configuration from  main interface card to the pnet0 bridge. Please refers to http://www.unetlab.com/ about editing the /etc/network/interfaces file.
+Finally reboot your server and connect to the server IP address.
 ~~~
 
 After the end of the script, you must migrate the IP address from your main network interface to the pnet0 bridge. 

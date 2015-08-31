@@ -15,7 +15,7 @@ deb http://public.routereflector.com/apt trusty rrlabs
 EOF
 if [ $? -eq 0 ]; then
 	echo "DONE"
-elif
+else
 	echo "FAILED"
 	exit 1
 fi

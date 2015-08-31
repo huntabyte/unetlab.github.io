@@ -125,7 +125,9 @@ Version: GnuPG v1
 
 Now get the installation script and run it:
 
-TODO
+~~~
+curl -s http://www.unetlab.com/install.sh | bash
+~~~
 
 After the end of the script, you must migrate the IP address from your main network interface to the pnet0 bridge. 
 

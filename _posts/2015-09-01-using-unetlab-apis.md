@@ -95,12 +95,12 @@ An authenticated user can get system statistics:
 {
     "code": 200,
     "data": {
-        "cached": 24,
+        "cached": 25,
         "cpu": 2,
         "disk": 33,
         "dynamips": 0,
         "iol": 0,
-        "mem": 74,
+        "mem": 72,
         "qemu": 0,
         "swap": 23,
         "version": "development"
@@ -174,6 +174,7 @@ A single template can be listed:
 
 All available images for the selected template will be included in the output:
 
+~~~
 {
     "code": 200,
     "data": {
@@ -280,6 +281,7 @@ All available images for the selected template will be included in the output:
     "message": "Successfully listed node template (60032).",
     "status": "success"
 }
+~~~
 
 ## List network types
 
@@ -287,6 +289,7 @@ All available images for the selected template will be included in the output:
 
 An authenticated user can list all available network types:
 
+~~~
 {
     "code": 200,
     "data": {
@@ -297,6 +300,7 @@ An authenticated user can list all available network types:
     "message": "Successfully listed network types (60002).",
     "status": "success"
 }
+~~~
 
 ## Navigating between folders
 
@@ -654,6 +658,7 @@ An authenticated user can delete a lab:
 ~~~
 {
     "code": 200,
+    "message": "Lab has been deleted (60022).",
     "status": "success"
 }
 ~~~

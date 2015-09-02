@@ -94,16 +94,16 @@ Description: A new generation software for networking labs.
 Name: Unified Networking Lab
 
 Package: unetlab
-Version: 0.9.0-72
+Version: 0.9.0-74
 Architecture: amd64
 Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
 Installed-Size: 9912
 Depends: apache2, bridge-utils, cpulimit, dialog, dmidecode, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lvm2, openvswitch-controller, openvswitch-switch, php5, php5-cli, php5-imagick, php5-sqlite, plymouth-label, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 0.9.0-66), tcpdump, zip
-Filename: pool/trusty/u/unetlab/unetlab_0.9.0-72_amd64.deb
-Size: 4376200
-MD5sum: 858665dc5692fd09eed5a63dc267d0c6
-SHA1: cc86059a955cdeaec8f6c0481818587591535d3b
-SHA256: a956c9a62e711f05af03fe5196df40d123f297f80f273a0d8b76c77bf8b3c8f1
+Filename: pool/trusty/u/unetlab/unetlab_0.9.0-74_amd64.deb
+Size: 4376214
+MD5sum: a51c4265291556de0b4e940be01ced3b
+SHA1: 6f0cd14f5eaaa56bb2cf3176127be6aaf76e5a6a
+SHA256: d7c4e393f10dd45dfb78032b2823962d85dc15331ca93dc2e424a3dc596e2c23
 Section: devel
 Priority: optional
 Homepage: http://www.unetlab.com/

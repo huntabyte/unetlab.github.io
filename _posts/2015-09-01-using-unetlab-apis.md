@@ -100,7 +100,7 @@ An authenticated user can get system statistics:
         "disk": 33,
         "dynamips": 0,
         "iol": 0,
-        "mem": 72,
+        "mem": 71,
         "qemu": 0,
         "swap": 23,
         "version": "development"
@@ -296,6 +296,25 @@ An authenticated user can list all available network types:
         "bridge": "bridge",
         "ovs": "ovs",
         "pnet0": "pnet0"
+    },
+    "message": "Successfully listed network types (60002).",
+    "status": "success"
+}
+~~~
+
+## List user roles
+
+`curl -s -c /tmp/cookie -b /tmp/cookie -X GET -H "Content-type: application/json" http://127.0.0.1/api/list/roles`
+
+An authenticated user can list all user roles:
+
+~~~
+{
+    "code": 200,
+    "data": {
+        "admin": "Administrator",
+        "editor": "Editor",
+        "user": "User"
     },
     "message": "Successfully listed network types (60002).",
     "status": "success"

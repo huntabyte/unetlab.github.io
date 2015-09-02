@@ -30,6 +30,12 @@ side a UNetLab host, and a lab is a single file including all information needed
 | Self-funding | Crowfunding |
 {: rules="groups"}
 
+## Feedback from UNetLab users
+
+My name is James Joyce. I am using unetlab to build labs from INE and Cisco so I can practice for the practical lab exam for CCIE SP. I got through CCIE RS with the help of iou-web, but I required real hardware lab to complete the training which was a big expense. Having unetlab I can build the SP lab 100% virtual and practice design and scenarios ready for the test.
+ 
+I am Head of ICT for Moraitis Communications, an ICT Company in Sydney, Australia.
+
 ## Latest posts
 
 <ul>

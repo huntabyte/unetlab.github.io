@@ -53,12 +53,12 @@ Use the following guides only if you are entitled to download and install the re
     <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
             {% endif %}
         {% endfor %}
-	<li><a href="http://www.802101.com/2015/09/wireshark-integration-with-unetlab-on.html?m=1" title="Wireshark integration with UNetLab on OSX">Wireshark integration with UNetLab on OSX</a>
+	<li><a href="http://www.802101.com/2015/09/wireshark-integration-with-unetlab-on.html?m=1" title="Wireshark integration with UNetLab on OSX">Wireshark integration with UNetLab on OSX</a></li>
 </ul>
     {% endif %}
 {% endfor %}
 
-<h2 id="using-unetlab">Using UNetLab</h2>
+## Using UNetLab
 
 {% for tag in site.tags %}
     {% assign t = tag | first %}
@@ -74,7 +74,7 @@ Use the following guides only if you are entitled to download and install the re
     {% endif %}
 {% endfor %}
 
-<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+## Frequently Asked Questions
 
 {% for tag in site.tags %}
     {% assign t = tag | first %}

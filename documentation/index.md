@@ -58,7 +58,7 @@ Use the following guides only if you are entitled to download and install the re
     {% endif %}
 {% endfor %}
 
-## Using UNetLab
+<h2 id="using-unetlab">Using UNetLab</h2>
 
 {% for tag in site.tags %}
     {% assign t = tag | first %}
@@ -74,8 +74,7 @@ Use the following guides only if you are entitled to download and install the re
     {% endif %}
 {% endfor %}
 
-
-## Frequently Asked Questions
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
 
 {% for tag in site.tags %}
     {% assign t = tag | first %}

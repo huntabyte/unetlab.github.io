@@ -19,6 +19,7 @@ To properly install UNetLab use one of the following HowTo:
 * <a title="Installing UNetLab on VMware Workstation" href="/2014/10/installing-unetlab-on-vmware-workstation/">Installing UNetLab on VMware Workstation</a>
 * <a title="Installing UNetLab on VMware ESXi using vSphere vClient" href="/2014/10/installing-unetlab-on-vmware-esxi-using-vsphere-2/">Installing UNetLab on VMware ESXi using vSphere vClient</a>
 * <a title="Installing UNetLab on Apple OS X with VMware Fusion" href="/2014/11/installing-unetlab-on-apple-os-x-with-vmware-fusion/">Installing UNetLab on Apple OS X with VMware Fusion</a>
+* <a title="Installing UNetLab on a physical server (baremetal installation)" href="/2015/08/installing-unetlab-on-a-physical-server/#comment-2232999898">Installing UNetLab on a physical server (baremetal installation)</a>
 
 After installation, proceed with the next two steps using both of the following HowTo:
 
@@ -72,6 +73,7 @@ Use the following guides only if you are entitled to download and install the re
 </ul>
     {% endif %}
 {% endfor %}
+
 
 ## Frequently Asked Questions
 

@@ -25,7 +25,7 @@ SHA1 | `3b5363ade4fdc70e7028a879092df693f6d0173e`
 Updates are available via APT repo:
 
 ~~~
-deb http://public.routereflector.com/apt trusty rrlabs
+deb http://www.unetlab.com/apt trusty rrlabs
 ~~~
 
 UNetLab sources are available on [GitHub](https://github.com/dainok/unetlab "UNetLab repository on GitHub").

@@ -18,11 +18,13 @@ The Alcatel 7750 Service Router (SR) is available as a virtual router also.
 
 | UNetLab Image Name | Downloaded Filename | Version | vCPUs | vRAM |
 |:--|:--|:-:|:-:|:-:|
-| `timos-12.0.R4` | `TiMOS-SR-12.0.R4-vm.zip` | B-12.0.R4 | 2 | 2048 |
+| `timos-12.0.R4` | `TiMOS-SR-12.0.R4-vm.zip` | B-12.0.R4 | 1 or 2 | 2048 |
 |----
-| `timos-12.0.R6` | `TiMOS-SR-12.0.R6-vm.zip` | B-12.0.R6 | 2 | 2048 |
+| `timos-12.0.R6` | `TiMOS-SR-12.0.R6-vm.zip` | B-12.0.R6 | 1 or 2 | 2048 |
 |----
 {: rules="groups"}
+
+If UNetLab is running as a VM inside VMware, Alcatel 7750 can be configured with 1 CPU only.
 
 ## Importing Alcatel 7750 Service Router images
 

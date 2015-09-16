@@ -39,7 +39,7 @@ The following API requests are involved on login and logout process. All other A
 
 ### Login
 
-`curl -s -b /tmp/cookie -c /tmp/cookie -X POST -d "{"username":"admin","password":"unl"}" http://127.0.0.1/api/auth/login`
+`curl -s -b /tmp/cookie -c /tmp/cookie -X POST -d "{"username":"admin","password":"007Unl"}" http://127.0.0.1/api/auth/login`
 
 A successful login provides the following output:
 
@@ -95,7 +95,7 @@ An authenticated user can get system statistics:
 {
     "code": 200,
     "data": {
-        "cached": 83,
+        "cached": 87,
         "cpu": 0,
         "disk": 71,
         "dynamips": 0,
@@ -934,7 +934,7 @@ The resized picture is generated with original aspect-ratio using given values a
 
 ### Create a new lab
 
-`curl -s -c /tmp/cookie -b /tmp/cookie -X POST -d '{"path":"/Andrea/Folder 3","name":"New Lab","version":"1","author":"Andrea Dainese","description":"a new demo lab"}' -H "Content-type: application/json" http://127.0.0.1/api/labs`
+`curl -s -c /tmp/cookie -b /tmp/cookie -X POST -d '{"path":"/Andrea/Folder 3","name":"New Lab","version":"1","author":"Andrea Dainese","description":"A new demo lab"}' -H "Content-type: application/json" http://127.0.0.1/api/labs`
 
 An authenticated user can create a new lab:
 
@@ -946,9 +946,104 @@ An authenticated user can create a new lab:
 }
 ~~~
 
+### Move an existing lab to a different folder
+
+`curl -s -c /tmp/cookie -b /tmp/cookie -X PUT -d '{"path":"/Andrea/Folder 2"}' -H "Content-type: application/json" http://127.0.0.1/api/labs/Andrea/Folder%203/New%20Lab.unl`
+
+~~~
+{
+    "code": 200,
+    "message": "Lab moved (60035).",
+    "status": "success"
+}
+~~~
+
+### Edit an existing lab
+
+`curl -s -c /tmp/cookie -b /tmp/cookie -X PUT -d '{"name":"Different Lab","version":"2","author":"AD","description":"A different demo lab"}' -H "Content-type: application/json" http://127.0.0.1/api/labs/Andrea/Folder%202/New%20Lab.unl`
+
+An authenticated user can edit an existing lab:
+
+~~~
+{
+    "code": 200,
+    "message": "Lab has been saved (60023).",
+    "status": "success"
+}
+~~~
+
+The request can set only one single parameter. Optional paramiter can be reverted to the default setting an empty string "".
+
+### Add a new network to a lab
+
+`curl -s -c /tmp/cookie -b /tmp/cookie -X POST -d '{"type":"bridge","name":"Core Network","left":"35%","top":"25%"}' -H "Content-type: application/json" http://127.0.0.1/api/labs/Andrea/Folder%202/Different%20Lab.unl/networks`
+
+An authenticated user can add a network to an existing lab:
+
+~~~
+{
+    "code": 201,
+    "message": "Network has been added to the lab (60006).",
+    "status": "success"
+}
+~~~
+
+Parameters:
+
+* left: mergin from left, in percentage (i.e. `35%`), default is a random value between `30%` and `70%`;
+* name: network name (i.e. `Core Network`), default is `NetX` (`X = network_id`);
+* top: margin from top, in percentage (i.e. `25%`), default is a random value between `30%` and `70%`;
+* type (mandatory): see "List network types".
+
+### Add a new node to a lab
+
+`curl -s -c /tmp/cookie -b /tmp/cookie -X POST -d '{"type":"qemu","template":"vios","config":"Unconfigured","delay":0,"icon":"Router.png","image":"vios-adventerprisek9-m-15.5.3M","name":"Core Router 1","left":"35%","top":"25%","ram":"1024","console":"telnet","cpu":1,"ethernet":2,"uuid":"641a4800-1b19-427c-ae87-4a8ee90b7790"}' -H "Content-type: application/json" http://127.0.0.1/api/labs/Andrea/Folder%202/Different%20Lab.unl/nodes`
+
+An authenticated user can add a node to an existing lab:
+
+~~~
+{
+    "code": 201,
+    "message": "Lab has been saved (60023).",
+    "status": "success"
+}
+~~~
+
+Parameters:
+
+* config: can be `Unconfigured` or `Saved`, default is `Unconfigured`;
+* delay: seconds to wait before starting the node, default is `0`;
+* icon: icon (located under `/opt/unetlab/html/images/icons/`) used to display the node, default is `Router.png`;
+* image: image used to start the node, default is latest included in "List node templates";
+* left: mergin from left, in percentage (i.e. `35%`), default is a random value between `30%` and `70%`;
+* name: node name (i.e. "`Core1`"), default is `NodeX` (`X = node_id`);
+* ram: MB of RAM configured for the node, default is `1024`;
+* template (mandatory): see "List node templates";
+* top: margin from top, in percentage (i.e. `25%`), default is a random value between `30%` and `70%`;
+* type (mandatory): can be `iol`, `dynamips` or `qemu`.
+
+Parameters for IOL nodes:
+
+* ethernet: number of ethernet porgroups (each portgroup configures four interfaces), default is `2`;
+* nvram: size of NVRAM in KB, default is `1024`;
+* serial: number of serial porgroups (each portgroup configures four interfaces), default is `2`.
+
+Parameters for Dynamips nodes:
+
+* idlepc: value used for Dynamips optimization (i.e. `0x80369ac4`), default is `0x0` (no optimization);
+* nvram: size of NVRAM in KB, default is `1024`;
+* slot[0-9]+: the module configured in a specific slot (i.e. `slot1=NM-1FE-TX`).
+
+Parameters for QEMU nodes:
+
+* console: can be `telnet` or `vnc`, default is `telnet`;
+* cpu: number of configured CPU, default is `1`;
+* ethernet: number of ethernet interfaces, default is 4;
+* uuid: UUID configured, default is a random UUID (i.e. `641a4800-1b19-427c-ae87-4a8ee90b7790`).
+
 ### Delete an existent lab
 
-`curl -s -c /tmp/cookie -b /tmp/cookie -X DELETE -H "Content-type: application/json" http://127.0.0.1/api/labs/Andrea/Folder%203/New%20Lab.unl`
+`curl -s -c /tmp/cookie -b /tmp/cookie -X DELETE -H "Content-type: application/json" http://127.0.0.1/api/labs/Andrea/Folder%202/Different%20Lab.unl`
 
 An authenticated user can delete a lab:
 

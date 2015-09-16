@@ -27,7 +27,7 @@ side a UNetLab host, and a lab is a single file including all information needed
 | Multi user from CLI (UI will be ready soon) | Single user |
 | Everything runs inside a single VM | IOU/IOL requires another VM |
 | Users can add pitures with active links | |
-| Self-funding | Crowfunding |
+| Self-funding | Crowdfunding |
 {: rules="groups"}
 
 ## Feedback from UNetLab users

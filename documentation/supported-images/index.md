@@ -16,7 +16,7 @@ keywords: [UNetLab, UNL, supported, images, QEMU, Dynamips, IOU, IOL, ASA, ASAv,
 * c7200-adventerprisek9-mz.152-4.S6 (supported cards: PA-FE-TX, PA-4E, PA-8E)
 * c3725-adventerprisek9-mz.124-15.T14 (supported cards: NM-1FE-TX, NM-16ESW)
 * c1710-bk9no3r2sy-mz.124-23
-* Other images from the above serices should work too
+* Other images from the above series should work too
 
 ## IOL (IOS on Linux also known as IOU)
 
@@ -72,4 +72,4 @@ keywords: [UNetLab, UNL, supported, images, QEMU, Dynamips, IOU, IOL, ASA, ASAv,
 * MS Windows XP
 * MS Windows Server 2008R2
 * MS Windows Server 2003 and 2003 R2
-* Varius liveCD Linux images (eg. tinycore, damnsmalllinux, slax)
+* Various liveCD Linux images (eg. tinycore, damnsmalllinux, slax)

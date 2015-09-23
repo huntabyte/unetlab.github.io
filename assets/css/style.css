@@ -208,12 +208,12 @@ td {
 
 #navbar-main .item-first a {
 	text-align: left;
-	width: 7.5vw;
+	width: 7vw;
 }
 
 #navbar-main .item a {
 	text-align: center;
-	width: 15vw;
+	width: 12vw;
 }
 
 #navbar-main .item-search input {
@@ -222,6 +222,7 @@ td {
 	border-top-left-radius: 5px;
 	color: #89888c;
 	margin-left: 1vw;
+	width: 10vw;
 }
 
 #navbar-main .item-search button {

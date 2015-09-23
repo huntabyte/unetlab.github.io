@@ -5,49 +5,78 @@
     <link rel="shortcut icon" href="/assets/images/favicon-16x16.png"/>
     <link rel="shortcut icon" href="/assets/images/favicon-32x32.png"/>
     <link rel="shortcut icon" href="/assets/images/favicon-96x96.png"/>
+    <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="/assets/css/fonts.css" rel="stylesheet"/>
-    <link href="/assets/css/style-printer.css" media="only print" rel="stylesheet"/>
-    <link href="/assets/css/style.css" media="only screen and (min-width: 1280px)" rel="stylesheet"/>
-    <link href="/assets/css/style-phone.css" media="only screen and (min-width: 0px) and (max-width: 767px)" rel="stylesheet"/>
-    <link href="/assets/css/style-tablet.css" media="only screen and (min-width: 768px) and (max-width: 1279px)" rel="stylesheet"/>
+    <link href="/assets/css/style.css" rel="stylesheet"/>
     <meta name="author" content="{{ page.authors | join: ', ' }}"/>
     <meta charset="utf-8"/>
 	{% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}"/>{% endif %}
 	<meta name="keywords" content="{{ page.tags | join: ', ' }}"/>
 	<meta name="revisit-after" content="7 days"/>
     <meta name="viewport" content="initial-scale=1.0">
-    <meta property="og:image" content="/assets/images/favicon-96x96.png">
+    <meta property="og:image" content="/assets/images/logo_rr.png">
     <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="96">
-    <meta property="og:image:height" content="96">
+    <meta property="og:image:width" content="410">
+    <meta property="og:image:height" content="201">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 </head>
 <body>
 <div id="body">
-    <div id="header">
-        <div id="header_left">
-            <a href="/" title="Home"><div class="container" id="logo_rr"><img alt="Logo" src="/assets/images/logo_rr.png"/></div></a>
-            <div class="container" id="logo_description">
-                <div class="element">by Andrea Dainese</div>
-            </div>
-        </div>
-        <div id="header_right">
-            <div id="header_menu">
-                <div class="container"><a href="/about/"><div class="aqua menu_page">About</div></a></div>
-                <div class="container"><a href="/documentation/"><div class="menu_page">Documentation</div></a></div>
-                <div class="container"><a href="/download/"><div class="menu_page">Download</div></a></div>
-            </div>
-            <div id="header_tags">
-                <div id="header_spacer">&nbsp;</div>
-                <div id="header_links">
-                    <div class="first-container"><a href="/preview.html"><span class="menu_tag">Diary</span></a></div>
-                    <div class="spacer"><img alt="Spacer" src="/assets/images/vertical_dots.gif"/></div>
-                    <div class="container"><a href="/documentation/"><span class="menu_tag">How To</span></a></div>
-                    <div class="spacer"><img alt="Spacer" src="/assets/images/vertical_dots.gif"/></div>
-                    <div class="container"><a href="/documentation/supported-images/"><span class="menu_tag">Images</span></a></div>
-                    <div class="spacer"><img alt="Spacer" src="/assets/images/vertical_dots.gif"/></div>
-                    <div class="container"><a href="/releases.html"><span class="menu_tag">Releases</span></a></div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<nav id="navbar-top" class="hidden-xs hidden-sm navbar navbar-static-top">
+		<div class="container col-md-12 col-lg-12">
+			<div id="logo-main" class="col-md-3 col-lg-3"><a href="{{ site.url }}" title="Home"><img alt="Logo" class="img-responsive" src="/assets/images/{{ site.logo }}"/></a></div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="navbar-item-aqua"><a href="/about/">About</a></li>
+					<li class="navbar-item-grey"><a href="http://www.routereflector.com/cisco/cisco-iou-web-interface/">iou-web</a></li>
+					<li class="navbar-item-grey"><a href="http://www.unetlab.com/">UNetLab</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<nav id="navbar-main" class="navbar navbar-static-top">
+		<div class="container col-md-12 col-lg-12">
+			<div id="navbar-main-text" class="hidden-xs hidden-sm col-md-3 col-lg-3">by Andrea Dainese</div>
+			<div id="navbar-main-spacer" class="hidden-xs hidden-sm"></div>
+			<div class="navbar-collapse collapse">
+				<ul class="col-md-9 col-lg-9 nav navbar-nav">
+					<li class="item-first dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Docs <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="/documentation/index.html">How To</a></li>
+							<li><a href="/documentation/supported-images/index.html">Images</a></li>
+							<li><a href="/releases.html">Releases</a></li>
+						</ul>
+					</li>
+					<li class="separator hidden-xs hidden-sm"><img alt="Spacer" src="/assets/images/vertical_dots.gif"/></li>
+					<li class="item"><a href="/download/index.html">Download</a></li>
+					<li class="separator hidden-xs hidden-sm"><img alt="Spacer" src="/assets/images/vertical_dots.gif"/></li>
+					<li class="item"><a href="/about/privacy.html">Privacy</a></li>
+					<li class="separator hidden-xs hidden-sm"><img alt="Spacer" src="/assets/images/vertical_dots.gif"/></li>
+					<li class="item dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="/about/index.html">Mailing List</a></li>
+							<li><a href="mailto:andrea.dainese@gmail.com?subject=INFO">eMail</a></li>
+							<li><a href="https://github.com/dainok">GitHub</a></li>
+							<li><a href="https://plus.google.com/+AndreaDainese">Google+</a></li>
+							<li><a href="http://www.linkedin.com/in/adainese">LinkedIN</a></li>
+							<li><a href="https://twitter.com/adainese">Twitter</a></li>
+						</ul>
+					</li>
+					<li class="separator hidden-xs hidden-sm"><img alt="Spacer" src="/assets/images/vertical_dots.gif"/></li>
+					<li class="item-search">
+						<div class="input-group">
+							<form method="GET" action="http://www.google.com/search">
+								<input type="hidden" name="as_sitesearch" value="www.routereflector.com">
+								<input type="text" class="form-control input-sm" name="q" placeholder="Search for...">
+								<span class="input-group-btn">
+									<button class="btn btn-default input-sm" type="submit">Go!</button>
+								</span>
+							</form>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>

@@ -1,27 +1,21 @@
 {% include header.html %}
-{% include middle.html %}
-<div id="main">
-	<div id="main_circle"><img alt="Dot" src="/assets/images/dot_aqua.gif"/></div>
-	<div id="main_left">
-		<div id="main_lefttop">&nbsp;</div>
-		<div id="main_leftmiddle">
-		</div>
-	</div>
-	<div id="main_right">
-		<div id="main_righttop"><h1>{{ page.title }}</h1></div>
-		<div id="main_rightmiddle">
-			<div align="center">
-				<form border="0" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="4JZ8NSV4YPYFY">
-					<input type="image" style="border: 0px" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
-					<img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
-				</form>
+{% include jumbotron.html %}
+    <div id="main">
+        <div class="container col-md-12 col-lg-12">
+			<div class="row row-eq-height">
+				<div id="main-top-left" class="hidden-xs hidden-sm col-md-3 col-lg-3"><img alt="Dot" src="/assets/images/dot_aqua.gif" /></div>
+				<div id="main-top-right" class="col-xs-12 col-sm-12 col-md-9 col-lg-9"><h1>{{ page.title }}</h1></div>
 			</div>
+			<div class="row row-eq-height">
+				<div id="main-left" class="hidden-xs hidden-sm col-md-3 col-lg-3"></div>
+				<div id="main-right" class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+{% include paypal.html %}
+					<div id="main-content">
 {{ content }}
-            <div id="disqus_thread"></div>
-        </div>
+					</div>
+{% include disqus.html %}
+				</div>
+			</div>
+		</div>
     </div>
-</div>
-{% include scripts.html %}
 {% include footer.html %}

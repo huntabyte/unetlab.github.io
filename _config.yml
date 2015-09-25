@@ -6,6 +6,8 @@ timezone: Europe/Rome
 encoding: utf-8
 logo: "logo_rr.png"
 url: "http://www.unetlab.com"
+disqus: "unetlab"
+analytics: "UA-426446-18"
 
 # Jekyll configuration
 permalink: /:year/:month/:title/

@@ -31,7 +31,7 @@ Upload the downloaded image to the UNetLab master node using for example [FileZi
 ~~~
 mkdir tmp
 cd tmp
-tar ../PA-VM-ESX-6.1.0.ova
+tar xf ../PA-VM-ESX-6.1.0.ova
 ~~~
 
 Then convert the disk to the qcow2 format:

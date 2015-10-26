@@ -32,11 +32,15 @@ side a UNetLab host, and a lab is a single file including all information needed
 
 ## Feedback from UNetLab users
 
+### James Joyce - Moraitis Communications (Australia)
+
 I am using unetlab to build labs from INE and Cisco so I can practice for the practical lab exam for CCIE SP. I got through CCIE RS with the help of iou-web, but I required real hardware lab to complete the training which was a big expense. Having unetlab I can build the SP lab 100% virtual and practice design and scenarios ready for the test.
  
 I am Head of ICT for Moraitis Communications, an ICT Company in Sydney, Australia.
 
 [James Joyce](https://au.linkedin.com/in/jamesjoyceccie "James Joyce")
+
+### Roman Dodin - Alcatel (Russia)
 
 A group of IP engineers pursuing various goals such as certification exams practicing, interop testing or some other hands-on activities demand extensive hardware resources. To satisfy the demand for additional routers virtualization technologies come to the rescue.
 Unified Networking Lab being a multi-user, client-free, well-supported environment became choice #1 for us to run Alcatel-Lucent 7750 Virtual Service Router. Ability to run many virtual routers in any topology interconnected with real hardware in our lab basically created personal laboratory environment for each engineer.

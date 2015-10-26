@@ -45,7 +45,7 @@ I am Head of ICT for Moraitis Communications, an ICT Company in Sydney, Australi
 A group of IP engineers pursuing various goals such as certification exams practicing, interop testing or some other hands-on activities demand extensive hardware resources. To satisfy the demand for additional routers virtualization technologies come to the rescue.
 Unified Networking Lab being a multi-user, client-free, well-supported environment became choice #1 for us to run Alcatel-Lucent 7750 Virtual Service Router. Ability to run many virtual routers in any topology interconnected with real hardware in our lab basically created personal laboratory environment for each engineer.
 
-[Roman Dodin](https://www.linkedin.com/profile/view?id=ADEAAA59MOcBnb_Vs-tacchYLzw0K_9rMd0wDug&authType=NAME_SEARCH&authToken=OUAM&locale=en_US&srchid=94330281445846073754&srchindex=1&srchtotal=1&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A94330281445846073754%2CVSRPtargetId%3A243085543%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH "Roman Dodin")
+[Roman Dodin](https://www.linkedin.com/hp/update/6059784787416096768 "Roman Dodin")
 
 ## Latest posts
 

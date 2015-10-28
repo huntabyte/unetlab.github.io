@@ -14,23 +14,9 @@ keywords: [UNetLab, UNL, VIRL , GNS3, Simulator, OVS, QEMU, Dynamips, Dynagen, I
 UNetLab can be considered the next major version of iou-web, but the software has been rewritten from scratch. The major advantage over GNS3 and iou-web itself is about multi-hypervisor support within a single entity. UNetLab allows to design labs using IOU, Dynamips and QEMU nodes without dealing with multi virtual machines: everything run in-
 side a UNetLab host, and a lab is a single file including all information needed.
 
-## Differences between current UNetLab and GNS3
-
-| UNetLab | GNS3 |
-|:--|:--|
-| User interface is web based | Users must install a client on the PC |
-| No need to install client except WireShark, PuTTY and VNC | Installation for each OS |
-| No OS dependency - works on all of them | Each OS has its own issues and bugs |
-| Everything (but vendor images) is within a single VM | Need to be installed on the PC |
-| No limitation on RAM under QEMU | Under Windows, QEMU supports up to 2GB of RAM |
-| No limitation on networks under QEMU | QEMU limits network to 16 maximum |
-| Multi user from CLI (UI will be ready soon) | Single user |
-| Everything runs inside a single VM | IOU/IOL requires another VM |
-| Users can add pitures with active links | |
-| Self-funding | Crowdfunding |
-{: rules="groups"}
-
 ## Feedback from UNetLab users
+
+Many users prefer UNetLab over VIRL and GNS3, ready why from their own words.
 
 ### James Joyce - Moraitis Communications (Australia)
 
@@ -46,6 +32,22 @@ A group of IP engineers pursuing various goals such as certification exams pract
 Unified Networking Lab being a multi-user, client-free, well-supported environment became choice #1 for us to run Alcatel-Lucent 7750 Virtual Service Router. Ability to run many virtual routers in any topology interconnected with real hardware in our lab basically created personal laboratory environment for each engineer.
 
 [Roman Dodin](https://www.linkedin.com/hp/update/6059784787416096768 "Roman Dodin")
+
+## Differences between current UNetLab and GNS3
+
+| UNetLab | GNS3 |
+|:--|:--|
+| User interface is web based | Users must install a client on the PC |
+| No need to install client except WireShark, PuTTY and VNC | Installation for each OS |
+| No OS dependency - works on all of them | Each OS has its own issues and bugs |
+| Everything (but vendor images) is within a single VM | Need to be installed on the PC |
+| No limitation on RAM under QEMU | Under Windows, QEMU supports up to 2GB of RAM |
+| No limitation on networks under QEMU | QEMU limits network to 16 maximum |
+| Multi user from CLI (UI will be ready soon) | Single user |
+| Everything runs inside a single VM | IOU/IOL requires another VM |
+| Users can add pitures with active links | |
+| Self-funding | Crowdfunding |
+{: rules="groups"}
 
 ## Latest posts
 

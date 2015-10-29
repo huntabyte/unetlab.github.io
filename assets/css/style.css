@@ -177,7 +177,7 @@ td {
 }
 
 #navbar-main-text {
-	font-family: 'Ubuntu Light', Helvetica, Arial, sans-serif;
+	font-family: 'Ubuntu Regular', Helvetica, Arial, sans-serif;
 	font-size: 1.2em;
 	height: 50px;
 	padding: 10px 4vw 0px 0px;
@@ -236,7 +236,7 @@ td {
 	margin-top: -63px;
 }
 
-#navbar-main a, #navbar-main a:link, #navbar-main a:visited {
+#navbar-main  .item > a, #navbar-main  .item-first > a, #navbar-main .item > a:link, #navbar-main .item-first > a:link, #navbar-main .item > a:visited, #navbar-main .item-first > a:visited {
 	background-color: transparent;
 	border-bottom: 5px solid transparent;
 	color: #89888c;
@@ -246,9 +246,22 @@ td {
 	padding: 4px;
 }
 
-#navbar-main a:active, #navbar-main a:hover {
+#navbar-main .item > a:active, #navbar-main .item-first > a:active, #navbar-main .item > a:hover, #navbar-main .item-first > a:hover {
 	background-color: transparent;
 	border-bottom: 5px solid #3ba9ba;
+}
+
+#navbar-main .dropdown-menu a, #navbar-main .dropdown-menu a:link, #navbar-main .dropdown-menu a:visited {
+	color: #89888c;
+	font-family: 'Ubuntu Bold', Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+	text-align: left;
+	text-transform: none;
+	width: 100%;
+}
+
+#navbar-main .dropdown-menu a:active, #navbar-main .dropdown-menu a:hover {
+	background-color: #f5f5f5;
 }
 
 #jumbotron, #jumbotron > div {
@@ -380,6 +393,11 @@ td {
 
 #toc .toc-active {
 	color: red;
+}
+
+.fill-height {
+	height: 100% !important;
+	min-height: 100% !important;
 }
 
 .modal-header, .modal-footer {

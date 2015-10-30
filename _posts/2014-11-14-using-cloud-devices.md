@@ -67,6 +67,7 @@ auto pnet0
 iface pnet0 inet dhcp
     bridge_ports eth0
     bridge_stp off
+    bridge_ageing 0
 
 # Cloud devices
 iface eth1 inet manual
@@ -74,54 +75,63 @@ auto pnet1
 iface pnet1 inet manual
     bridge_ports eth1
     bridge_stp off
+    bridge_ageing 0
 
 iface eth2 inet manual
 auto pnet2
 iface pnet2 inet manual
     bridge_ports eth2
     bridge_stp off
+    bridge_ageing 0
 
 iface eth3 inet manual
 auto pnet3
 iface pnet3 inet manual
     bridge_ports eth3
     bridge_stp off
+    bridge_ageing 0
 
 iface eth4 inet manual
 auto pnet4
 iface pnet4 inet manual
     bridge_ports eth4
     bridge_stp off
+    bridge_ageing 0
 
 iface eth5 inet manual
 auto pnet5
 iface pnet5 inet manual
     bridge_ports eth5
     bridge_stp off
+    bridge_ageing 0
 
 iface eth6 inet manual
 auto pnet6
 iface pnet6 inet manual
     bridge_ports eth6
     bridge_stp off
+    bridge_ageing 0
 
 iface eth7 inet manual
 auto pnet7
 iface pnet7 inet manual
     bridge_ports eth7
     bridge_stp off
+    bridge_ageing 0
 
 iface eth8 inet manual
 auto pnet8
 iface pnet8 inet manual
     bridge_ports eth8
     bridge_stp off
+    bridge_ageing 0
 
 iface eth9 inet manual
 auto pnet9
 iface pnet9 inet manual
     bridge_ports eth9
     bridge_stp off
+    bridge_ageing 0
 ~~~
 
 Finally bring pnet interfaces up or reboot the VM:

@@ -55,7 +55,7 @@ keywords: [UNetLab, UNL, supported, images, QEMU, Dynamips, IOU, IOL, ASA, ASAv,
 * Brocade Virtual ADX - brocadevadx (ver 03.1.01)
 * Citrix Netscaler VPX virtual - nsvpx (ver 10.5.54.9008)
 * Checkpoint Firewall - cpsg (ver R77-20)
-* Cumulux VX
+* Cumulus VX
 * Extreme Networks virtual - extremexos (ver 15.3.2)
 * F5 BIG-IP LM - bigip (ver 11.6.0)
 * Fortinet virtual FW - fortinet (ver 5.2.2; 5.2.3_build670)

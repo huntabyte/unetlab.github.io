@@ -141,7 +141,9 @@ EOF
 	fi
 fi
 
+touch /opt/ovf/.configured
+
 echo -e "Now you should migrate IP address configuration from  main interface card to the pnet0 bridge. Please refers to http://www.unetlab.com/ about editing the /etc/network/interfaces file."
-echo -e "Finally reboot your server and connect to the server IP address."
+echo -e "Then reboot your server and connect to the server IP address."
 
 exit 0

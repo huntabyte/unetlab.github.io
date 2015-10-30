@@ -23,7 +23,7 @@ Dynamips is a Cisco router emulator. Supported platforms are 1700, 2600, 3600, 3
 |----
 | `c7200-adventerprisek9-mz.152-4.S2.image` | `c7200-adventerprisek9-mz.152-4.S2.bin` | C7200-ADVENTERPRISEK9-M 15.2(4)S2 | 512 | 0x60630d5c |
 |----
-| `c7200-adventerprisek9-mz.152-4.S6.image` | `c7200-adventerprisek9-mz.152-4.S6.bin` | C7200-ADVENTERPRISEK9-M 15.2(4)S6 | 512 | 0x637e895c |
+| `c7200-adventerprisek9-mz.152-4.S6.image` | `c7200-adventerprisek9-mz.152-4.S6.bin` | C7200-ADVENTERPRISEK9-M 15.2(4)S6 | 512 | 0x637e899c |
 |----
 {: rules="groups"}
 

@@ -13,7 +13,7 @@ tags:
 ---
 Dynamips is a Cisco router emulator. Supported platforms are 1700, 2600, 3600, 3700 and 7200 routers. Each IOS has an associated Idle PC value. Idle PC is used to map the idle instruction of the running IOS to the idle instruction of the UNetLab platform. With a good Idle PC value, the CPU usage should be less than 10% for each instance.
 
-## Suuported Dynamips images
+## Supported Dynamips images
 
 | UNetLab Image Name | Downloaded Filename | Version | vRAM | Idle PC |
 |:--|:--|:-:|:-:|:-:|

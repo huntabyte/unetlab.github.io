@@ -21,7 +21,7 @@ If you're planning to creates large labs with a lot of QEMU nodes, than you shou
 
 ## Ubuntu installation
 
-Download from [Ubuntu website](http://releases.ubuntu.com/14.04/ "Ubuntu 14.04 LTS (Trusty Tahr)") the latest 64bit ISO for server version. Burn it on a CD and boot your physical server from CD.
+Download from [Ubuntu website](http://releases.ubuntu.com/14.04/ "Ubuntu 14.04 LTS (Trusty Tahr)") the latest 14.04 64bit ISO for server version. Burn it on a CD and boot your physical server from CD.
 
 ![Ubuntu bootsplash](/images/posts/2015/08/baremetal-1.png "Ubuntu bootsplash")
 

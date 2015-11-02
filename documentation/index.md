@@ -38,6 +38,7 @@ Check also:
 * [First steps with Unetlab (by Stuart Fordham)](http://www.802101.com/2015/02/first-steps-with-unetlab.html "First steps with Unetlab (by Stuart Fordham)")
 * [Что такое UNetLab](http://www.ciscolab.ru/labs/42-unetlab-stroim-stend-dlya-podgotovki-k-ccie-rs-sp-dc-sec.html "Что такое UNetLab")
 * [Unified Networking Lab for Alcatel-Lucent, Juniper, Cisco and many more... (by Roman Dodin - Alcatel Lucent)](http://noshut.ru/2015/09/unified-networking-lab-for-alcatel-lucent-juniper-cisco-and-many-more/ "Unified Networking Lab for Alcatel-Lucent, Juniper, Cisco and many more... (by Roman Dodin - Alcatel Lucent)")
+* [How to run Juniper vMX in UNetLab](http://noshut.ru/2015/09/how-to-run-juniper-vmx-in-unetlab/ "http://noshut.ru/2015/09/how-to-run-juniper-vmx-in-unetlab/")
 
 ## Importing External Images
 

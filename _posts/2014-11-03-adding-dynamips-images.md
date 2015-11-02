@@ -13,7 +13,7 @@ tags:
 ---
 Dynamips is a Cisco router emulator. Supported platforms are 1700, 2600, 3600, 3700 and 7200 routers. Each IOS has an associated Idle PC value. Idle PC is used to map the idle instruction of the running IOS to the idle instruction of the UNetLab platform. With a good Idle PC value, the CPU usage should be less than 10% for each instance.
 
-## Suuported Dynamips images
+## Supported Dynamips images
 
 | UNetLab Image Name | Downloaded Filename | Version | vRAM | Idle PC |
 |:--|:--|:-:|:-:|:-:|
@@ -22,6 +22,8 @@ Dynamips is a Cisco router emulator. Supported platforms are 1700, 2600, 3600, 3
 | `c3725-adventerprisek9-mz.124-15.T14.image` | `c3725-adventerprisek9-mz.124-15.T14.bin` | C3725-ADVENTERPRISEK9-M 12.4(15)T14 | 256 | 0x60c08728 |
 |----
 | `c7200-adventerprisek9-mz.152-4.S2.image` | `c7200-adventerprisek9-mz.152-4.S2.bin` | C7200-ADVENTERPRISEK9-M 15.2(4)S2 | 512 | 0x60630d5c |
+|----
+| `c7200-adventerprisek9-mz.152-4.S6.image` | `c7200-adventerprisek9-mz.152-4.S6.bin` | C7200-ADVENTERPRISEK9-M 15.2(4)S6 | 512 | 0x62f224ac |
 |----
 {: rules="groups"}
 
@@ -76,6 +78,14 @@ Wait for the following line on the console:
 
 ~~~
 Would you like to enter the initial configuration dialog? [yes/no]:
+~~~
+
+Exit from initial configuration dialog, and quit to get the con0 prompt:
+
+~~~
+Router con0 is now available
+
+Press RETURN to get started.
 ~~~
 
 After few more seconds press `CTRL` + `]` then `i`. Dynamips will show suggested Idle PC values:

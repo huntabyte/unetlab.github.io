@@ -23,7 +23,7 @@ Dynamips is a Cisco router emulator. Supported platforms are 1700, 2600, 3600, 3
 |----
 | `c7200-adventerprisek9-mz.152-4.S2.image` | `c7200-adventerprisek9-mz.152-4.S2.bin` | C7200-ADVENTERPRISEK9-M 15.2(4)S2 | 512 | 0x60630d5c |
 |----
-| `c7200-adventerprisek9-mz.152-4.S6.image` | `c7200-adventerprisek9-mz.152-4.S6.bin` | C7200-ADVENTERPRISEK9-M 15.2(4)S6 | 512 | 0x637e895c |
+| `c7200-adventerprisek9-mz.152-4.S6.image` | `c7200-adventerprisek9-mz.152-4.S6.bin` | C7200-ADVENTERPRISEK9-M 15.2(4)S6 | 512 | 0x62f224ac |
 |----
 {: rules="groups"}
 
@@ -78,6 +78,14 @@ Wait for the following line on the console:
 
 ~~~
 Would you like to enter the initial configuration dialog? [yes/no]:
+~~~
+
+Exit from initial configuration dialog, and quit to get the con0 prompt:
+
+~~~
+Router con0 is now available
+
+Press RETURN to get started.
 ~~~
 
 After few more seconds press `CTRL` + `]` then `i`. Dynamips will show suggested Idle PC values:

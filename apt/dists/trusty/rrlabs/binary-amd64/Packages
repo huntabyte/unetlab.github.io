@@ -112,6 +112,24 @@ Description: A new generation software for networking labs.
 Name: Unified Networking Lab
 
 Package: unetlab
+Version: 0.9.0-92
+Architecture: amd64
+Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
+Installed-Size: 9912
+Depends: apache2, bridge-utils, cpulimit, dialog, dmidecode, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lvm2, openvswitch-controller, openvswitch-switch, python3-pexpect, php5, php5-cli, php5-imagick, php5-sqlite, plymouth-label, python3-pexpect, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 0.9.0-66), tcpdump, telnet, zip
+Filename: pool/trusty/u/unetlab/unetlab_0.9.0-92_amd64.deb
+Size: 4474032
+MD5sum: f3e3c2ead9661429c58a172f25d2d083
+SHA1: 9c602165d9eea47583d2581c15318dbed20b4030
+SHA256: 1c7b6dddc7dbc5840d8543fc000de29e96337a4aed11f1735ca8d026bd83e4be
+Section: devel
+Priority: optional
+Homepage: http://www.unetlab.com/
+Description: A new generation software for networking labs.
+ UNetLab is a new generation software for networking lab. It can be considered the next major version of iou-web, but the software has been rewritten from scratch. The major advantage over GNS3 and iou-web itself is about multi-hypervisor support within a single entity. UNetLab allows to design labs using IOU, Dynamips and QEMU nodes without dealing with multi virtual machines: everything run inside a UNetLab host, and a lab is a single file including all information needed.
+Name: Unified Networking Lab
+
+Package: unetlab
 Version: 0.9.0-70
 Architecture: amd64
 Maintainer: Andrea Dainese <andrea.dainese@gmail.com>

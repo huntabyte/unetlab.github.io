@@ -13,7 +13,7 @@ tags:
 ---
 The Cisco Adaptive Security Appliance (ASAv) is available as a virtual appliance also.
 
-## Supported Cisco vWLC images
+## Supported Cisco ASAv images
 
 | UNetLab Image Name | Downloaded Filename | Version | vCPUs | vRAM |
 |:--|:--|:-:|:-:|:-:|

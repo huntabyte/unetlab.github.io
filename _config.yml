@@ -13,7 +13,7 @@ analytics: "UA-426446-18"
 permalink: /:year/:month/:title/
 #paginate: 10
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 sass:
     sass_dir: _sass
     style: compressed

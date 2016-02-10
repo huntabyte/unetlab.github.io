@@ -67,7 +67,7 @@ keywords: [UNetLab, UNL, supported, images, QEMU, Dynamips, IOU, IOL, ASA, ASAv,
 * Ostinato Traffic Generator
 * Palo Alto virtual Firewall - paloalto (ver 6.1.0)
 * S-Terra Firewall 
-* VyOS - vyos (ver 1.1.1-i586-virt; 1.1.5-i586-virt)
+* VyOS - vyos (ver vyos-1.1.6-amd64)
 * MS Windows 7
 * MS Windows XP
 * MS Windows Server 2008R2

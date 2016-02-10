@@ -43,7 +43,7 @@ Clean and fix permissions:
 Start the first boot:
 
 ~~~
-/opt/qemu/bin/qemu-system-x86_64 --enable-kvm -serial none -nographic -nodefconfig -nodefaults -display none -vga std -no-shutdown -smp 1 -m 2048 -drive file=c/opt/unetlab/addons/qemu/asav-941-200/virtioa.qcow2,if=virtio,bus=0,unit=0,cache=nonei -vnc :0
+/opt/qemu/bin/qemu-system-x86_64 --enable-kvm -serial none -nographic -nodefconfig -nodefaults -display none -vga std -no-shutdown -smp 1 -m 2048 -drive file=/opt/unetlab/addons/qemu/asav-941-200/virtioa.qcow2,if=virtio,bus=0,unit=0,cache=none -vnc :0
 ~~~
 
 Connect to the ASAv console via VNC using the port 5900 and force the serial interface:

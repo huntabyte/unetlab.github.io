@@ -1,9 +1,9 @@
 ---
 layout: home
 published: true
-title: "Unified Nerworking Lab releases"
+title: "Unified Nerworking Lab preview"
 excerpt:
-  "All UNetLab releases."
+  "What expect from future UNetLab releases."
 section: "Release"
 authors:
 - andrea

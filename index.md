@@ -33,6 +33,14 @@ Unified Networking Lab being a multi-user, client-free, well-supported environme
 
 [Roman Dodin](https://www.linkedin.com/hp/update/6059784787416096768 "Roman Dodin")
 
+### Anton Zyablov - Nokia (Russia)
+
+From my point of view the UNetLab project is a great tool both for newbies and experienced telecom engineers, who work in labs and build networks from scratch.
+Due to flexibility, VM multi-vendor support, multi-user features and a powerful interface it has become an indispensable tool for daily usage and network design elaboration for NOKIA customers.
+One of its remarkable features is the ability to quickly reproduce the real customer environment for BNG applications, which allows us speedup issue investigation, search workarounds and perform dry run tests without spending night and day on PoC setup. This software brings unmeasurable value to NOKIA BNG projects and helps increase the quality of solutions provided to our customers.
+
+[Anton Zyablov, IP Networks - Nokia](https://www.linkedin.com/in/anton-zyablov-b20b741b "Anton Zyablov, IP Networks - Nokia")
+
 ## Differences between current UNetLab and GNS3
 
 | UNetLab | GNS3 |

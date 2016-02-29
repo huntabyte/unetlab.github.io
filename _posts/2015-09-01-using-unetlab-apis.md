@@ -40,7 +40,7 @@ The following API requests are involved on login and logout process. All other A
 
 ### Login
 
-`curl -s -b /tmp/cookie -c /tmp/cookie -X POST -d \'{"username":"admin","password":"unl"}\' http://127.0.0.1/api/auth/login`
+`curl -s -b /tmp/cookie -c /tmp/cookie -X POST -d '{"username":"admin","password":"unl"}' http://127.0.0.1/api/auth/login`
 
 A successful login provides the following output:
 
@@ -63,7 +63,7 @@ An authenticated user can get its own information:
     "code": 200,
     "data": {
         "email": "root@localhost",
-        "folder": "/Andrea",
+        "folder": "/",
         "lab": null,
         "lang": "en",
         "name": "UNetLab Administrator",
@@ -100,12 +100,12 @@ An authenticated user can get system statistics:
 {
     "code": 200,
     "data": {
-        "cached": 13,
-        "cpu": 0,
-        "disk": 15,
+        "cached": 5,
+        "cpu": 1,
+        "disk": 31,
         "dynamips": 0,
         "iol": 0,
-        "mem": 9,
+        "mem": 8,
         "qemu": 0,
         "qemu_version": "2.4.0",
         "swap": 0,
@@ -142,7 +142,6 @@ An authenticated user can list all available node templates:
         "cpsg": "CheckPoint Security Gateway VE",
         "csr1000v": "Cisco CSR 1000V",
         "cumulus": "Cumulus VX",
-        "docker": "Docker.io",
         "extremexos": "ExtremeXOS",
         "fortinet": "Fortinet FortiGate",
         "hpvsr": "HP VSR1000",
@@ -426,36 +425,26 @@ An authenticated user can get all UNetLab users:
             "expiration": "-1",
             "folder": "/Andrea",
             "ip": "127.0.0.1",
+            "lab": null,
             "name": "UNetLab Administrator",
             "pexpiration": "-1",
             "pod": "0",
             "role": "admin",
-            "session": "1446128407",
+            "session": "1447319929",
             "username": "admin"
         },
         "andrea": {
             "email": "andrea.dainese@gmail.com",
             "expiration": "-1",
-            "folder": "/",
+            "folder": "/Featured/Cisco/Basic",
             "ip": "192.168.19.1",
+            "lab": "/Featured/Cisco/Basic/STP.unl",
             "name": "Andrea Dainese",
             "pexpiration": "-1",
             "pod": "1",
             "role": "admin",
-            "session": "1446128115",
+            "session": "1447319925",
             "username": "andrea"
-        },
-        "user": {
-            "email": "andrea.dainese@gmail.com",
-            "expiration": "-1",
-            "folder": "/Featured/Cisco/Basic",
-            "ip": "192.168.19.1",
-            "name": "Test user",
-            "pexpiration": "-1",
-            "pod": "7",
-            "role": "user",
-            "session": "1446021596",
-            "username": "user"
         }
     },
     "message": "Successfully listed users (60040).",
@@ -480,7 +469,7 @@ Here the output:
         "pexpiration": "-1",
         "pod": "0",
         "role": "admin",
-        "session": "1446128407",
+        "session": "1447319929",
         "username": "admin"
     },
     "message": "Successfully listed users (60040).",
@@ -586,37 +575,37 @@ An authenticated user can retrieve all configured networks in a lab:
     "data": {
         "1": {
             "id": 1,
-            "left": "40%",
+            "left": 409,
             "name": "Net OVS",
-            "top": "45%",
+            "top": 345,
             "type": "ovs"
         },
         "2": {
             "id": 2,
-            "left": "57%",
+            "left": 583,
             "name": "Net2",
-            "top": "34%",
+            "top": 261,
             "type": "bridge"
         },
         "3": {
             "id": 3,
-            "left": "25%",
+            "left": 256,
             "name": "Net3",
-            "top": "36%",
+            "top": 276,
             "type": "bridge"
         },
         "4": {
             "id": 4,
-            "left": "57%",
+            "left": 583,
             "name": "Net4",
-            "top": "63%",
+            "top": 483,
             "type": "bridge"
         },
         "5": {
             "id": 5,
-            "left": "40%",
+            "left": 409,
             "name": "Net5",
-            "top": "64%",
+            "top": 491,
             "type": "bridge"
         }
     },
@@ -635,9 +624,9 @@ Here the output:
 {
     "code": 200,
     "data": {
-        "left": "40%",
+        "left": 409,
         "name": "Net OVS",
-        "top": "45%",
+        "top": 345,
         "type": "ovs"
     },
     "message": "Successfully listed network (60005).",
@@ -701,13 +690,13 @@ An authenticated user can retrieve all configured nodes in a lab:
             "ethernet": 4,
             "icon": "Router.png",
             "id": 1,
-            "image": "",
-            "left": "35%",
+            "image": "vios-adventerprisek9-m-15.4-1.3.0.181",
+            "left": 358,
             "name": "R1",
             "ram": 512,
             "status": 0,
             "template": "vios",
-            "top": "43%",
+            "top": 330,
             "type": "qemu",
             "url": "telnet://127.0.0.1:32769",
             "uuid": "ab60e9de-2599-4b67-919a-b769fb6e270d"
@@ -719,13 +708,13 @@ An authenticated user can retrieve all configured nodes in a lab:
             "ethernet": 4,
             "icon": "Router.png",
             "id": 2,
-            "image": "",
-            "left": "49%",
+            "image": "vios-adventerprisek9-m-15.4-1.3.0.181",
+            "left": 501,
             "name": "R2",
             "ram": 512,
             "status": 0,
             "template": "vios",
-            "top": "43%",
+            "top": 330,
             "type": "qemu",
             "url": "telnet://127.0.0.1:32770",
             "uuid": "206323a6-000b-40bc-a765-9c7e7e5751ee"
@@ -737,14 +726,14 @@ An authenticated user can retrieve all configured nodes in a lab:
             "icon": "Router.png",
             "id": 3,
             "image": "L3-ADVENTERPRISEK9-M-15.4-1T.bin",
-            "left": "42%",
+            "left": 430,
             "name": "R3",
             "nvram": 1024,
             "ram": 256,
             "serial": 1,
             "status": 0,
             "template": "iol",
-            "top": "69%",
+            "top": 529,
             "type": "iol",
             "url": "telnet://127.0.0.1:32771"
         },
@@ -755,14 +744,14 @@ An authenticated user can retrieve all configured nodes in a lab:
             "icon": "Router.png",
             "id": 4,
             "image": "L3-ADVENTERPRISEK9-M-15.4-1T.bin",
-            "left": "42%",
+            "left": 430,
             "name": "R4",
             "nvram": 1024,
             "ram": 256,
             "serial": 1,
             "status": 0,
             "template": "iol",
-            "top": "25%",
+            "top": 192,
             "type": "iol",
             "url": "telnet://127.0.0.1:32772"
         }
@@ -788,13 +777,13 @@ Here the output:
         "delay": 0,
         "ethernet": 4,
         "icon": "Router.png",
-        "image": "",
-        "left": "35%",
+        "image": "vios-adventerprisek9-m-15.4-1.3.0.181",
+        "left": 358,
         "name": "R1",
         "ram": 512,
         "status": 0,
         "template": "vios",
-        "top": "43%",
+        "top": 330,
         "type": "qemu",
         "url": "telnet://127.0.0.1:32769",
         "uuid": "ab60e9de-2599-4b67-919a-b769fb6e270d"
@@ -826,9 +815,9 @@ Here the output:
 
 ~~~
 {
-    "code": 400,
-    "message": "Failed to start node (12).",
-    "status": "fail"
+    "code": 200,
+    "message": "Node started (80049).",
+    "status": "success"
 }
 ~~~
 

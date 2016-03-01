@@ -20,7 +20,7 @@ On Windows the VNC viewer suggested is [UltraVnc](http://www.uvnc.com/downloads.
 
 * [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html "PuTTY")
 * [UltraVnc](http://www.uvnc.com/downloads.html "UltraVnc")
-* additional file from [UNetLab repository](http://public.routereflector.com/unetlab/Windows%2064bit%20Url%20Integration.zip "Windows 64bit Url Integration")
+* additional file from [UNetLab repository](http://www.unetlab.com/download/UNetLab-Win-Client-Pack.exe "Windows 64bit Url Integration")
 
 Install UltraVnc using default settings. By default destination path is `C:\Program Files\uvnc bvba`.
 Unpack the `Windows 64bit Url Integration.zip` file, move the `vnc_wrapper.bat` file in the same folder of UltraVnc `C:\Program Files\uvnc bvba`.

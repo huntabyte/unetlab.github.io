@@ -20,9 +20,22 @@ On Windows the VNC viewer suggested is [UltraVnc](http://www.uvnc.com/downloads.
 
 * [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html "PuTTY")
 * [UltraVnc](http://www.uvnc.com/downloads.html "UltraVnc")
-* additional file from [UNetLab repository](http://www.unetlab.com/download/UNetLab-Win-Client-Pack.exe "Windows Integration")
+* additional file from [UNetLab repository](http://www.unetlab.com/download/UNetLab-Win-Client-Pack.exe "Windows 64bit Url Integration")
 
-Install UNetLab Windows Integration using default settings. By default destination path is `C:\Program Files\UNetLab`.
+Install UltraVnc using default settings. By default destination path is `C:\Program Files\uvnc bvba`.
+Unpack the `Windows 64bit Url Integration.zip` file, move the `vnc_wrapper.bat` file in the same folder of UltraVnc `C:\Program Files\uvnc bvba`.
+The `vnc_wrapper.bat` parses `vnc://` URL and starts UltraVnc using UNetLab server and port:
+
+~~~ bat
+@ECHO OFF
+SET S=%1
+SET S=###%S%###
+SET S=%S:"###=%
+SET S=%S:###"=%
+SET S=%S:###=%
+SET S=%S:vnc://=%
+start "VNCViewer" "C:\Program Files\uvnc bvba\UltraVNC\vncviewer.exe" -connect %S% -disableclipboard -shared
+~~~
 
 Install the `win7_64bit.reg` in the Windows registry. This reg file configures bind the `vnc://` URL and UltraVnc:
 
@@ -64,3 +77,4 @@ Windows Registry Editor Version 5.00
 ~~~
 
 Now both `telnet://` and `vnc://` URLs should be openable using browser on Windows.
+

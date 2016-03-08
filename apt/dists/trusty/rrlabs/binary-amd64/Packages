@@ -58,16 +58,16 @@ Description: Linux kernel binary image for version 3.16.7-ckt8-unetlab
  image package
 
 Package: unetlab
-Version: 1.0.0-2
+Version: 1.0.0-4
 Architecture: amd64
 Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
 Installed-Size: 9912
 Depends: apache2, bridge-utils, cpulimit, dialog, dmidecode, lib32gcc1, lib32z1, libaio1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lvm2, openvswitch-controller, openvswitch-switch, python3-pexpect, php5, php5-cli, php5-imagick, php5-sqlite, plymouth-label, python3-pexpect, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 0.9.0-66), tcpdump, telnet, zip
-Filename: pool/trusty/u/unetlab/unetlab_1.0.0-2_amd64.deb
-Size: 9920888
-MD5sum: 8788567c98e4c08c9382ca09418df0f2
-SHA1: 08709695d90c5f7b5c7f5b6c73d661eacd90c9b1
-SHA256: 078953e3159d684b0fe56781ae90a48285e0432096d9fa78ae8760dd1099d78f
+Filename: pool/trusty/u/unetlab/unetlab_1.0.0-4_amd64.deb
+Size: 9920786
+MD5sum: 0e8e1e45baaf1f1ea1a14c9e8f109812
+SHA1: 75290af6e5398f926d9452d11c62b4b10b3a6b20
+SHA256: 3498e6839a83c2cef8f4aa6346ca24367e8c5e7906f5e13de9d69dfcc72fcb15
 Section: devel
 Priority: optional
 Homepage: http://www.unetlab.com/

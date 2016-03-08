@@ -1,9 +1,9 @@
 ---
 layout: post
 published: true
-title: "UNetLab v1.0.0-1 Released"
+title: "UNetLab v1.0.0-4 Released"
 excerpt:
-  "What's new on UNetLab v1.0.0-1?"
+  "What's new on UNetLab v1.0.0-4"
 section: "Release"
 authors:
 - andrea
@@ -42,9 +42,6 @@ Features and Fixed on this release:
 * Images templates improvements
 * Bugs fixed and overall improvements
 
-
-
----
 Known Issues:
 
 * When upgrading from v96 to v1.0.0-1 nodes in main screen will be closer then in previous view, manual re-ordering needed

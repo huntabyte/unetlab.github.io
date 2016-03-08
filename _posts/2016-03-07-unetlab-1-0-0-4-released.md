@@ -1,9 +1,9 @@
 ---
 layout: post
 published: true
-title: "UNetLab v1.0.0-4 Released"
+title: "UNetLab 1.0.0-4 Released"
 excerpt:
-  "What's new on UNetLab v1.0.0-4"
+  "What's new on UNetLab 1.0.0-4"
 section: "Release"
 authors:
 - andrea

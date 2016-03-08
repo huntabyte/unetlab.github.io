@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Architectures: amd64 i386 noarch
+Codename: trusty
+Components: rrlabs
+Date: Tue, 08 Mar 2016 07:35:47 UTC
+Description: Route Reflector Labs
+Label: RR Labs archive
+Origin: RR Labs
+Suite: trusty
+Version: 14.04
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e                0 Release
+ f5683f795283558ed6560c501824c7a4             5335 rrlabs/binary-amd64/Packages
+ 567a56ccfaad29e6232a9172c56dbea9             2164 rrlabs/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e                0 rrlabs/binary-i386/Packages
+ 3ed0f8bae41d7f434c24bf5e148f953b               29 rrlabs/binary-i386/Packages.gz
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Release
+ 2797792112283c76fdc1279b37f19c449af5ca66             5335 rrlabs/binary-amd64/Packages
+ fab2e6f48f957b57497dafe92dc35e66193f2f1c             2164 rrlabs/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 rrlabs/binary-i386/Packages
+ 110e8bd7ea2abfdb7d2b87a7abfa0a0a8ebbf4a3               29 rrlabs/binary-i386/Packages.gz
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Release
+ 90e3c044306253b0a9405744f1af6d226eee221985129268eaa4bebe1901bcd0             5335 rrlabs/binary-amd64/Packages
+ d481bfc469a7dde6566632966c3652dad8c8e1cddf437a3036a0232c8acbfa61             2164 rrlabs/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 rrlabs/binary-i386/Packages
+ 5bbb94aa006c23729f6b0a3e6c64f8bb27c13f1fc2bb9258eaf738631e85823a               29 rrlabs/binary-i386/Packages.gz
+SHA512:
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Release
+ fbfaecaa1f3ffd63a5bcc484db5abaad5bf4244f10f8f18e3c16c5ce3e7080078a55b86e552e4ac0dd5a59acbb18907a3c8d22b39e712ebc01765622c62bd64f             5335 rrlabs/binary-amd64/Packages
+ fd0f87717361c87c92d7f1fcc14503a618b6cc93ef8d94d2503cb646956cc11d1c92e1657fcf848a519eaa2d1116c0b848737d78abb48bae46d244b71bb65553             2164 rrlabs/binary-amd64/Packages.gz
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 rrlabs/binary-i386/Packages
+ f66dfa78eb3fbd40650c2b171ad6a17ac59d2a476d896b56bad3961681588fb37fa40aadddc15660e6734139ac32d0df9642b8afa6c8f7c8f4a4f3e2705dd6f3               29 rrlabs/binary-i386/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAlbegNMACgkQia4rk+dl5EWM9QCgkk519FPTZJYIfFHTEpHuEwwG
+0IYAnRHSRaN5Vw3rloc+y+T/mYunNz0D
+=llES
+-----END PGP SIGNATURE-----

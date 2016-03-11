@@ -15,7 +15,7 @@ UNetLab is based on Ubuntu 14.04 Linux. Weekly you should check for updates and 
 
 ~~~
 apt-get update
-apt-get -y upgrade
+apt-get -y install unetlab
 ~~~
 
 If it's required to update UNetLab only, just restrict the upgrade phase:

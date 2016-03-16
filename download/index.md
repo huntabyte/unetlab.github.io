@@ -13,8 +13,12 @@ keywords: [UNetLab, UNL, download]
 ---
 Currently UNetLab is released as OVA only:
 
-* [Google Drive mirror](https://drive.google.com/open?id=0B2AgRhS2cfxCWVl6aGlRMnQxSms&amp;authuser=0 "Google Drive mirror")
-* [mail.ru Mirror](https://cloud.mail.ru/public/4rdH/1m6C6y7cx "mail.ru Mirror")
+* [v0.9.0-54 Google Drive mirror](https://drive.google.com/open?id=0B2AgRhS2cfxCWVl6aGlRMnQxSms&amp;authuser=0 "v0.9.0-54 Google Drive mirror")
+* [v0.9.0-54 mail.ru Mirror](https://cloud.mail.ru/public/4rdH/1m6C6y7cx "v0.9.0-54 mail.ru Mirror")
+
+---
+Client side packs:
+
 * [Windows integration pack](http://www.unetlab.com/download/UNetLab-Win-Client-Pack.exe "Windows integration pack")
 
 | Algorithm | Checksum |

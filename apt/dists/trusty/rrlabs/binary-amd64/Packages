@@ -75,6 +75,24 @@ Description: A new generation software for networking labs.
  UNetLab is a new generation software for networking lab. It can be considered the next major version of iou-web, but the software has been rewritten from scratch. The major advantage over GNS3 and iou-web itself is about multi-hypervisor support within a single entity. UNetLab allows to design labs using IOU, Dynamips and QEMU nodes without dealing with multi virtual machines: everything run inside a UNetLab host, and a lab is a single file including all information needed.
 Name: Unified Networking Lab
 
+Package: unetlab
+Version: 1.0.0-6
+Architecture: amd64
+Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
+Installed-Size: 9912
+Depends: apache2, bridge-utils, cpulimit, dialog, dmidecode, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lvm2, openvswitch-controller, openvswitch-switch, python3-pexpect, php5, php5-cli, php5-imagick, php5-sqlite, plymouth-label, python3-pexpect, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 1.0.0-6), tcpdump, telnet, zip
+Filename: pool/trusty/u/unetlab/unetlab_1.0.0-6_amd64.deb
+Size: 9923266
+MD5sum: 3261c99d5cf586fdd184418543f69957
+SHA1: 7218d14685caf140f074e55fe0a800deade55f40
+SHA256: 567f3d545d4b3b6da7dcba1c37e7b45f7f8815ef27618fc3c3a31254c9dad7c5
+Section: devel
+Priority: optional
+Homepage: http://www.unetlab.com/
+Description: A new generation software for networking labs.
+ UNetLab is a new generation software for networking lab. It can be considered the next major version of iou-web, but the software has been rewritten from scratch. The major advantage over GNS3 and iou-web itself is about multi-hypervisor support within a single entity. UNetLab allows to design labs using IOU, Dynamips and QEMU nodes without dealing with multi virtual machines: everything run inside a UNetLab host, and a lab is a single file including all information needed.
+Name: Unified Networking Lab
+
 Package: unetlab-dynamips
 Version: 0.8.6-44
 Architecture: amd64
@@ -94,15 +112,16 @@ Description: Dynamips files for UNetLab.
 Name: Unified Networking Lab - Dynamips
 
 Package: unetlab-qemu
-Version: 0.9.0-106
+Version: 1.0.0-6
 Architecture: amd64
 Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
 Installed-Size: 80420
-Filename: pool/trusty/u/unetlab-qemu/unetlab-qemu_0.9.0-106_amd64.deb
-Size: 26677370
-MD5sum: 8c50d6887c99dd64b0c2d432a2993024
-SHA1: 4830b67f4888bd94e6e70ceebe4e844ad3999ffb
-SHA256: c74678f0bf2cbbf3f7dd0668596c37dc9c7a9d1fac19bd2e96fca2e977af2b3b
+Depends: libaio1
+Filename: pool/trusty/u/unetlab-qemu/unetlab-qemu_1.0.0-6_amd64.deb
+Size: 26677336
+MD5sum: 580ad803a002bde4e3a82d11ca80d2db
+SHA1: a7838169b70c45b426184c66094a2be3beff4984
+SHA256: 097b37e82fb5ababb948b50ba25f0b2f5a8b445811313b099532ac078f528f04
 Section: devel
 Priority: optional
 Homepage: http://www.unetlab.com/

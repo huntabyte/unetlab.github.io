@@ -16,6 +16,7 @@ Features and Fixed on this release:
 * IPS image fixed
 * ERROR 20003 fixed
 * More option for free-select
+* Right click on working area brings "+" menu, without need to press "+" on the menu bar
 * Other minor issues
 
 

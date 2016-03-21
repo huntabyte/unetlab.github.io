@@ -18,6 +18,7 @@ The Cisco Adaptive Security Appliance (ASAv) is available as a virtual appliance
 | UNetLab Image Name | Downloaded Filename | Version | vCPUs | vRAM |
 |:--|:--|:-:|:-:|:-:|
 | `asav-941-200` | `asav941-200.qcow2` | 9.4.1.200 | 1 | 2048 |
+| `asav-952-204` | `asav952-204.qcow2` | 9.5.2.200 | 1 | 2048 |
 |----
 {: rules="groups"}
 

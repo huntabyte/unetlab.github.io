@@ -18,7 +18,7 @@ The Arista vEOS is available as a virtual router also.
 
 | UNetLab Image Name | Downloaded Filename | Version | vCPUs | vRAM |
 |:--|:--|:-:|:-:|:-:|
-| `veos-4.14.0F` | `vEOS-4.14.0F.vmdk`<br/>`Aboot-qemu-serial-2.0.8.iso` | 4.14.0F | 1 | 1024 |
+| `veos-4.14.0F` | `vEOS-4.14.0F.vmdk`<br/>`Aboot-veos-serial-2.1.0.iso` | 4.14.0F | 1 | 2048 |
 |----
 {: rules="groups"}
 
@@ -39,7 +39,7 @@ Create the UNetLab image:
 ~~~
 mkdir -p /opt/unetlab/addons/qemu/veos-4.14.0F
 mv hda.qcow2 /opt/unetlab/addons/qemu/veos-4.14.0F
-mv Aboot-qemu-serial-2.0.8.iso /opt/unetlab/addons/qemu/veos-4.14.0F/cdrom.iso
+mv Aboot-veos-serial-2.1.0.iso /opt/unetlab/addons/qemu/veos-4.14.0F/cdrom.iso
 ~~~
 
 Clean and fix permissions:

@@ -88,7 +88,7 @@ Router con0 is now available
 Press RETURN to get started.
 ~~~
 
-Press Enter to get to teh router's promnt:
+Press Enter to get to the router's CLI:
 
 ~~~
 Router>

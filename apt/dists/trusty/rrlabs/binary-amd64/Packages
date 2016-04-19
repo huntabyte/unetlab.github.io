@@ -76,6 +76,24 @@ Description: A new generation software for networking labs.
 Name: Unified Networking Lab
 
 Package: unetlab
+Version: 1.0.0-8
+Architecture: amd64
+Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
+Installed-Size: 9912
+Depends: apache2, bridge-utils, cpulimit, dialog, dmidecode, genisoimage, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lvm2, openvswitch-controller, openvswitch-switch, python3-pexpect, php5, php5-cli, php5-imagick, php5-sqlite, plymouth-label, python3-pexpect, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 1.0.0-6), unetlab-vpcs, tcpdump, telnet, zip
+Filename: pool/trusty/u/unetlab/unetlab_1.0.0-8_amd64.deb
+Size: 10501430
+MD5sum: d03a271e664ba8123ce9caf3bf200975
+SHA1: a38130013a1dc7a47e8aa702c0f46a16a8d8c9d8
+SHA256: 3aecd8e8abe311a1acabbbdda7ebccdf565e2ac12d03849f98314f8de5a6d0bf
+Section: devel
+Priority: optional
+Homepage: http://www.unetlab.com/
+Description: A new generation software for networking labs.
+ UNetLab is a new generation software for networking lab. It can be considered the next major version of iou-web, but the software has been rewritten from scratch. The major advantage over GNS3 and iou-web itself is about multi-hypervisor support within a single entity. UNetLab allows to design labs using IOU, Dynamips and QEMU nodes without dealing with multi virtual machines: everything run inside a UNetLab host, and a lab is a single file including all information needed.
+Name: Unified Networking Lab
+
+Package: unetlab
 Version: 1.0.0-6
 Architecture: amd64
 Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
@@ -127,4 +145,23 @@ Priority: optional
 Homepage: http://www.unetlab.com/
 Description: QEMU files for UNetLab.
 Name: Unified Networking Lab - QEMU
+
+Package: unetlab-vpcs
+Version: 0.8c-unetlab
+Architecture: amd64
+Maintainer: Alain Degreffe <eczema@ecze.com>
+Filename: pool/trusty/u/unetlab-vpcs/unetlab-vpcs_0.8c-unetlab_amd64.deb
+Size: 73732
+MD5sum: 663c021c5098589373ddad8d2c214dfe
+SHA1: fdbdf0d51df070ce0c36e0a0f4357a85d315d09c
+SHA256: 127cdc391ab7c2dfccb8e1119055b40b0bd956ba6bdbac0495a02135fecdad27
+Section: devel
+Priority: optional
+Homepage: http://www.unetlab.com
+Description: vpcs unetlab compatible
+ vpcs is a small virtual pc with ping traceroute for integration
+ in Labs Unetlab
+Build-Depends: debhelper (>= 8.0.0)
+Name: Unetlab Virtual PC
+Standards-Version: 3.9.4
 

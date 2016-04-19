@@ -60,6 +60,20 @@ rm -rf tmp
 
 Default username is `root` with password `default`.
 
+Making F5 work with telnet instead of vnc:
+
+~~~
+cd /opt/unetlab/addons/qemu/bigip-xxxx
+
+modprobe nbd
+/opt/qemu/bin/qemu-nbd -c /dev/nbd0 hda.qcow2
+mount /dev/nbd0p1 /mnt/hgfs/
+sed -e 's/ \(console=tty0 \)\([^c]\)/ \1 console=ttyS0 \2/' -e 's/\(^splashimage.*\)/#\1\nserial --unit=0 --speed=9600\nterminal --timeout=8 console serial\n/' -i  /mnt/hgfs/grub/grub.conf
+umount /mnt/hgfs/
+/opt/qemu/bin/qemu-nbd -d /dev/nbd0
+rmmod nbd
+~~~
+
 ## References
 
 * [F5 BIG-IP Product Modules](https://f5.com/products/big-ip "F5 BIG-IP Product Modules")

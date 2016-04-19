@@ -88,6 +88,12 @@ Router con0 is now available
 Press RETURN to get started.
 ~~~
 
+Press Enter to get to the router's CLI:
+
+~~~
+Router>
+~~~
+
 After few more seconds press `CTRL` + `]` then `i`. Dynamips will show suggested Idle PC values:
 
 ~~~

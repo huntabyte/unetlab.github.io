@@ -21,7 +21,7 @@ tags:
 ## IMPORTANT NOTE2:
 
 ~~~
- Make sure you upgrade you vmware-tools when downloading v0.9.0-54 from site, not doing so can give unexpected results!!!!!!!
+ UPGRADE you vmware-tools when downloading v0.9.0-54 , without it you can get error 20003!!!!!!!
 ~~~
 
 ## To Upgrade:

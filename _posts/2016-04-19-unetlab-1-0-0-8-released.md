@@ -12,12 +12,17 @@ tags:
 - Release
 ---
 
-## IMPORTANT NOTE:
+## IMPORTANT NOTE1:
 
 ~~~
  VSRX image changed from hda to virtioa, export config or same somewhere and wipe image before starting lab!!!!!!!
 ~~~
 
+## IMPORTANT NOTE2:
+
+~~~
+ Make sure you upgrade you vmware-tools when downloading v0.9.0-54 from site, not doing so can give unexpected results!!!!!!!
+~~~
 
 ## To Upgrade:
 

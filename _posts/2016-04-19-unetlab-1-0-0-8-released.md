@@ -39,7 +39,7 @@ on fireFox ctrl +F5
 ## Features and Fixed on this release:
 
 ~~~
-VPCS added
+VPCS - Lightweight Virtual PC Simulator added
 Docker reworked (how to will follow)
 Export all reworked
 Start all reworked

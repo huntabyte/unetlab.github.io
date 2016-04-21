@@ -14,7 +14,7 @@ keywords: [UNetLab, UNL, download]
 Currently UNetLab is released as OVA only:
 
 * [v1.0.0-8 Google Drive mirror](https://drive.google.com/file/d/0B44cQ3ClVIdwcWFfTjhXbUVTOW8/view?usp=sharing "v1.0.0-8 Google Drive mirror")
-* [v1.0.0-8 mail.ru Mirror](https://cloud.mail.ru/public/Lttd/QE4YePmyc "v1.0.0-8 mail.ru Mirror")
+* [v1.0.0-8 mail.ru Mirror](https://cloud.mail.ru/public/Lttd/QE4YePmyc "v1.0.0-8 mail.ru mirror")
 
 ### Since we can't track vmware-tools updates and refresh ova each time there is an update, make sure that when you deploy OVA you upgrade vmware-tools from the platform OVA deployed to! For how to simple google it.
 

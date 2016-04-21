@@ -20,8 +20,8 @@ Currently UNetLab is released as OVA only:
 
 | Algorithm | Checksum |
 |:--|:--|
-MD5 | `18fe2c4525b028e871d4b898a9556ca4`
-SHA1 | `3b5363ade4fdc70e7028a879092df693f6d0173e`
+MD5 | `6DB4BC92AE7030638A4E591BD757FCA4`
+SHA1 | `25B6A66913B8D4E285024122D4A6AE197B5D69D4`
 {: rules="groups"}
 
 Updates are available via APT repo:

@@ -22,7 +22,9 @@ MD5 | `6DB4BC92AE7030638A4E591BD757FCA4`
 SHA1 | `25B6A66913B8D4E285024122D4A6AE197B5D69D4`
 {: rules="groups"}
 
-## Since we can't track vmware-tools updates and refresh ova each time there is an update, make sure that when you deploy OVA you upgrade vmware-tools from the platform OVA deployed to! For how to simple google it.
+~~~
+Since we can't track vmware-tools updates and refresh ova each time there is an update, make sure that when you deploy OVA you upgrade vmware-tools from the platform OVA deployed to! For how to simple google it.
+~~~
 
 Updates are available via APT repo:
 

@@ -14,7 +14,7 @@ keywords: [UNetLab, UNL, download]
 Currently UNetLab is released as OVA only:
 
 * [v0.9.0-54 Google Drive mirror](https://drive.google.com/open?id=0B2AgRhS2cfxCWVl6aGlRMnQxSms&amp;authuser=0 "v0.9.0-54 Google Drive mirror")
-* [v1.0.0-8 mail.ru Mirror](https://cloud.mail.ru/public/Lttd/QE4YePmyc "v1.0.0-8 mail.ru Mirror")
+* [v1.0.0-8 mail.ru Mirror - comming soon](x "v1.0.0-8 mail.ru Mirror - comming soon")
 
 | Algorithm | Checksum |
 |:--|:--|

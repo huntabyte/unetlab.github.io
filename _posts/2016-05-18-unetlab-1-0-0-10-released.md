@@ -37,7 +37,7 @@ Now you can exit lab when getting error 20003/60000
 Large UNL labs import issue fixed
 Pfsense FW added with import/export config
 Export CFG fixed on dynamips
-BRIDGE network logic changed - p2p = hub, many connections to same netowkr = mac-learning
+BRIDGE network logic changed - p2p = hub, many connections to same network = mac-learning
 Other minor bug fixes
 ~~~
 

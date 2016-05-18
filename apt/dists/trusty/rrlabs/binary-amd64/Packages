@@ -64,10 +64,10 @@ Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
 Installed-Size: 9912
 Depends: apache2, bridge-utils, cpulimit, dialog, dmidecode, genisoimage, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lvm2, openvswitch-controller, openvswitch-switch, python3-pexpect, php5, php5-cli, php5-imagick, php5-sqlite, plymouth-label, python3-pexpect, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 1.0.0-6), unetlab-vpcs, tcpdump, telnet, zip
 Filename: pool/trusty/u/unetlab/unetlab_1.0.0-10_amd64.deb
-Size: 10504602
-MD5sum: d86f502e5f1d0029a5f5cf2e82633480
-SHA1: 7ee319bd06d52926fb18473f5c7ebde23ff8da33
-SHA256: 06db1317b89c4fa3b81418376970e9f448a9622988cec12a46957b914b8c080a
+Size: 10505200
+MD5sum: 6056e29a67de3be64b2dfcb27d5cb990
+SHA1: f3c74cee31f6453f2df4a9d90129c64ca11b2261
+SHA256: 8a3fc9dd3c0dcb61abc065eb665bbbd356fd3ed9de1ee786915b0839e949ef41
 Section: devel
 Priority: optional
 Homepage: http://www.unetlab.com/

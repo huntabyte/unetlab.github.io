@@ -26,7 +26,7 @@ apt-get install unetlab
 
 MANDATORY AFTER Upgrade!!!!
 REFRESH your browsers:
-on Crome shift +F5
+on Chrome shift +F5
 on fireFox ctrl +F5
 ~~~
 

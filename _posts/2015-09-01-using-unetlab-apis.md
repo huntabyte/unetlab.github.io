@@ -1097,7 +1097,7 @@ An authenticated user can create a new lab:
 
 ### Move an existing lab to a different folder
 
-`curl -s -c /tmp/cookie -b /tmp/cookie -X PUT -d '{"path":"/Andrea/Folder 2"}' -H 'Content-type: application/json' http://127.0.0.1/api/labs/Andrea/Folder%203/New%20Lab.unl`
+`curl -s -c /tmp/cookie -b /tmp/cookie -X PUT -d '{"path":"/Andrea/Folder 2"}' -H 'Content-type: application/json' http://127.0.0.1/api/labs/Andrea/Folder%203/New%20Lab.unl/move`
 
 ~~~
 {

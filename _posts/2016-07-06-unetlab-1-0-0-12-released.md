@@ -17,7 +17,7 @@ tags:
 
 A great thanks to those who helped us to release and build the new version.
 
-Especially to [EBS](http://ebs.md "EBS") company who helped us to build the dynamic nodes connection part
+Especially to [EBS Integrator](http://ebs-integrator.com "EBS Integrator") company who helped us a lot with building the dynamic nodes connection part
 
 ## Features and Fixed on this release:
 

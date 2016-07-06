@@ -24,6 +24,7 @@ Especially to [EBS](http://ebs.md "EBS") company who helped us to build the dyna
 ~~~
 Dynamic nodes connection
 Interactive "Configured Nodes" page where you can change parameters on the fly
+Name is now not mandatory for object creation
 Other minor bug fixes
 ~~~
 

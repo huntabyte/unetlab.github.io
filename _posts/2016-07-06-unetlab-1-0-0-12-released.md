@@ -19,6 +19,14 @@ A great thanks to those who helped us to release and build the new version.
 
 Especially to [EBS](http://ebs.md "EBS") company who helped us to build the dynamic nodes connection part
 
+## Features and Fixed on this release:
+
+~~~
+Dynamic nodes connection
+Interactive "Configured Nodes" page where you can change parameters on the fly
+Other minor bug fixes
+~~~
+
 
 ## To Upgrade:
 
@@ -36,16 +44,6 @@ If you have FireFox, then press 2 key combination CTRL +F5
 If you have Chrome, then press 2 key combination Shift +F5
 ~~~
 
-## Features and Fixed on this release:
-
-~~~
-Dynamic nodes connection
-Interactive "Configured Nodes" page where you can change parameters on the fly
-Other minor bug fixes
-~~~
-
-
 ## IMPORTANT
-
 
 Watch Latest video on our channel [UNL YouTube Channel](https://www.youtube.com/c/UnifiedNetworkingLab "UNL YouTube Channel")

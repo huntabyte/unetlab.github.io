@@ -18,7 +18,7 @@ A great thanks to those who helped us to release and build the new version.
 
 Especially to [EBS Integrator](http://ebs-integrator.com "EBS Integrator") company who helped us a lot with building the dynamic nodes connection part
 
-[![EBS Integrator](/images/posts/2016/07/ebs_integrator.gif "EBS Integrator")](http://ebs-integrator.com/ "EBS Integrator")
+[![EBS Integrator](https://raw.githubusercontent.com/unetlab/unetlab.github.io/master/images/posts/2016/07/ebs_integrator.gif "EBS Integrator")](http://ebs-integrator.com/ "EBS Integrator")
 
 ## Features and Fixed on this release:
 

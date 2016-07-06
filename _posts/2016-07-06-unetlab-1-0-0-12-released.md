@@ -26,7 +26,12 @@ Especially to [EBS](http://ebs.md "EBS") company who helped us to build the dyna
 apt-get update
 apt-get install unetlab
 
-MANDATORY AFTER Upgrade - do a RELOAD to the server/VM
+MANDATORY AFTER the Upgrade:
+
+Do a RELOAD to the server/VM
+Do a browser refresh:
+If you have FireFox, then press 2 key combination CTRL +F5
+If you have Chrome, then press 2 key combination Shift +F5
 ~~~
 
 ## Features and Fixed on this release:

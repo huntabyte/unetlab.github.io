@@ -14,11 +14,11 @@ tags:
 
 ## A Great Thanks
 
-~~~
+
 A great thanks to those who helped us to release and build the new version.
 
 Especially to [EBS](http://ebs.md "EBS") company who helped us to build the dynamic nodes connection part
-~~~
+
 
 ## To Upgrade:
 
@@ -40,6 +40,5 @@ Other minor bug fixes
 
 ## IMPORTANT
 
-~~~
+
 Watch Latest video on our channel [UNL YouTube Channel](https://www.youtube.com/c/UnifiedNetworkingLab "UNL YouTube Channel")
-~~~

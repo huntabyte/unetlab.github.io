@@ -234,4 +234,31 @@ iface pnet0 inet static
 [...]
 ~~~
 
-Reboot the server and check if network configuration works.
+## IMPORTANT
+
+#### Once you done, Ubuntu will boot default kernel and it must be changed to unetlab one for the proper work. Bellow is one of the ways to fix that
+
+~~~
+1) Edit /etc/default/grub with
+
+nano /etc/default/grub 
+
+change lines that are there to those 3 and comment with # previos
+
+#GRUB_DEFAULT=0
+#GRUB_TIMEOUT=0
+
+GRUB_DEFAULT=saved
+GRUB_TIMEOUT=2
+
+2) make the "saved" kernel unetlab one
+
+grub-set-default "Advanced options for Ubuntu>Ubuntu, with Linux 3.16.7-ckt8-unetlab"
+
+3) Update grub
+
+update-grub
+
+
+4) Reboot the server and check if network configuration works.
+~~~

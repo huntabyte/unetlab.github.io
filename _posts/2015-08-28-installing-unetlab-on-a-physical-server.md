@@ -236,22 +236,22 @@ iface pnet0 inet static
 
 ## IMPORTANT
 
-#### Once you done, Ubuntu will boot default kernel and it must be changed to unetlab one for the proper work. Bellow is one of the ways to fix that
+#### Once you done, Ubuntu will boot default kernel and it must be changed to unetlab one for the proper work. Bellow is one of the ways to fix that. Do it on your own risk, UNetLab team is not responsible if you break anything and don't know how to fix.
 
 ~~~
 1) Edit /etc/default/grub with
 
 nano /etc/default/grub 
 
-change lines that are there to those 3 and comment with # previos
-
-#GRUB_DEFAULT=0
-#GRUB_TIMEOUT=0
+2) Put 2 new lines and comment 2 old like identical lines
 
 GRUB_DEFAULT=saved
 GRUB_TIMEOUT=2
 
-2) make the "saved" kernel unetlab one
+#GRUB_DEFAULT=0
+#GRUB_TIMEOUT=0
+
+3) make the "saved" kernel you placed in the /etc/default/grub to unetlab one
 
 grub-set-default "Advanced options for Ubuntu>Ubuntu, with Linux 3.16.7-ckt8-unetlab"
 

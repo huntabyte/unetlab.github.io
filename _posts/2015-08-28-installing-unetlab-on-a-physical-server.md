@@ -234,9 +234,9 @@ iface pnet0 inet static
 [...]
 ~~~
 
-## IMPORTANT
+## IMPORTANT!
 
-#### Once you done, Ubuntu will boot default kernel and it must be changed to unetlab one for the proper work. Bellow is one of the ways to fix that. 
+#### Once you done, Ubuntu will boot default kernel and it must be changed to unetlab one for the proper work. Bellow is one of the ways to fix that.
 
 ### Do it on your own risk, UNetLab team is not responsible if you break anything and don't know how to fix.
 

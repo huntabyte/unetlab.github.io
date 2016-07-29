@@ -74,6 +74,7 @@ else
 fi
 
 echo -e "Installing UNetLab..."
+touch /opt/ovf/.configured
 apt-get -y install unetlab
 if [ $? -eq 0 ]; then
 	echo -e "Installing UNetLab... DONE"
@@ -140,8 +141,6 @@ EOF
 		exit 1
 	fi
 fi
-
-touch /opt/ovf/.configured
 
 echo -e "Now you should migrate IP address configuration from  main interface card to the pnet0 bridge. Please refers to http://www.unetlab.com/ about editing the /etc/network/interfaces file."
 echo -e "Then reboot your server and connect to the server IP address."

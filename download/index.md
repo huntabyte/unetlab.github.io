@@ -37,7 +37,7 @@ UNetLab sources are available on [GitHub](https://github.com/dainok/unetlab "UNe
 ---
 Client side packs:
 
-* [Windows integration pack mail.ru mirror](https://cloud.mail.ru/public/8Ej1/Ga5NRUxft "Windows integration pack mail.ru mirror")
+* [Windows integration pack mail.ru mirror](https://cloud.mail.ru/public/Jase/j5Gy9xB2X "Windows integration pack mail.ru mirror")
 
 
 

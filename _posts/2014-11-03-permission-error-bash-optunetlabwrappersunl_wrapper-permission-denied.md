@@ -3,9 +3,9 @@ layout: post
 published: true
 title: "How to fix: Permission error (-bash: /opt/unetlab/wrappers/unl_wrapper:
   Permission denied)"
-excerpt:
-  "HowTo solve permission deny error on unl_wrapper."
-section: "FAQ"
+abstract: ! "HowTo solve permission deny error on unl_wrapper."
+categories:
+- FAQ
 authors:
 - andrea
 tags:

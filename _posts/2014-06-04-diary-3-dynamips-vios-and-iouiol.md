@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Diary #3: Dynamips, vIOS and IOU/IOL"
-excerpt:
-  "Let's see an example lab and start it."
-section: "Preview"
+abstract: ! "Let's see an example lab and start it."
+categories:
+- Preview
 authors:
 - andrea
 tags:

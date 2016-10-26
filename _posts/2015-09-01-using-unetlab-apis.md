@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Using UNetLab APIs"
-excerpt:
-  "HowTo use UNetLab API."
-section: "HowTo"
+abstract: ! "HowTo use UNetLab API."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

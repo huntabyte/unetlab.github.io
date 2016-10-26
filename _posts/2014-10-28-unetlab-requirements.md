@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "UNetLab Requirements"
-excerpt:
-  "Requirements for UNetLab software."
-section: "HowTo"
+abstract: ! "Requirements for UNetLab software."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

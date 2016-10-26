@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Which UNetLab version is running?"
-excerpt:
-  "HowTo check which UNetLab version is running."
-section: "FAQ"
+abstract: ! "HowTo check which UNetLab version is running."
+categories:
+- FAQ
 authors:
 - andrea
 tags:

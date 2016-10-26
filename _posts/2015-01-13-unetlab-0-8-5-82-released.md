@@ -2,15 +2,15 @@
 layout: post
 published: true
 title: "UNetLab 0.8.5-82 Released"
-excerpt:
-  "What's new on UNetLab 0.8.5-82 (beta)."
-section: "Release"
+abstract: ! "What's new on UNetLab 0.8.5-82 (beta)."
+categories:
+- Releases
 authors:
 - andrea
 tags:
 - UNetLab
 - Beta
-- Release
+- Releases
 ---
 Fixed on this release:
 

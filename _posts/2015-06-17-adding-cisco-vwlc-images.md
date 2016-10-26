@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Adding Cisco vWLC images"
-excerpt:
-  "HowTo add Cisco vWLC to UNetLab software."
-section: "HowTo"
+abstract: ! "HowTo add Cisco vWLC to UNetLab software."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

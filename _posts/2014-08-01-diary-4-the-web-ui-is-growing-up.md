@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Diary #4: the web-ui is growing up"
-excerpt:
-  "Let's see the web-ui of UNetLab."
-section: "Preview"
+abstract: ! "Let's see the web-ui of UNetLab."
+categories:
+- Preview
 authors:
 - andrea
 tags:

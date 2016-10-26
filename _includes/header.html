@@ -1,69 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="shortcut icon" href="/assets/images/favicon.ico"/>
-	<link rel="shortcut icon" href="/assets/images/favicon-16x16.png"/>
-	<link rel="shortcut icon" href="/assets/images/favicon-32x32.png"/>
-	<link rel="shortcut icon" href="/assets/images/favicon-96x96.png"/>
-	<link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-	<link href="/assets/css/fonts.css" rel="stylesheet"/>
-	<link href="/assets/css/style.css" rel="stylesheet"/>
-	<meta name="author" content="{{ page.authors | join: ', ' }}"/>
-	<meta charset="utf-8"/>
-	{% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}"/>{% endif %}
-	<meta name="keywords" content="{{ page.tags | join: ', ' }}"/>
+	<link rel="shortcut icon" href="/assets/images/favicon.ico" />
+	<link rel="shortcut icon" href="/assets/images/favicon-16x16.png" />
+	<link rel="shortcut icon" href="/assets/images/favicon-32x32.png" />
+	<link rel="shortcut icon" href="/assets/images/favicon-96x96.png" />
+	<link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="/assets/css/fonts.css" rel="stylesheet" />
+	<link href="/assets/css/style.css" rel="stylesheet" />
+	<meta name="author" content="{{ page.authors | join: ', ' }}" />
+	<meta charset="utf-8" />
+	{% if page.abstract %}<meta name="description" content="{{ page.abstract | strip_html }}" />{% endif %}
+	<meta name="keywords" content="{{ page.tags | join: ', ' }}" />
 	<meta name="revisit-after" content="7 days"/>
-	<meta name="viewport" content="initial-scale=1.0">
-	<meta property="og:image" content="/assets/images/logo_rr.png">
-	<meta property="og:image:type" content="image/png">
-	<meta property="og:image:width" content="410">
-	<meta property="og:image:height" content="201">
-	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	<meta name="viewport" content="initial-scale=1.0" />
+	<meta property="og:image" content="/assets/images/logo_eve.png" />
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:width" content="408" />
+	<meta property="og:image:height" content="200" />
+	<meta name="google-site-verification" content="NrDp3KGmU40K2xU1zU4P1wq7SVcC_W-6kHiYb6fzCKA" />
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | eve-ng</title>
 </head>
 <body>
 <div id="body">
 	<nav id="navbar-top" class="hidden-xs hidden-sm navbar navbar-static-top">
 		<div class="container col-md-12 col-lg-12">
-			<div id="logo-main" class="col-md-3 col-lg-3"><a href="{{ site.url }}" title="Home"><img alt="Logo" class="img-responsive" src="/assets/images/{{ site.logo }}"/></a></div>
+			<div id="logo-main" class="col-md-3 col-lg-3"><a href="/#main" title="Home"><img alt="Logo" class="img-responsive" src="/assets/images/{{ site.logo }}"/></a></div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="navbar-item-aqua"><a href="/about/">About</a></li>
-					<li class="navbar-item-grey"><a href="http://www.routereflector.com/cisco/cisco-iou-web-interface/">iou-web</a></li>
-					<li class="navbar-item-grey"><a href="http://www.unetlab.com/">UNetLab</a></li>
+					<li class="navbar-item-aqua"><a href="/download/#main">Download</a></li>
+					<li class="navbar-item-grey"><a href="/about/#main">About</a></li>
+					<li class="navbar-item-grey"><a href="https://igg.me/at/eve-ng/x/13749433">Donate</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 	<nav id="navbar-main" class="navbar navbar-static-top">
-		<div class="container col-md-12 col-lg-12">
-			<div id="navbar-main-text" class="hidden-xs hidden-sm col-md-3 col-lg-3">by Andrea Dainese</div>
+		<button type="button" class="navbar-toggle pull-left hidden-md hidden-lg" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button> 
+		<div class="container col-xs-12 col-lg-12 col-md-12 col-lg-12">
+			<div id="navbar-main-text" class="hidden-xs hidden-sm col-md-3 col-lg-3"></div>
 			<div id="navbar-main-spacer" class="hidden-xs hidden-sm"></div>
 			<div class="navbar-collapse collapse">
-				<ul class="col-md-9 col-lg-9 nav navbar-nav">
-					<li class="item-first dropdown">
+				<ul class="col-xs-12 col-lg-12 col-md-9 col-lg-9 nav navbar-nav">
+					<li class="item-first"><a href="/about/#main">About</a></li>
+					<li class="separator hidden-xs hidden-sm"><img alt="Spacer" src="/assets/images/vertical_dots.gif"/></li>
+					<li class="item"><a href="/about/privacy/#main">Privacy</a></li>
+					<li class="separator hidden-xs hidden-sm"><img alt="Spacer" src="/assets/images/vertical_dots.gif"/></li>
+					<li class="item dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Docs <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="/documentation/index.html">How To</a></li>
-							<li><a href="/documentation/supported-images/index.html">Images</a></li>
-							<li><a href="/releases/">Releases</a></li>
+							<li><a href="/documentation/index.html">How To start</a></li>
+							<li><a href="/documentation/supported-images/index.html">Supported images</a></li>
+{% assign sorted_categories = (site.categories | sort:0) %}
+{% for category in sorted_categories %}
+							<li><a href="/categories/{{ category[0] | downcase }}#main">{{ category[0] | replace: '_', ' ' }}</a></li>
+{% endfor %}
 						</ul>
 					</li>
-					<li class="separator hidden-xs hidden-sm"><img alt="Spacer" src="/assets/images/vertical_dots.gif"/></li>
-					<li class="item"><a href="/download/index.html">Download</a></li>
-					<li class="separator hidden-xs hidden-sm"><img alt="Spacer" src="/assets/images/vertical_dots.gif"/></li>
-					<li class="item"><a href="/about/privacy/">Privacy</a></li>
 					<li class="separator hidden-xs hidden-sm"><img alt="Spacer" src="/assets/images/vertical_dots.gif"/></li>
 					<li class="item dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="/about/index.html">Mailing List</a></li>
-							<li><a href="http://forum.802101.com/forum39.html">Support forum</a></li>
-							<li><a href="http://webchat.freenode.net/?channels=%23UNetLab">IRC Channel</a></li>
-							<li><a href="mailto:andrea.dainese@gmail.com?subject=INFO">eMail</a></li>
-							<li><a href="https://github.com/dainok">GitHub</a></li>
-							<li><a href="https://plus.google.com/+AndreaDainese">Google+</a></li>
-							<li><a href="http://www.linkedin.com/in/adainese">LinkedIN</a></li>
-							<li><a href="https://twitter.com/adainese">Twitter</a></li>
+							<li><a href="mailto:myandulov@gmail.com?subject=INFO">eMail</a></li>
+							<li><a href="https://gitlab.com/eve-ng-dev/eve-ng-public">GitLab</a></li>
+							<li><a href="https://igg.me/at/eve-ng/x/13749433">Indiegogo</a></li>
+							<li><a href="https://twitter.com/unetlab">Twitter</a></li>
+							<li><a href="https://www.youtube.com/channel/UCh-RxHfEpYzo2Sgflq4_vAA">YouTube</a></li>
 						</ul>
 					</li>
 					<li class="separator hidden-xs hidden-sm"><img alt="Spacer" src="/assets/images/vertical_dots.gif"/></li>

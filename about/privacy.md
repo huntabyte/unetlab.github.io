@@ -2,16 +2,15 @@
 layout: privacy
 published: true
 title: "Privacy Policy"
-excerpt:
-  "About privacy policy."
+abstract: ! "About privacy policy"
+categories:
+- Privacy
 authors:
 - andrea
 tags:
-- UNetLab
+- RRLabs
 - Privacy
 ---
-{% include toc.html %}
-
 UNetLab provides this Privacy Policy to inform you of our policies and procedures regarding the collection and use of information that apply to our service and software, as well as your choices regarding the collection and use of information.
 
 ## What Are Cookies
@@ -41,12 +40,12 @@ HowTo disable cookies on:
 
 ## The Cookies We Set
 
-UNetLab software set a session cookie called `unetlab_session` after login process and a cookie called `privacy` to remember user selection abou privacy. Without this cookies, UNetLab software won't work properly.
-RR Labs website and both UNetLab website and software can set cookies via 3rd party software.
+UNetLab software set a session cookie called `unetlab_session` after login process and a cookie called `privacy` to remember user selection about privacy. Without this cookies, UNetLab software won't work properly. Both UNetLab and UNetLab websites set the `privacy` cookie too.
+UNetLab website and both UNetLab website and software can set cookies via 3rd party software.
 
 ## Third Party Cookies
 
-RR Labs website and both UNetLab website and software depend on external services, like:
+UNetLab website and both UNetLab website and software depend on external services, like:
 
 * [Disqus](https://www.disqus.com/ "Disqus"), for commenting ([see Disqus privacy policy](https://help.disqus.com/customer/portal/articles/466259-privacy-policy "See Disqus privacy policy"))
 * [Facebook](https://www.facebook.com/ "Facebook"), for social sharing ([see Facebook privacy policy](https://www.facebook.com/policy.php "See Facebook privacy policy"))
@@ -55,10 +54,10 @@ RR Labs website and both UNetLab website and software depend on external service
 * [Google Plus](https://plus.google.com "Google Plus"), for social sharing ([see Google Plus privacy policy](https://www.google.com/+/policy/pagesterm.html "See Google Plus privacy policy"))
 * [LinkedIN](https://www.linkedin.com/ "LinkedIN"), for social sharing ([see LinkedIN privacy policy](https://www.linkedin.com/legal/privacy-policy "See LinkedIN privacy policy"))
 * [Twitter](https://twitter.com/ "Twitter"), for social sharing ([see Twitter privacy policy](https://twitter.com/privacy "See Twitter privacy policy"))
-* [Xing](https://www.xing.com/ "Xing"), for social sharing ([see Xing privacy policy](https://www.xing.com/privacy "See Xing privacy policy"))
 
 ## More Information
 
 Hopefully that has clarified things for you and as was previously mentioned if there is something that you aren't sure whether you need or not it's usually safer to leave cookies enabled in case it does interact with one of the features you use on our site. However if you are still looking for more information then you can contact us through one of our preferred contact methods.
 
 Email: [andrea.dainese@gmail.com](mailto:andrea.dainese@gmail.com?subject=PRIVACY "Contact me")
+

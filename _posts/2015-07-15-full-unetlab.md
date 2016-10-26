@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Where I can download preloaded/full/unofficial UNetLab (UNL) VM?"
-excerpt:
-  "HowTo get a preloaded/full/unofficial UNetLab (UNL) VM."
-section: "FAQ"
+abstract: ! "HowTo get a preloaded/full/unofficial UNetLab (UNL) VM."
+categories:
+- FAQ
 authors:
 - andrea
 tags:

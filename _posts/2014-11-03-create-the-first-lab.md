@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Create the first lab"
-excerpt:
-  "HowTo create the first lab on UNetLab software."
-section: "HowTo"
+abstract: ! "HowTo create the first lab on UNetLab software."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

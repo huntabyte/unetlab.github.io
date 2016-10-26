@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Check if Virtualization Technology is available for UNetLab"
-excerpt:
-  "HowTo check if VT is configured for UNetLab software."
-section: "HowTo"
+abstract: ! "HowTo check if VT is configured for UNetLab software."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

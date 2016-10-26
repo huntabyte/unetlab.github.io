@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Adding Juniper Firefly Perimeter (vSRX)images"
-excerpt:
-  "HowTo add Juniper vSRX to UNetLab software."
-section: "HowTo"
+abstract: ! "HowTo add Juniper vSRX to UNetLab software."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Installing UNetLab on a physical server (baremetal installation)"
-excerpt:
-  "HowTo install UNetLab software on a physical server without nested-virtualization."
-section: "HowTo"
+abstract: ! "HowTo install UNetLab software on a physical server without nested-virtualization."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

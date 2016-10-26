@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Installing UNetLab on VMware Player"
-excerpt:
-  "HowTo install UNetLab software within VMware Player."
-section: "HowTo"
+abstract: ! "HowTo install UNetLab software within VMware Player."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

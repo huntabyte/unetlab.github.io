@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Adding Dynamips images"
-excerpt:
-  "HowTo add Dynamips images to UNetLab software."
-section: "HowTo"
+abstract: ! "HowTo add Dynamips images to UNetLab software."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

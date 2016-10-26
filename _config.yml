@@ -1,17 +1,17 @@
 # Site wide configuration
-title: "Unified Networking Lab"
-description: "A software by Andrea Dainese"
+title: "eve-ng (UNetLab 2.0)"
+description: "Emulated Virtual Environment - Next Gen."
 locale: "en_US"
 timezone: Europe/Rome
 encoding: utf-8
-logo: "logo_rr.png"
+logo: "logo_eve.png"
 url: "http://www.unetlab.com"
 disqus: "unetlab"
 analytics: "UA-426446-18"
+posts_in_home: 10
 
 # Jekyll configuration
 permalink: /:year/:month/:title/
-#paginate: 10
 markdown: kramdown
 highlighter: rouge
 sass:
@@ -25,12 +25,19 @@ kramdown:
     footnote_nr: 1
     entity_output: as_char
     toc_levels: 1..6
-    use_coderay: false
+    enable_coderay: false
 
 # Authors
 authors:
+    alain:
+        name: Alain Degreffe 
+        title: Developer
+        display_name: Alain
+        email: adegreffe@gmail.com
+        linkedin: alaindegreffe
     andrea:
         name: Andrea Dainese
+        title: Developer
         display_name: Andrea
         email: andrea.dainese@gmail.com
         web: http://www.routereflector.com/
@@ -38,6 +45,18 @@ authors:
         github: dainok
         linkedin: adainese
         gplus: AndreaDainese
+    michael:
+        name: Michael Yandulov
+        title: Project Manager and Community Releations
+        display_name: Michael
+        email: myandulov@gmail.com
+        linkedin: michaelyandulov
+    uldis:
+        name: Uldis Dzerkals
+        title: Networking expert and consultant
+        display_name: Uldis
+        email: poisonfish@gmx.com
+        linkedin: uldisdzerkals
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

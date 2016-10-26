@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Installing UNetLab on VMware ESXi using vSphere vClient"
-excerpt:
-  "HowTo install UNetLab software within VMware vSpherer."
-section: "HowTo"
+abstract: ! "HowTo install UNetLab software within VMware vSpherer."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

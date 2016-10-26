@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Adding Docker"
-excerpt:
-  "HowTo add Docker to UNetLab software."
-section: "HowTo"
+abstract: ! "HowTo add Docker to UNetLab software."
+categories:
+- HowTo
 authors:
 - UNL Team
 tags:

@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Installing UNetLab on VMware Workstation"
-excerpt:
-  "HowTo install UNetLab software within VMware Workstation."
-section: "HowTo"
+abstract: ! "HowTo install UNetLab software within VMware Workstation."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

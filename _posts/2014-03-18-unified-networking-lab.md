@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Unified Networking Lab"
-excerpt:
-  "Announcing UNetLab software."
-section: "Preview"
+abstract: ! "Announcing UNetLab software."
+categories:
+- Preview
 authors:
 - andrea
 tags:

@@ -2,15 +2,15 @@
 layout: post
 published: true
 title: "UNetLab 0.9.0-90 Released"
-excerpt:
-  "What's new on UNetLab 0.9.0-90 (beta)."
-section: "Release"
+abstract: ! "What's new on UNetLab 0.9.0-90 (beta)."
+categories:
+- Releases
 authors:
 - andrea
 tags:
 - UNetLab
 - Beta
-- Release
+- Releases
 ---
 Fixed on this release:
 

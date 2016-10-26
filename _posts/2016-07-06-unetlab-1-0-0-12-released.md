@@ -2,14 +2,14 @@
 layout: post
 published: true
 title: "UNetLab 1.0.0-12 Released"
-excerpt:
-  "What's new on UNetLab 1.0.0-12"
-section: "Release"
+abstract: ! "What's new on UNetLab 1.0.0-12"
+categories:
+- Releases
 authors:
 - UNL Team
 tags:
 - UNetLab
-- Release
+- Releases
 ---
 
 ## A Great Thanks

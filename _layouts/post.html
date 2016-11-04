@@ -9,14 +9,27 @@
 			<div class="row row-eq-height">
 				<div id="main-left" class="hidden-xs hidden-sm col-md-3 col-lg-3">
 {% include toc.html %}
-{% include adv-left.html %}
 				</div>
 				<div id="main-right" class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-{% include paypal.html %}
 					<div id="main-content">
+{% include indiegogo.html %}
+{% if page.abstract %}
+<h2>Abstract</h2>
+<p>{{ page.abstract}}</p>
+{% endif %}
+{% if page.series %}
+<p>This post is part of a series, other related posts are:</p>
+<ul>
+	{% assign allPosts = site.posts | where: "series", page.series | sort: "weight" %}
+	{% for post in allPosts %}
+	<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.date | date_to_string }} - {{ post.title }}</a>: {{ post.abstract | strip_html }}</li>
+	{% endfor %}
+</ul>
+{% endif %}
 {{ content }}
 					</div>
-					<div id="main-date">Posted on {{ page.date | date_to_string }} by {{ page.authors }}</div>
+					<div id="main-date">Posted on {{ page.date | date_to_string }}{% if page.authors %} by {% for author in page.authors %}{% assign person = site.authors[author] %}<a href="/authors/{{ author }}/" title="{{ person.display_name }}">{{ person.display_name }}</a>{%if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}.</div>
+{% include social.html %}
 {% include disqus.html %}
 				</div>
 			</div>

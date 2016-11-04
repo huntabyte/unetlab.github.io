@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "What to expect in the UNetLab upcoming release?"
-excerpt:
-  "What we're working on for next UNetLab release."
-section: "Release"
+abstract: ! "What we're working on for next UNetLab release."
+categories:
+- Releases
 authors:
 - andrea
 tags:

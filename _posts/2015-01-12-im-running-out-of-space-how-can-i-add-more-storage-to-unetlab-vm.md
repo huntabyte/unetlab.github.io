@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "I'm running out of space, how can I add more storage to UNetLab VM?"
-excerpt:
-  "HowTo increase available space on your UNetLab VM."
-section: "FAQ"
+abstract: ! "HowTo increase available space on your UNetLab VM."
+categories:
+- FAQ
 authors:
 - andrea
 tags:

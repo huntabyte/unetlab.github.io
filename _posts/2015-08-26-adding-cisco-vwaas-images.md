@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Adding Cisco vWAAS images"
-excerpt:
-  "HowTo add Cisco vWAAS to UNetLab software."
-section: "HowTo"
+abstract: ! "HowTo add Cisco vWAAS to UNetLab software."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

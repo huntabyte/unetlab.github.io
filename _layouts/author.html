@@ -1,0 +1,47 @@
+{% include header.html %}
+{% include jumbotron.html %}
+	<div id="main">
+		<div class="container col-md-12 col-lg-12">
+			<div class="row row-eq-height">
+				<div id="main-top-left" class="hidden-xs hidden-sm col-md-3 col-lg-3"><img alt="Dot" src="/assets/images/dot_aqua.gif" /></div>
+				<div id="main-top-right" class="col-xs-12 col-sm-12 col-md-9 col-lg-9"><h1>{{ page.title }}</h1></div>
+			</div>
+			<div class="row row-eq-height">
+				<div id="main-left" class="hidden-xs hidden-sm col-md-3 col-lg-3">
+{% include toc.html %}
+				</div>
+				<div id="main-right" class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+					<div id="main-content">
+{% assign author = page.authors | first %}
+{% assign person = site.authors[author] %}
+<p>
+{% if person.name %}
+Name: {{ person.name }}<br/>
+{% endif %}
+{% if person.email %}
+Email: {{ person.email }}<br/>
+{% endif %}
+{% if person.web %}
+Web: {{ person.web }}<br/>
+{% endif %}
+{% if person.twitter %}
+Twitter: {{ person.twitter }}<br/>
+{% endif %}
+{% if person.github %}
+Github: {{ person.github }}<br/>
+{% endif %}
+{% if person.linkedin %}
+LinkedIN: {{ person.linkedin }}<br/>
+{% endif %}
+{% if person.gplus %}
+gplus: {{ person.gplus }}<br/>
+{% endif %}
+</p>
+					</div>
+{% include social.html %}
+{% include disqus.html %}
+				</div>
+			</div>
+		</div>
+	</div>
+{% include footer.html %}

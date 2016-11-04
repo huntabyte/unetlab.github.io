@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Adding Citrix Netscaler images"
-excerpt:
-  "HowTo add Citrix Netscaler to UNetLab software."
-section: "HowTo"
+abstract: ! "HowTo add Citrix Netscaler to UNetLab software."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

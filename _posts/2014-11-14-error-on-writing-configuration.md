@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Why I cannot write configuration? Seems it cannot write to local disk."
-excerpt:
-  "HowTo solve writing configuration on some QEMU devices."
-section: "FAQ"
+abstract: ! "HowTo solve writing configuration on some QEMU devices."
+categories:
+- FAQ
 authors:
 - andrea
 tags:

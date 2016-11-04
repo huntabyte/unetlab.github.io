@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Adding Cisco ASAv images"
-excerpt:
-  "HowTo add Cisco ASAv to UNetLab software."
-section: "HowTo"
+abstract: ! "HowTo add Cisco ASAv to UNetLab software."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

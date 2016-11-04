@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Which is the default username and password for UNetLab software?"
-excerpt:
-  "HowTo login in UNetLab Web User Interface."
-section: "FAQ"
+abstract: ! "HowTo login in UNetLab Web User Interface."
+categories:
+- FAQ
 authors:
 - andrea
 tags:

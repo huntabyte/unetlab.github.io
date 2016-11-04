@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Adding Arista Virtual Extensible Operating System (vEOS) images"
-excerpt:
-  "HowTo add Arista VEOS to UNetLab software."
-section: "HowTo"
+abstract: ! "HowTo add Arista VEOS to UNetLab software."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "How to fix: Could not open iourc file)?"
-excerpt:
-  "HowTo solve IOU/IOL license error on UNetLab software."
-section: "FAQ"
+abstract: ! "HowTo solve IOU/IOL license error on UNetLab software."
+categories:
+- FAQ
 authors:
 - andrea
 tags:

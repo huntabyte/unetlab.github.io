@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Using Cloud devices"
-excerpt:
-  "HowTo use cloud devices on UNetLab software."
-section: "HowTo"
+abstract: ! "HowTo use cloud devices on UNetLab software."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

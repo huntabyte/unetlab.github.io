@@ -1,10 +1,10 @@
 ---
 layout: home
 published: true
-title: "Unified Networking Lab"
-excerpt:
-  "A network simulator by Andrea Dainese"
-section: "Home"
+title: "eve-ng"
+abstract: ! "Emulated Virtual Environment - Next Gen."
+categories:
+- Home
 authors:
 - andrea
 tags:
@@ -41,26 +41,10 @@ One of its remarkable features is the ability to quickly reproduce the real cust
 
 [Anton Zyablov, IP Networks - Nokia](https://www.linkedin.com/in/anton-zyablov-b20b741b "Anton Zyablov, IP Networks - Nokia")
 
-## Differences between current UNetLab and GNS3
-
-| UNetLab | GNS3 |
-|:--|:--|
-| User interface is web based | Users must install a client on the PC |
-| No need to install client except WireShark, PuTTY and VNC | Installation for each OS |
-| No OS dependency - works on all of them | Each OS has its own issues and bugs |
-| Everything (but vendor images) is within a single VM | Need to be installed on the PC |
-| No limitation on RAM under QEMU | Under Windows, QEMU supports up to 2GB of RAM |
-| No limitation on networks under QEMU | QEMU limits network to 16 maximum |
-| Multi user from CLI (UI will be ready soon) | Single user |
-| Everything runs inside a single VM | IOU/IOL requires another VM |
-| Users can add pitures with active links | |
-| Self-funding | Crowdfunding |
-{: rules="groups"}
-
 ## Latest posts
 
 <ul>
-{% for post in site.posts limit:20 %}
+{% for post in site.posts limit:10 %}
 	<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>:<br/><blockquote>{{ post.excerpt | strip_html }}</blockquote></li>
 {% endfor %}
 </ul>

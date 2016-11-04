@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Installing UNetLab on VMware Player"
-excerpt:
-  "HowTo install UNetLab software within VMware Player."
-section: "HowTo"
+abstract: ! "HowTo install UNetLab software within VMware Player."
+categories:
+- HowTo
 authors:
 - andrea
 tags:
@@ -13,7 +13,7 @@ tags:
 ---
 UNetLab is supported on VMware Player 5 or later. Version 6 is suggested and this guide will use that version.
 
-Download from [VMware website]("http://www.vmware.com/products/player/?src=vmw_so_vex_adain_773 "VMware Player Pro") the VMware Player software and install it on your desktop, then run it:
+Download from [VMware website](http://www.vmware.com/products/workstation.html "VMware Player Pro") the VMware Player software and install it on your desktop, then run it:
 
 ![VMware Player home](/images/posts/2014/10/player-1.png "VMware Player home")
 

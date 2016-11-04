@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Upgrade UNetLab installation"
-excerpt:
-  "HowTo upgrade UNetLab software."
-section: "HowTo"
+abstract: ! "HowTo upgrade UNetLab software."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

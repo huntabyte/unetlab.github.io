@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "How can I import iou-web labs into UNetLab?"
-excerpt:
-  "HowTo import iou-web labs into UNetLab software."
-section: "FAQ"
+abstract: ! "HowTo import iou-web labs into UNetLab software."
+categories:
+- FAQ
 authors:
 - andrea
 tags:

@@ -2,14 +2,14 @@
 layout: post
 published: true
 title: "UNetLab 1.0.0-6 Released"
-excerpt:
-  "What's new on UNetLab 1.0.0-6"
-section: "Release"
+abstract: ! "What's new on UNetLab 1.0.0-6"
+categories:
+- Releases
 authors:
 - andrea
 tags:
 - UNetLab
-- Release
+- Releases
 ---
 Features and Fixed on this release:
 

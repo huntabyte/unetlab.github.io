@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "Installing UNetLab on a physical server (baremetal installation)"
-excerpt:
-  "HowTo install UNetLab software on a physical server without nested-virtualization."
-section: "HowTo"
+abstract: ! "HowTo install UNetLab software on a physical server without nested-virtualization."
+categories:
+- HowTo
 authors:
 - andrea
 tags:
@@ -234,4 +234,33 @@ iface pnet0 inet static
 [...]
 ~~~
 
-Reboot the server and check if network configuration works.
+## IMPORTANT!
+
+#### Once you done, Ubuntu will boot default kernel and it must be changed to unetlab one for the proper work. Bellow is one of the ways to fix that.
+
+### Do it on your own risk, UNetLab team is not responsible if you break anything and don't know how to fix.
+
+~~~
+1) Edit /etc/default/grub with
+
+nano /etc/default/grub 
+
+2) Put 2 new lines and comment 2 old like identical lines
+
+GRUB_DEFAULT=saved
+GRUB_TIMEOUT=2
+
+#GRUB_DEFAULT=0
+#GRUB_TIMEOUT=0
+
+3) make the "saved" kernel you placed in the /etc/default/grub to unetlab one
+
+grub-set-default "Advanced options for Ubuntu>Ubuntu, with Linux 3.16.7-ckt8-unetlab"
+
+3) Update grub
+
+update-grub
+
+
+4) Reboot the server and check if network configuration works.
+~~~

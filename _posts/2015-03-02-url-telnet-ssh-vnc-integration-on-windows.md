@@ -2,9 +2,9 @@
 layout: post
 published: true
 title: "URL Telnet/SSH/VNC Integration On Windows"
-excerpt:
-  "HowTo open Telnet/VNC links from a browser on Windows."
-section: "HowTo"
+abstract: ! "HowTo open Telnet/VNC links from a browser on Windows."
+categories:
+- HowTo
 authors:
 - andrea
 tags:

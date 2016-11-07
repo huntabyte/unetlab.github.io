@@ -1,33 +1,25 @@
-Architectures: amd64 i386 noarch
-Codename: trusty
-Components: rrlabs
-Date: Fri, 04 Nov 2016 14:13:43 UTC
-Description: Route Reflector Labs
-Label: RR Labs archive
-Origin: RR Labs
-Suite: trusty
-Version: 14.04
+Date: Mon, 07 Nov 2016 13:07:29 UTC
 MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e                0 Release
- fc7df3d8df38652562acc7f7ccb106a6            11968 rrlabs/binary-amd64/Packages
- 25e0754e0a7a270d8308ed219b08d47a             2924 rrlabs/binary-amd64/Packages.gz
+ 4d760b34e9d528413ad381d9dc76a77d            20590 rrlabs/binary-amd64/Packages
+ 716a319fd4274edf44cc7091b8953774             3955 rrlabs/binary-amd64/Packages.gz
  d41d8cd98f00b204e9800998ecf8427e                0 rrlabs/binary-i386/Packages
- 163ec8f95e362db4d885e6e306611578               29 rrlabs/binary-i386/Packages.gz
+ 502c22f088b54b38d0c52fbccdd2b784               29 rrlabs/binary-i386/Packages.gz
 SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Release
- 7595cba11fd954fe1c5f3c92e4147baebc6b227e            11968 rrlabs/binary-amd64/Packages
- 3d67abe5b4f9fb874d1c17b2e2963747c5d5dcd6             2924 rrlabs/binary-amd64/Packages.gz
+ ef8396fc8918ec18936b3d2884f069048c1a981d            20590 rrlabs/binary-amd64/Packages
+ 2911c1bedabf621877555797d576eb64ba40a358             3955 rrlabs/binary-amd64/Packages.gz
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 rrlabs/binary-i386/Packages
- f940fb02394c0eac93a4afdb001a353211e348b8               29 rrlabs/binary-i386/Packages.gz
+ 58ac2fa4ce731bcc67b1502faf449992bcc1fb1a               29 rrlabs/binary-i386/Packages.gz
 SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Release
- f08c5383335079e635abb3ddb15f615934fc6aee0f3d41d6c620c3169038bd4c            11968 rrlabs/binary-amd64/Packages
- 2d7c49fdd091da204bb0df6ce37df666277029ac6d1bc3414a18e47ac418de7f             2924 rrlabs/binary-amd64/Packages.gz
+ 2ce8082f9fba94725189be6930a6a657680770c7d31a613c177f2995aafff15d            20590 rrlabs/binary-amd64/Packages
+ 081dc1647714bba26d7f6cefac06018b8b78063764daf9b5adc8c3a2597fec7d             3955 rrlabs/binary-amd64/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 rrlabs/binary-i386/Packages
- 22151b2f6f555187721f7c8e6c8a7ed98733ac5c20ca38473076417a08b08b73               29 rrlabs/binary-i386/Packages.gz
+ c1a1fc1af7314ac90e0ad42f2e9af3b681100a8c18537d8186619781510b516d               29 rrlabs/binary-i386/Packages.gz
 SHA512:
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Release
- f96151767661033ab0d876e2a507e30d488ad14bc0ccc83c4f9f8bee24c526e8e30bc97bc04977f7cf2b52944c95ffcb0ddd4ee220e945ed45543d92dc874896            11968 rrlabs/binary-amd64/Packages
- aeb2b4ce15a6883d15dda5833f15c4a4678d4f8697538270e1fecd990ab48563ef26fb8dd7b47f99be482fe7945ba5a88436206226bf97b0ba20e05de6934201             2924 rrlabs/binary-amd64/Packages.gz
+ cc33ca1bd86e660e967ba6503ba9bf84a66579cee9b2550e074c47b7cf75a744ece8ef1d4b6c0c1c2eb0f08459da570bbab3055af267dc9d4eb7bd707c523286            20590 rrlabs/binary-amd64/Packages
+ 3817a0a038ca851bbd53bedcdbe4aaf07132b47d70acb161d10e14d430359cc2544e833013a5be08dff7296cd4e99d567c4f731d9abde5c3ee0fddddbd10eb68             3955 rrlabs/binary-amd64/Packages.gz
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 rrlabs/binary-i386/Packages
- 8b2ea5bbaed5c8d849e59f74f0e5eb19c391217c631c5ae1786d04d8fcd57c91ddbe4d251ac946d9bb3135d4362e3e282359e50afdd2c28100b6736c512f5bed               29 rrlabs/binary-i386/Packages.gz
+ 5921035ce4aa7d6f7e4803c64f1ba9595d5864daf381700ba750708354827459ee3b72c20fcf3e63944a64c67d7728051f7ad203a1cc8eec330f82b7159a2d79               29 rrlabs/binary-i386/Packages.gz

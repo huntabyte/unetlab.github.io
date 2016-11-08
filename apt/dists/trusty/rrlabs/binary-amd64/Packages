@@ -19,17 +19,17 @@ Description: A new generation software for networking labs.
 Name: Emulated Virtual Environment
 
 Package: eve-ng-guacamole
-Version: 2.0.1-18
+Version: 2.0.1-19
 Architecture: amd64
 Maintainer: Andrea Dainese (andrea.dainese@gmail.com)
 Installed-Size: 9912
 Depends: default-jdk, eve-ng-schema, libcairo2-dev, libelf1, libfreerdp-dev, libjpeg-turbo8-dev, libossp-uuid-dev, libpango1.0-dev, libpcap0.8, libpng12-dev, libpulse-dev, libssh2-1-dev, libssl-dev, libtelnet-dev, libvncserver-dev, libvorbis-dev, lsb-release, telnet, tomcat7, tomcat7-admin, tomcat7-docs
 Provides: eve-ng-guacamole
-Filename: pool/trusty/e/eve-ng-guacamole/eve-ng-guacamole_2.0.1-18_amd64.deb
-Size: 14236720
-MD5sum: 6b948ab4ee11cc221e7a8ebd55092bab
-SHA1: 4a8add6699bc195e85c52b21249b19d589267f40
-SHA256: 55529b016b0a03c9ae8d3a1b0c2235f095bd5d2aabf48fa6253fbfc7bd259bae
+Filename: pool/trusty/e/eve-ng-guacamole/eve-ng-guacamole_2.0.1-19_amd64.deb
+Size: 14240424
+MD5sum: 56f7b64cb1f03fd87bc1c1da26dbdd77
+SHA1: a1568ccda6b748610b9522b0dcef985e97077272
+SHA256: 3d8988769fc02afa7b10ca9a84ac063fea91f7d6e37b7ae08df346ad6f5a3ded
 Section: devel
 Priority: optional
 Homepage: http://www.unetlab.com/

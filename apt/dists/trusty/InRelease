@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
 Date: Tue, 08 Nov 2016 09:44:31 UTC
 MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e                0 Release
@@ -23,3 +26,10 @@ SHA512:
  d6056793d680a2c7b2fa453687d64c0dc245b1485abd51b2c38859e1955ee9c99d639bf8eaa4794288097c56270096a016e7ab9590b79a7cddaa4149cf2f1329             3890 rrlabs/binary-amd64/Packages.gz
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 rrlabs/binary-i386/Packages
  5921035ce4aa7d6f7e4803c64f1ba9595d5864daf381700ba750708354827459ee3b72c20fcf3e63944a64c67d7728051f7ad203a1cc8eec330f82b7159a2d79               29 rrlabs/binary-i386/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAlghnn8ACgkQia4rk+dl5EWYfQCffKS8ke1QOvAWdyx/1ajU7jTh
+akwAnAswBrIx8aVbasPTxjHs4229ZjZg
+=g3bW
+-----END PGP SIGNATURE-----

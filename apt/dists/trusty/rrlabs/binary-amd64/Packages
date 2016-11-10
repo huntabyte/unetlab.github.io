@@ -4,82 +4,6 @@ Section: devel
 Installed-Size: 9912
 Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
 Architecture: amd64
-Version: 1.0.0-4
-Depends: apache2, bridge-utils, cpulimit, dialog, dmidecode, lib32gcc1, lib32z1, libaio1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lvm2, openvswitch-controller, openvswitch-switch, python3-pexpect, php5, php5-cli, php5-imagick, php5-sqlite, plymouth-label, python3-pexpect, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 0.9.0-66), tcpdump, telnet, zip
-Filename: pool/trusty/u/unetlab/unetlab_1.0.0-4_amd64.deb
-Size: 9920786
-MD5sum: 0e8e1e45baaf1f1ea1a14c9e8f109812
-SHA1: 75290af6e5398f926d9452d11c62b4b10b3a6b20
-SHA256: 3498e6839a83c2cef8f4aa6346ca24367e8c5e7906f5e13de9d69dfcc72fcb15
-SHA512: 33ce8ab03829c40a842d0dbf0d509fcf2e42371f603e92856ab890ff76e3b8e683798590ef34105ea91ac970d9f3fb3a2db0859c36d3335d5636853b15a7eb86
-Description: A new generation software for networking labs.
- UNetLab is a new generation software for networking lab. It can be considered the next major version of iou-web, but the software has been rewritten from scratch. The major advantage over GNS3 and iou-web itself is about multi-hypervisor support within a single entity. UNetLab allows to design labs using IOU, Dynamips and QEMU nodes without dealing with multi virtual machines: everything run inside a UNetLab host, and a lab is a single file including all information needed.
-Name: Unified Networking Lab
-Homepage: http://www.unetlab.com/
-
-Package: unetlab
-Priority: optional
-Section: devel
-Installed-Size: 9912
-Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
-Architecture: amd64
-Version: 1.0.0-6
-Depends: apache2, bridge-utils, cpulimit, dialog, dmidecode, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lvm2, openvswitch-controller, openvswitch-switch, python3-pexpect, php5, php5-cli, php5-imagick, php5-sqlite, plymouth-label, python3-pexpect, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 1.0.0-6), tcpdump, telnet, zip
-Filename: pool/trusty/u/unetlab/unetlab_1.0.0-6_amd64.deb
-Size: 9923266
-MD5sum: 3261c99d5cf586fdd184418543f69957
-SHA1: 7218d14685caf140f074e55fe0a800deade55f40
-SHA256: 567f3d545d4b3b6da7dcba1c37e7b45f7f8815ef27618fc3c3a31254c9dad7c5
-SHA512: fb2acfd19937ee2ce16f49f18b9b82e078da3d42a58d4b69d4545e0c7dd831cdd04e1076bf4eebdf264beef61cf7f04e1ebd2d76ed61943724369af484df0644
-Description: A new generation software for networking labs.
- UNetLab is a new generation software for networking lab. It can be considered the next major version of iou-web, but the software has been rewritten from scratch. The major advantage over GNS3 and iou-web itself is about multi-hypervisor support within a single entity. UNetLab allows to design labs using IOU, Dynamips and QEMU nodes without dealing with multi virtual machines: everything run inside a UNetLab host, and a lab is a single file including all information needed.
-Name: Unified Networking Lab
-Homepage: http://www.unetlab.com/
-
-Package: unetlab
-Priority: optional
-Section: devel
-Installed-Size: 9912
-Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
-Architecture: amd64
-Version: 1.0.0-10
-Depends: apache2, bridge-utils, cpulimit, dialog, dmidecode, genisoimage, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lvm2, openvswitch-controller, openvswitch-switch, python3-pexpect, php5, php5-cli, php5-imagick, php5-sqlite, plymouth-label, python3-pexpect, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 1.0.0-6), unetlab-vpcs, tcpdump, telnet, zip
-Filename: pool/trusty/u/unetlab/unetlab_1.0.0-10_amd64.deb
-Size: 10505200
-MD5sum: 6056e29a67de3be64b2dfcb27d5cb990
-SHA1: f3c74cee31f6453f2df4a9d90129c64ca11b2261
-SHA256: 8a3fc9dd3c0dcb61abc065eb665bbbd356fd3ed9de1ee786915b0839e949ef41
-SHA512: 6af1c0a8b6aea544bfcf7274217323375bbef7dd656ec299375f4ed3d42d1e29c9e24fff95207b208f41d7175d2a1266ef6f33bd423bd896395766a37e467297
-Description: A new generation software for networking labs.
- UNetLab is a new generation software for networking lab. It can be considered the next major version of iou-web, but the software has been rewritten from scratch. The major advantage over GNS3 and iou-web itself is about multi-hypervisor support within a single entity. UNetLab allows to design labs using IOU, Dynamips and QEMU nodes without dealing with multi virtual machines: everything run inside a UNetLab host, and a lab is a single file including all information needed.
-Name: Unified Networking Lab
-Homepage: http://www.unetlab.com/
-
-Package: unetlab
-Priority: optional
-Section: devel
-Installed-Size: 9912
-Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
-Architecture: amd64
-Version: 1.0.0-8
-Depends: apache2, bridge-utils, cpulimit, dialog, dmidecode, genisoimage, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lvm2, openvswitch-controller, openvswitch-switch, python3-pexpect, php5, php5-cli, php5-imagick, php5-sqlite, plymouth-label, python3-pexpect, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 1.0.0-6), unetlab-vpcs, tcpdump, telnet, zip
-Filename: pool/trusty/u/unetlab/unetlab_1.0.0-8_amd64.deb
-Size: 10501430
-MD5sum: d03a271e664ba8123ce9caf3bf200975
-SHA1: a38130013a1dc7a47e8aa702c0f46a16a8d8c9d8
-SHA256: 3aecd8e8abe311a1acabbbdda7ebccdf565e2ac12d03849f98314f8de5a6d0bf
-SHA512: 1ed751bb5e2101578431c7749ad2923f4f10b3ca803252ab6b41225492362e5a47768f504fa8d5cada713833acd8cf32004984649484c27bc235f8052f5997ca
-Description: A new generation software for networking labs.
- UNetLab is a new generation software for networking lab. It can be considered the next major version of iou-web, but the software has been rewritten from scratch. The major advantage over GNS3 and iou-web itself is about multi-hypervisor support within a single entity. UNetLab allows to design labs using IOU, Dynamips and QEMU nodes without dealing with multi virtual machines: everything run inside a UNetLab host, and a lab is a single file including all information needed.
-Name: Unified Networking Lab
-Homepage: http://www.unetlab.com/
-
-Package: unetlab
-Priority: optional
-Section: devel
-Installed-Size: 9912
-Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
-Architecture: amd64
 Version: 1.0.0-12
 Depends: apache2, bridge-utils, cpulimit, dialog, dmidecode, genisoimage, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lvm2, openvswitch-controller, openvswitch-switch, python3-pexpect, php5, php5-cli, php5-imagick, php5-sqlite, plymouth-label, python3-pexpect, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 1.0.0-6), unetlab-vpcs, tcpdump, telnet, zip
 Filename: pool/trusty/u/unetlab/unetlab_1.0.0-12_amd64.deb
@@ -156,14 +80,14 @@ Section: devel
 Installed-Size: 9912
 Maintainer: Andrea Dainese (andrea.dainese@gmail.com)
 Architecture: amd64
-Version: 2.0.1-20
+Version: 2.0.1-22
 Provides: eve-ng-schema
-Filename: pool/trusty/e/eve-ng-schema/eve-ng-schema_2.0.1-20_amd64.deb
-Size: 4472
-MD5sum: dac56a6226a8d61ca6bc83ab686778d8
-SHA1: 91e143e1eeeb7abda2ba76aed971d18a885b5493
-SHA256: 1f86e7cc272c454eb47cc96af7c2a0e5139774988bf1a5dc5c039162405ad833
-SHA512: 602783c453861a80485816de51539641d6217aeeed6cbb5c72912397813ad33cb1d5436aac324b4bad888d79b38044b23ba56b7096b96fcc7d79c52ee3980dc2
+Filename: pool/trusty/e/eve-ng-schema/eve-ng-schema_2.0.1-22_amd64.deb
+Size: 4668
+MD5sum: 87bc31562c1b0ab92401942f58edac84
+SHA1: 8a70d893425d423f86ea1c8b45cf844181a92f71
+SHA256: a6776b5061741425f077322b35df7a8d94f8daba2c2e4422d4a8163423ddf6c9
+SHA512: 6aabb3c834054baf9c608a3e0234e47f6c57e89fbfcbeb66368a9038f1e542e9f0531a3742070470bc0acfae56ac343d4ac569d8c04285932258edb95dc56453
 Description: Database schema for UNetLab/EVE-NG
 Name: Emulated Virtual Environment - schema
 Homepage: http://www.unetlab.com/
@@ -174,15 +98,15 @@ Section: devel
 Installed-Size: 9912
 Maintainer: Andrea Dainese (andrea.dainese@gmail.com)
 Architecture: amd64
-Version: 2.0.1-20
+Version: 2.0.1-22
 Provides: eve-ng-guacamole
-Depends: eve-ng-schema (>= 2.0.1-20), default-jdk, libcairo2-dev, libelf1, libfreerdp-dev, libjpeg-turbo8-dev, libossp-uuid-dev, libpango1.0-dev, libpcap0.8, libpng12-dev, libpulse-dev, libssh2-1-dev, libssl-dev, libtelnet-dev, libvncserver-dev, libvorbis-dev, lsb-release, mysql-server, telnet, tomcat7, tomcat7-admin, tomcat7-docs
-Filename: pool/trusty/e/eve-ng-guacamole/eve-ng-guacamole_2.0.1-20_amd64.deb
-Size: 14240082
-MD5sum: 8d38216f67c0c8f19cb570b107ebcdca
-SHA1: ff57c3717e729a163eec3bb538fc2978a60a79a0
-SHA256: 7f55fbd199545598472943ce35d10f6378555a5da007686e04604bde69f85119
-SHA512: a7d8b4626aabc1914e9854928e0561310f7eea2cedbddf8c5ff0670f46b10bfb8abce2e3b6a1c99dfb1e9f2667005504206eb28bfba8bfaeb0ea2e6b06c34bc9
+Depends: eve-ng-schema (>= 2.0.1-22), default-jdk, libcairo2-dev, libelf1, libfreerdp-dev, libjpeg-turbo8-dev, libossp-uuid-dev, libpango1.0-dev, libpcap0.8, libpng12-dev, libpulse-dev, libssh2-1-dev, libssl-dev, libtelnet-dev, libvncserver-dev, libvorbis-dev, lsb-release, mysql-server, telnet, tomcat7, tomcat7-admin, tomcat7-docs
+Filename: pool/trusty/e/eve-ng-guacamole/eve-ng-guacamole_2.0.1-22_amd64.deb
+Size: 14240190
+MD5sum: 02ad488be948262c3b7e1dc224e4270e
+SHA1: fc62edf24422f34d73a8700d5e482c7ee8d05232
+SHA256: 05b9fcc5a8ddf2ed12eb6f9bcc503d83d61558d3831ba3fb041b025845a48889
+SHA512: 14eb3e0f156164ffed7a7eaf05fde4ca446e5904ca5dc712d12796cb58017655329efd501dcb6451191ec17d28d919c2ed8f711d0865811ddc368270a48b3597
 Description: Guacamole for UNetLab/EVE-NG
 Name: Emulated Virtual Environment - Guacamole
 Homepage: http://www.unetlab.com/
@@ -193,16 +117,16 @@ Section: devel
 Installed-Size: 9912
 Maintainer: Andrea Dainese (andrea.dainese@gmail.com)
 Architecture: amd64
-Version: 2.0.1-21
+Version: 2.0.1-22
 Replaces: unetlab
 Provides: eve-ng
-Depends: eve-ng-guacamole (>= 2.0.1-20), eve-ng-schema (>= 2.0.1-20), apache2, bridge-utils, build-essential, cpulimit, debconf-utils, dialog, dmidecode, eve-ng-guacamole, eve-ng-schema, fail2ban, genisoimage, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lsb-release, lvm2, mysql-server, ntp, openvswitch-controller, openvswitch-switch, php5, php5-cli, php5-imagick, php5-mysql, php5-sqlite, plymouth-label, python3-pexpect, sqlite3, tcpdump, telnet, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 1.0.0-6), unetlab-vpcs, zip
-Filename: pool/trusty/e/eve-ng/eve-ng_2.0.1-21_amd64.deb
-Size: 18286516
-MD5sum: 2f66da3b9a8621cb6730cdd04665cf20
-SHA1: 660541fa8cef0d4c810ed87e493134fe3e5be79d
-SHA256: 18684e4716301d0e8fcbc6ffd9e0213dda11b5d5ff867111e03b07eab0bb03c6
-SHA512: da059347d14176cacaa41141a5b44b73b9397be59b26ae7fa3dbb86a1685a6c33db7021383c40605a66ff823b1cf5c3a91b5f9ef50e6889e3966f9f52ec7c44c
+Depends: eve-ng-guacamole (>= 2.0.1-22), eve-ng-schema (>= 2.0.1-22), apache2, bridge-utils, build-essential, cpulimit, debconf-utils, dialog, dmidecode, eve-ng-guacamole, eve-ng-schema, fail2ban, genisoimage, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lsb-release, lvm2, mysql-server, ntp, openvswitch-controller, openvswitch-switch, php5, php5-cli, php5-imagick, php5-mysql, php5-sqlite, plymouth-label, python3-pexpect, sqlite3, tcpdump, telnet, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 1.0.0-6), unetlab-vpcs, zip
+Filename: pool/trusty/e/eve-ng/eve-ng_2.0.1-22_amd64.deb
+Size: 18286730
+MD5sum: eb670828e11a78358094f1fe365accc7
+SHA1: 46e675c77295e5759975f98a4aed88b2015d0493
+SHA256: f950f597e2194b5bc9f637c0c1c363e0ec88fcfaae7a198c63cf5448cf88a3d8
+SHA512: bf83851c482581585d2202c0525159b84e70856f6592fdddf8c5c7292db009ba96ae6a678067aa39daad603b8bba977a2796bd4ddafefacdf534080cec48795e
 Description: A new generation software for networking labs.
  Eve-NG is a new generation software for networking lab. It can be considered the next major version of iou-web, but the software has been forked from UNetLab. The major advantage over GNS3 and iou-web itself is about multi-hypervisor support within a single entity. UNetLab allows to design labs using IOU, Dynamips and QEMU nodes without dealing with multi virtual machines: everything run inside a UNetLab host, and a lab is a single file including all information needed.
 Name: Emulated Virtual Environment

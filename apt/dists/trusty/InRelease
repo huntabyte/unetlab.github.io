@@ -2,27 +2,27 @@
 Hash: SHA1
 
 Codename: trusty
-Date: Fri, 11 Nov 2016 07:31:25 UTC
+Date: Fri, 11 Nov 2016 13:26:14 UTC
 MD5Sum:
- e2c69226e47642ff266da39832ca4da3             1379 Release
- 8255fab42f9cdfd1f747ab7ae8c3fcff            14102 rrlabs/binary-amd64/Packages
- 2ed1847fb1b95c1326e856ee749e31e9             4327 rrlabs/binary-amd64/Packages.gz
+ 5dd9646c0484cbb7916b2220837140f4             1379 Release
+ 76a5c53dc11d236827b7217c926ca6e2            14290 rrlabs/binary-amd64/Packages
+ e6dc25a1572333d4906f2603a6dd1f0b             4388 rrlabs/binary-amd64/Packages.gz
 SHA1:
- 87d0852a7234b221fc3f708882448e477d611445             1379 Release
- b259532a2fc89376b1df92dad3149fc96216ba86            14102 rrlabs/binary-amd64/Packages
- 3fcdef09713543f4f0ed564c4a92c8d2454a988c             4327 rrlabs/binary-amd64/Packages.gz
+ 1928a06e720af917e7b105efafa80cf37824ef1a             1379 Release
+ b7d574f0841bac154df787a1f13080f802daad2c            14290 rrlabs/binary-amd64/Packages
+ d220cc43c496d8354090361754adea34e180fe77             4388 rrlabs/binary-amd64/Packages.gz
 SHA256:
- 8444ae32fc00af8cdcea41de1641a9f5b99658bea9767a99129083007ceed913             1379 Release
- edb20aef40a86d69079db6008ca4b80bb307d10536e98ff5ab3a6a4764c3b7e2            14102 rrlabs/binary-amd64/Packages
- 8b441d77ad85b1afeeba683bd0d74f56ad671ca11ce8d44e862bfe6422082c3f             4327 rrlabs/binary-amd64/Packages.gz
+ 6e6f62d5870a36f72d039d22fdd47c669dc8254ee1ce263c2def8fc6c352007f             1379 Release
+ 22b74e752b8af3eb7b18478184673f8f897c6655c188ecd8cddefa2b81c94777            14290 rrlabs/binary-amd64/Packages
+ 0141352efc99cd1895c1166a1112712ac976eff293ba634b498f121800f0caf4             4388 rrlabs/binary-amd64/Packages.gz
 SHA512:
- d5a947fb60056c08c1de64fd7bc9146e95271b2cbce03ebf2cfeee101553b3e9fdb55da9a7d5b43ff58e1763dc8187b6b8caed63cca63322ad4978d278943447             1379 Release
- 4a98a2f352b9467ba106148de99bf9d2fb023400a7128c34d22e36b6edf633cde9e136ee99ca228560cd75086406e78d4d8fa4ce523e5734feb9644e83841a12            14102 rrlabs/binary-amd64/Packages
- 29012120ac74ed10cb62efcce8e8afdc9a7fce8f92643adc54522e248b9e0bcbe0302b8fd77f0c4b582ff03dbbcc4a7837318a6b98bd2c486af8b9e351f9c03b             4327 rrlabs/binary-amd64/Packages.gz
+ ca0175cf5229283139b6f15f7ddbdb12becb03fc747f3e473f53a9a0c7c5ad478eb89c4054d830d168c9da8e3e891b044f15bdd0c42574224a3a5e4fbb66c040             1379 Release
+ 7ad6b2404ab055caf41b1dd275804a62c2bc88a1a34886573586454015ab3e4388f6d74577c1b51c84cc7c55d9f54ac53015999dad452cb782cd40f7aea023e1            14290 rrlabs/binary-amd64/Packages
+ e880f5b06a3b15f5de139d1ea14adcd36ddd37c52557f506f2b1589fd07ac4b866eb95ada8c4a21c79e506558f2ee97bb28a595251c5583ce6a55adc195ef9aa             4388 rrlabs/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iEUEARECAAYFAlglc80ACgkQia4rk+dl5EWH7QCYl3CUEyOCTPWwWwHdeI3J8S/U
-rACfQXx9sRklOdqW895mp1ayKG6hpck=
-=dQvG
+iEYEARECAAYFAlglxvYACgkQia4rk+dl5EUT0gCfemnBqKO6uuXIm5mSF6NpL+x0
+v/YAn3fS7Yj/m0qPyltY+Bv1sGm9/SDS
+=WJCy
 -----END PGP SIGNATURE-----

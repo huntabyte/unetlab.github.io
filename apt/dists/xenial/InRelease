@@ -1,0 +1,28 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Codename: xenial
+Date: Fri, 11 Nov 2016 13:26:26 UTC
+MD5Sum:
+ 15ee0d32a3ed0aacafb092c252f50c6e             1379 Release
+ 76a5c53dc11d236827b7217c926ca6e2            14290 rrlabs/binary-amd64/Packages
+ d3fe25827d81450b550b0954e1a709ba             4388 rrlabs/binary-amd64/Packages.gz
+SHA1:
+ 153f0ec647199472e3c8f75412911d67df54a6a8             1379 Release
+ b7d574f0841bac154df787a1f13080f802daad2c            14290 rrlabs/binary-amd64/Packages
+ e06c263f67966fa23f48507acb3a17ceae04732c             4388 rrlabs/binary-amd64/Packages.gz
+SHA256:
+ 82c2bba5338a5636c19334684c8bd614cdba5105d448f048b8499e379e53f51a             1379 Release
+ 22b74e752b8af3eb7b18478184673f8f897c6655c188ecd8cddefa2b81c94777            14290 rrlabs/binary-amd64/Packages
+ b9cce7f71ab374c161f0a0ebd3eefcc936e9b5e02129fed435a724319709a1b5             4388 rrlabs/binary-amd64/Packages.gz
+SHA512:
+ b20e5dd37e51ac45b573fdebe3dd254f97d44a981443c405ed64ab6db0d15c3ef1c2b08f7663bcbd88ef7d18c41c5aec8142d8f92f2e3ca802e9a26f42f09769             1379 Release
+ 7ad6b2404ab055caf41b1dd275804a62c2bc88a1a34886573586454015ab3e4388f6d74577c1b51c84cc7c55d9f54ac53015999dad452cb782cd40f7aea023e1            14290 rrlabs/binary-amd64/Packages
+ f411cbdf5ae4696eddd9c5bf8639abf7bc235ceca3b42d0b785a207c1dcd2b0e3c00af618dd0863b0ee94835acbf280fae133458e8cc578eba13d0030f521d4e             4388 rrlabs/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAlglxwIACgkQia4rk+dl5EWRtQCfTBdx8FTVhbFZgqqAsK3UKY7o
+GMUAnRiZOhCMhn6rqLqRYVDwfhLQbz2I
+=SvYy
+-----END PGP SIGNATURE-----

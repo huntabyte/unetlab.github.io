@@ -80,51 +80,15 @@ Section: devel
 Installed-Size: 9912
 Maintainer: Andrea Dainese (andrea.dainese@gmail.com)
 Architecture: amd64
-Version: 2.0.1-23
-Provides: eve-ng-schema
-Filename: pool/trusty/e/eve-ng-schema/eve-ng-schema_2.0.1-23_amd64.deb
-Size: 4668
-MD5sum: 1de68cd82e9bda1b277af4f24475ebaa
-SHA1: 06b4efcab9b7481dc32ae024ba2ac25e86aafe36
-SHA256: 5c64288c59ef11f669e3232b34f81e493da57bcba65e375642d85da238e18ac4
-SHA512: 7cfea2757ef5f80ede1ac294e87a9c33dcb2d5b7384ffc4ee5e1d2efb39eadb1d51576730abfb9b24e98397fdeeea11b09d6ae1a80d2acc9e37b69a0124155d7
-Description: Database schema for UNetLab/EVE-NG
-Name: Emulated Virtual Environment - schema
-Homepage: http://www.unetlab.com/
-
-Package: eve-ng-schema
-Priority: optional
-Section: devel
-Installed-Size: 9912
-Maintainer: Andrea Dainese (andrea.dainese@gmail.com)
-Architecture: amd64
-Version: 2.0.1-22
-Provides: eve-ng-schema
-Filename: pool/trusty/e/eve-ng-schema/eve-ng-schema_2.0.1-22_amd64.deb
-Size: 4668
-MD5sum: 87bc31562c1b0ab92401942f58edac84
-SHA1: 8a70d893425d423f86ea1c8b45cf844181a92f71
-SHA256: a6776b5061741425f077322b35df7a8d94f8daba2c2e4422d4a8163423ddf6c9
-SHA512: 6aabb3c834054baf9c608a3e0234e47f6c57e89fbfcbeb66368a9038f1e542e9f0531a3742070470bc0acfae56ac343d4ac569d8c04285932258edb95dc56453
-Description: Database schema for UNetLab/EVE-NG
-Name: Emulated Virtual Environment - schema
-Homepage: http://www.unetlab.com/
-
-Package: eve-ng-schema
-Priority: optional
-Section: devel
-Installed-Size: 9912
-Maintainer: Andrea Dainese (andrea.dainese@gmail.com)
-Architecture: amd64
-Version: 2.0.1-24
+Version: 2.0.1-25
 Provides: eve-ng-schema
 Pre-Depends: debconf
-Filename: pool/trusty/e/eve-ng-schema/eve-ng-schema_2.0.1-24_amd64.deb
-Size: 4702
-MD5sum: 6c75e6b14841599ed170c23b2ee8e0d4
-SHA1: c2790c7854ad0a643bb539623bb9f0e50b250d22
-SHA256: 81063ea2db06828752245c828c09d293ead5821c1b5b50be2298a3de1e694f03
-SHA512: 68b276ac647d7374dafc26a52aaab4c57834c863cae7a31a08834ec98a715acdcc7491555a6ec048a4779577930ad8bd0cbcd28030f8086fb6cef3bab2ed6733
+Filename: pool/trusty/e/eve-ng-schema/eve-ng-schema_2.0.1-25_amd64.deb
+Size: 4714
+MD5sum: f18aaa5a29554e82545ba54877110fee
+SHA1: 6a5326e47e5f117990979ae248340d0450a1d76e
+SHA256: 4b899fcbf84b6112afa1c29d644a94ca698e1e70107d0fc3acbd7d7a2c0a3033
+SHA512: 6a959b75cdc0735ad6c3debdef850351f581c413a3ecbb2e3f1cf8eb85bd01f69221315a5d0d4b97167add60efa59242b75af52520536f947c38f13068e78187
 Description: Database schema for UNetLab/EVE-NG
 Name: Emulated Virtual Environment - schema
 Homepage: http://www.unetlab.com/
@@ -135,55 +99,16 @@ Section: devel
 Installed-Size: 9912
 Maintainer: Andrea Dainese (andrea.dainese@gmail.com)
 Architecture: amd64
-Version: 2.0.1-24
+Version: 2.0.1-25
 Provides: eve-ng-guacamole
 Depends: default-jdk, libcairo2-dev, libelf1, libfreerdp-dev, libjpeg-turbo8-dev, libossp-uuid-dev, libpango1.0-dev, libpcap0.8, libpng12-dev, libpulse-dev, libssh2-1-dev, libssl-dev, libtelnet-dev, libvncserver-dev, libvorbis-dev, lsb-release, mysql-server, telnet, tomcat7, tomcat7-admin, tomcat7-docs
-Pre-Depends: eve-ng-schema (>= 2.0.1-24)
-Filename: pool/trusty/e/eve-ng-guacamole/eve-ng-guacamole_2.0.1-24_amd64.deb
-Size: 14240216
-MD5sum: 263bd750ad8dd383db15decdf7327859
-SHA1: f858ab99a40915870bee5a8365e1dc3abf581e35
-SHA256: 419a27246312369839e52284283a6c4dd68c184898615363c81a108f19e4d90c
-SHA512: 3ff46a819fcd6b14e5ea657a6c3accaf32e049726745cf6d77637c7265e4c84e546d91836ec5ae53f283503f954cf89c48d949aee31d9264e0c401b10885d1a6
-Description: Guacamole for UNetLab/EVE-NG
-Name: Emulated Virtual Environment - Guacamole
-Homepage: http://www.unetlab.com/
-
-Package: eve-ng-guacamole
-Priority: optional
-Section: devel
-Installed-Size: 9912
-Maintainer: Andrea Dainese (andrea.dainese@gmail.com)
-Architecture: amd64
-Version: 2.0.1-23
-Provides: eve-ng-guacamole
-Depends: default-jdk, libcairo2-dev, libelf1, libfreerdp-dev, libjpeg-turbo8-dev, libossp-uuid-dev, libpango1.0-dev, libpcap0.8, libpng12-dev, libpulse-dev, libssh2-1-dev, libssl-dev, libtelnet-dev, libvncserver-dev, libvorbis-dev, lsb-release, mysql-server, telnet, tomcat7, tomcat7-admin, tomcat7-docs
-Pre-Depends: eve-ng-schema (>= 2.0.1-23)
-Filename: pool/trusty/e/eve-ng-guacamole/eve-ng-guacamole_2.0.1-23_amd64.deb
-Size: 14240164
-MD5sum: b83ef5c711baf8f43ce5b464ee203e54
-SHA1: a9aebe939d6b7e42ccd8f2d64f0a6a608f5f468b
-SHA256: eb9c90bb7f5743dcf148d3fa30b422501866174ac1bdfc6f190b49294acdcdc2
-SHA512: 2955df763b7f6595a3ea157f6a99c11f68c71e884c3280f64a48741edde5b9ffd9a8d48ae5a1743094cf8e89fcdfef8d2677e5c31c15aa020ad4babcb9a62132
-Description: Guacamole for UNetLab/EVE-NG
-Name: Emulated Virtual Environment - Guacamole
-Homepage: http://www.unetlab.com/
-
-Package: eve-ng-guacamole
-Priority: optional
-Section: devel
-Installed-Size: 9912
-Maintainer: Andrea Dainese (andrea.dainese@gmail.com)
-Architecture: amd64
-Version: 2.0.1-22
-Provides: eve-ng-guacamole
-Depends: eve-ng-schema (>= 2.0.1-22), default-jdk, libcairo2-dev, libelf1, libfreerdp-dev, libjpeg-turbo8-dev, libossp-uuid-dev, libpango1.0-dev, libpcap0.8, libpng12-dev, libpulse-dev, libssh2-1-dev, libssl-dev, libtelnet-dev, libvncserver-dev, libvorbis-dev, lsb-release, mysql-server, telnet, tomcat7, tomcat7-admin, tomcat7-docs
-Filename: pool/trusty/e/eve-ng-guacamole/eve-ng-guacamole_2.0.1-22_amd64.deb
-Size: 14240190
-MD5sum: 02ad488be948262c3b7e1dc224e4270e
-SHA1: fc62edf24422f34d73a8700d5e482c7ee8d05232
-SHA256: 05b9fcc5a8ddf2ed12eb6f9bcc503d83d61558d3831ba3fb041b025845a48889
-SHA512: 14eb3e0f156164ffed7a7eaf05fde4ca446e5904ca5dc712d12796cb58017655329efd501dcb6451191ec17d28d919c2ed8f711d0865811ddc368270a48b3597
+Pre-Depends: eve-ng-schema (>= 2.0.1-25)
+Filename: pool/trusty/e/eve-ng-guacamole/eve-ng-guacamole_2.0.1-25_amd64.deb
+Size: 14240196
+MD5sum: 8ec6fc3e00c949d23d025c163821fbbf
+SHA1: 715fb43c28ed0bc3cdd249eb16b8720526dedff4
+SHA256: 570f58ebd4cca00fa426d1eb367bac3569144e5ae02195f83c7379ade12f366a
+SHA512: 63848961dd6f9719432e1608618375ed1fbbcaa241950f509362fbecef96ecac82ed85bdc1ebfd2b97462fbcb7fde03dd28555c2851ad74fd2f99a6318f30689
 Description: Guacamole for UNetLab/EVE-NG
 Name: Emulated Virtual Environment - Guacamole
 Homepage: http://www.unetlab.com/
@@ -194,60 +119,17 @@ Section: devel
 Installed-Size: 9912
 Maintainer: Andrea Dainese (andrea.dainese@gmail.com)
 Architecture: amd64
-Version: 2.0.1-23
+Version: 2.0.1-25
 Replaces: unetlab
 Provides: eve-ng
 Depends: apache2, bridge-utils, build-essential, cpulimit, debconf-utils, dialog, dmidecode, eve-ng-guacamole, eve-ng-schema, fail2ban, genisoimage, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lsb-release, lvm2, mysql-server, ntp, openvswitch-controller, openvswitch-switch, php5, php5-cli, php5-imagick, php5-mysql, php5-sqlite, plymouth-label, python3-pexpect, sqlite3, tcpdump, telnet, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 1.0.0-6), unetlab-vpcs, zip
-Pre-Depends: eve-ng-schema (>= 2.0.1-23), eve-ng-guacamole (>= 2.0.1-23)
-Filename: pool/trusty/e/eve-ng/eve-ng_2.0.1-23_amd64.deb
-Size: 18290942
-MD5sum: eba01c4d08310ddf0f2bee56856d979b
-SHA1: c1433a327c6999a3a927b97cb51978e50597082b
-SHA256: dafeaf83118cd5bc9a7aeffe527ef5c7b9d01c2b47ba18a622ed9e2d0ccc9351
-SHA512: 819ff4f69328895ffa8be951ecc2dc4b2efe118060f53d9e61623c2231094545b9f86b29b16673aef31e043c98a226a9da4dbb2a26fbace7e78cf39ac0439da2
-Description: A new generation software for networking labs.
- Eve-NG is a new generation software for networking lab. It can be considered the next major version of iou-web, but the software has been forked from UNetLab. The major advantage over GNS3 and iou-web itself is about multi-hypervisor support within a single entity. UNetLab allows to design labs using IOU, Dynamips and QEMU nodes without dealing with multi virtual machines: everything run inside a UNetLab host, and a lab is a single file including all information needed.
-Name: Emulated Virtual Environment
-Homepage: http://www.unetlab.com/
-
-Package: eve-ng
-Priority: optional
-Section: devel
-Installed-Size: 9912
-Maintainer: Andrea Dainese (andrea.dainese@gmail.com)
-Architecture: amd64
-Version: 2.0.1-24
-Replaces: unetlab
-Provides: eve-ng
-Depends: apache2, bridge-utils, build-essential, cpulimit, debconf-utils, dialog, dmidecode, eve-ng-guacamole, eve-ng-schema, fail2ban, genisoimage, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lsb-release, lvm2, mysql-server, ntp, openvswitch-controller, openvswitch-switch, php5, php5-cli, php5-imagick, php5-mysql, php5-sqlite, plymouth-label, python3-pexpect, sqlite3, tcpdump, telnet, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 1.0.0-6), unetlab-vpcs, zip
-Pre-Depends: eve-ng-schema (>= 2.0.1-24), eve-ng-guacamole (>= 2.0.1-24)
-Filename: pool/trusty/e/eve-ng/eve-ng_2.0.1-24_amd64.deb
-Size: 18290696
-MD5sum: ceba96b1d2cdd28ccdff1358e4d675c8
-SHA1: 5936556d218525e32b694175cffa30c75fbedf7a
-SHA256: dc5a4e91f7db0dc594eb50b00a3ff56a14d17e8611b07eeea73a401983ebe31e
-SHA512: 19031be0d3ff3689c73bad3b500f127bf623ff8acc11daae3edac107f8d071b57cd6026830173a3985fc2be25ff0a95076364d7e7ef33a6520ff7fb349312c3e
-Description: A new generation software for networking labs.
- Eve-NG is a new generation software for networking lab. It can be considered the next major version of iou-web, but the software has been forked from UNetLab. The major advantage over GNS3 and iou-web itself is about multi-hypervisor support within a single entity. UNetLab allows to design labs using IOU, Dynamips and QEMU nodes without dealing with multi virtual machines: everything run inside a UNetLab host, and a lab is a single file including all information needed.
-Name: Emulated Virtual Environment
-Homepage: http://www.unetlab.com/
-
-Package: eve-ng
-Priority: optional
-Section: devel
-Installed-Size: 9912
-Maintainer: Andrea Dainese (andrea.dainese@gmail.com)
-Architecture: amd64
-Version: 2.0.1-22
-Replaces: unetlab
-Provides: eve-ng
-Depends: eve-ng-guacamole (>= 2.0.1-22), eve-ng-schema (>= 2.0.1-22), apache2, bridge-utils, build-essential, cpulimit, debconf-utils, dialog, dmidecode, eve-ng-guacamole, eve-ng-schema, fail2ban, genisoimage, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lsb-release, lvm2, mysql-server, ntp, openvswitch-controller, openvswitch-switch, php5, php5-cli, php5-imagick, php5-mysql, php5-sqlite, plymouth-label, python3-pexpect, sqlite3, tcpdump, telnet, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 1.0.0-6), unetlab-vpcs, zip
-Filename: pool/trusty/e/eve-ng/eve-ng_2.0.1-22_amd64.deb
-Size: 18286730
-MD5sum: eb670828e11a78358094f1fe365accc7
-SHA1: 46e675c77295e5759975f98a4aed88b2015d0493
-SHA256: f950f597e2194b5bc9f637c0c1c363e0ec88fcfaae7a198c63cf5448cf88a3d8
-SHA512: bf83851c482581585d2202c0525159b84e70856f6592fdddf8c5c7292db009ba96ae6a678067aa39daad603b8bba977a2796bd4ddafefacdf534080cec48795e
+Pre-Depends: eve-ng-schema (>= 2.0.1-25), eve-ng-guacamole (>= 2.0.1-25)
+Filename: pool/trusty/e/eve-ng/eve-ng_2.0.1-25_amd64.deb
+Size: 18290812
+MD5sum: 687c9e3c811c0c9f05f8a01850fe37d3
+SHA1: e7d6b0e4067123fc6ec4027f236308395bcd8be0
+SHA256: 74cd6fe7aa4490a8e637046d8cda3b4d28c0e92de6ed6baa2def9e3ac5509d62
+SHA512: c6dff4b09a0dd30453f08f7fc5f93c01902b3b490420be74a257d1cf62105c673c4f6da4dbb558c0836eeb15816339a360684ce4325872f37ddd89813a81ecf5
 Description: A new generation software for networking labs.
  Eve-NG is a new generation software for networking lab. It can be considered the next major version of iou-web, but the software has been forked from UNetLab. The major advantage over GNS3 and iou-web itself is about multi-hypervisor support within a single entity. UNetLab allows to design labs using IOU, Dynamips and QEMU nodes without dealing with multi virtual machines: everything run inside a UNetLab host, and a lab is a single file including all information needed.
 Name: Emulated Virtual Environment
@@ -320,15 +202,15 @@ Section: devel
 Installed-Size: 9912
 Maintainer: Andrea Dainese (andrea.dainese@gmail.com)
 Architecture: amd64
-Version: 2.0.1-24
+Version: 2.0.1-25
 Provides: eve-ng-schema
 Pre-Depends: debconf
-Filename: pool/xenial/e/eve-ng-schema/eve-ng-schema_2.0.1-24_amd64.deb
-Size: 4702
-MD5sum: 6c75e6b14841599ed170c23b2ee8e0d4
-SHA1: c2790c7854ad0a643bb539623bb9f0e50b250d22
-SHA256: 81063ea2db06828752245c828c09d293ead5821c1b5b50be2298a3de1e694f03
-SHA512: 68b276ac647d7374dafc26a52aaab4c57834c863cae7a31a08834ec98a715acdcc7491555a6ec048a4779577930ad8bd0cbcd28030f8086fb6cef3bab2ed6733
+Filename: pool/xenial/e/eve-ng-schema/eve-ng-schema_2.0.1-25_amd64.deb
+Size: 4714
+MD5sum: f18aaa5a29554e82545ba54877110fee
+SHA1: 6a5326e47e5f117990979ae248340d0450a1d76e
+SHA256: 4b899fcbf84b6112afa1c29d644a94ca698e1e70107d0fc3acbd7d7a2c0a3033
+SHA512: 6a959b75cdc0735ad6c3debdef850351f581c413a3ecbb2e3f1cf8eb85bd01f69221315a5d0d4b97167add60efa59242b75af52520536f947c38f13068e78187
 Description: Database schema for UNetLab/EVE-NG
 Name: Emulated Virtual Environment - schema
 Homepage: http://www.unetlab.com/
@@ -339,16 +221,16 @@ Section: devel
 Installed-Size: 9912
 Maintainer: Andrea Dainese (andrea.dainese@gmail.com)
 Architecture: amd64
-Version: 2.0.1-24
+Version: 2.0.1-25
 Provides: eve-ng-guacamole
 Depends: default-jdk, libcairo2-dev, libelf1, libfreerdp-dev, libjpeg-turbo8-dev, libossp-uuid-dev, libpango1.0-dev, libpcap0.8, libpng12-dev, libpulse-dev, libssh2-1-dev, libssl-dev, libtelnet-dev, libvncserver-dev, libvorbis-dev, lsb-release, mysql-server, telnet, tomcat8, tomcat8-admin, tomcat8-docs
-Pre-Depends: eve-ng-schema (>= 2.0.1-24)
-Filename: pool/xenial/e/eve-ng-guacamole/eve-ng-guacamole_2.0.1-24_amd64.deb
-Size: 14240226
-MD5sum: 1b57c36fe780b7858e6f8566dd6f24b2
-SHA1: 259999f59f55b919400aad179eba2fb2c512b8b9
-SHA256: 94fd7cf43a525e9c38c800f92e8be6f90ba60bc6a9220b1915f4023e7d78f055
-SHA512: 42ff5f3e35544a10f1743760a8f3503e78427f945038a5adf8809dcb5d1547bd4ac0b9c9ee94041138cea1eb14306efb197260d7176e3ee9a78405eead18c857
+Pre-Depends: eve-ng-schema (>= 2.0.1-25)
+Filename: pool/xenial/e/eve-ng-guacamole/eve-ng-guacamole_2.0.1-25_amd64.deb
+Size: 14240198
+MD5sum: 9519c74098edb22953eebbaf322fd99d
+SHA1: badea10c4d5b39aaff25c50232720ea52bacf4fd
+SHA256: 4cbd3150f6c3a9f5dc2ea9cfcdd9de1cf97f8216d24c08d975930cc7780e4d34
+SHA512: 94120953101df41ce6322106d14651423a03f2f4dbe2effaab31046a5fdf78c91bfc96c8f6e50c428a1b3aec51c06cfb7d6dcc1ca7afe00df942281baaf8b8a1
 Description: Guacamole for UNetLab/EVE-NG
 Name: Emulated Virtual Environment - Guacamole
 Homepage: http://www.unetlab.com/
@@ -359,17 +241,17 @@ Section: devel
 Installed-Size: 9912
 Maintainer: Andrea Dainese (andrea.dainese@gmail.com)
 Architecture: amd64
-Version: 2.0.1-24
+Version: 2.0.1-25
 Replaces: unetlab
 Provides: eve-ng
 Depends: apache2, bridge-utils, build-essential, cpulimit, debconf-utils, dialog, dmidecode, eve-ng-guacamole, eve-ng-schema, fail2ban, genisoimage, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lsb-release, lvm2, mysql-server, ntp, openvswitch-controller, openvswitch-switch, php5, php5-cli, php5-imagick, php5-mysql, php5-sqlite, plymouth-label, python3-pexpect, sqlite3, tcpdump, telnet, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 1.0.0-6), unetlab-vpcs, zip
-Pre-Depends: eve-ng-schema (>= 2.0.1-24), eve-ng-guacamole (>= 2.0.1-24)
-Filename: pool/xenial/e/eve-ng/eve-ng_2.0.1-24_amd64.deb
-Size: 18290696
-MD5sum: 9a5003fce1da7d772a2e86b506426df1
-SHA1: 42e0a12f070cdbc78c492c6c11fb35e03e974ded
-SHA256: a49fc2a6b66b06f936744210ee261d3f6b26583faeefb67cdcb30780d3fc7363
-SHA512: aa83cf214182f315426deca72d7ee64ca8e08499f881bf262904619a3a42138225a9023dd552021c2c40d9babf741a48159bedf14dedf6ef8589000e8d35d75e
+Pre-Depends: eve-ng-schema (>= 2.0.1-25), eve-ng-guacamole (>= 2.0.1-25)
+Filename: pool/xenial/e/eve-ng/eve-ng_2.0.1-25_amd64.deb
+Size: 18290812
+MD5sum: 659c1d33d98baa71263aac75a49bb0f2
+SHA1: fc8e3e1762f596ee267d9b244ed921de81aecfe6
+SHA256: bd45adc485ebdece02bb11583fe0ba07c3784d20ff010b1f6de5f07523a152a7
+SHA512: b388711b4277caa668afd239ad7477282656e0648f49521fe055fc0dd06c0df0d3b06f07db1e9f630591531f9bd30c8fc5c63f2902c888f884dedab36bcf8435
 Description: A new generation software for networking labs.
  Eve-NG is a new generation software for networking lab. It can be considered the next major version of iou-web, but the software has been forked from UNetLab. The major advantage over GNS3 and iou-web itself is about multi-hypervisor support within a single entity. UNetLab allows to design labs using IOU, Dynamips and QEMU nodes without dealing with multi virtual machines: everything run inside a UNetLab host, and a lab is a single file including all information needed.
 Name: Emulated Virtual Environment

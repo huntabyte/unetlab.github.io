@@ -11,7 +11,7 @@ fi
 
 echo -ne "Adding UNetLab APT repository... "
 cat > /etc/apt/sources.list.d/unetlab.list << EOF
-deb http://www.unetlab.com/apt trusty rrlabs
+deb [arch=amd64] http://www.unetlab.com/apt trusty rrlabs
 EOF
 if [ $? -eq 0 ]; then
 	echo "DONE"

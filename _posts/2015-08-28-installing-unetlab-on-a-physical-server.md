@@ -19,6 +19,12 @@ A baremetal installation performs better because no assitional virtualization la
 
 If you're planning to creates large labs with a lot of QEMU nodes, than you should evaluate a baremetal installation.
 
+## Supported OS
+
+Ubuntu 14.04 x64 - ONLY
+
+Any other linux distro and x86 are not supported
+
 ## Ubuntu installation
 
 Download from [Ubuntu website](http://releases.ubuntu.com/14.04/ "Ubuntu 14.04 LTS (Trusty Tahr)") the latest 14.04 64bit ISO for server version. Burn it on a CD and boot your physical server from CD.

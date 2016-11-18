@@ -4,6 +4,25 @@ Section: devel
 Installed-Size: 9912
 Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
 Architecture: amd64
+Version: 1.0.0-13
+Depends: apache2, bridge-utils, cpulimit, dialog, dmidecode, genisoimage, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lvm2, openvswitch-controller, openvswitch-switch, python3-pexpect, php5, php5-cli, php5-imagick, php5-sqlite, plymouth-label, python3-pexpect, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 1.0.0-6), unetlab-vpcs, tcpdump, telnet, zip
+Filename: pool/trusty/u/unetlab/unetlab_1.0.0-13_amd64.deb
+Size: 10630512
+MD5sum: 231b07b5a8bff6f196cd1b023abd6870
+SHA1: 3f95025ca98a45f21b77de9b1cf2c4b268c419fe
+SHA256: e656073ffe71e42c1c63f83aa36ade4ce1144c048b3da5c01bd0c6361257ada8
+SHA512: 7ee3ed175e61b3b8642e27679ea171541293c3b2686b6ee473df5daa26d4e4d6f6797d1ac952bfc94c20cce62feeadd9a40468277ce69a321c6323ecd0a9b460
+Description: A new generation software for networking labs.
+ UNetLab is a new generation software for networking lab. It can be considered the next major version of iou-web, but the software has been rewritten from scratch. The major advantage over GNS3 and iou-web itself is about multi-hypervisor support within a single entity. UNetLab allows to design labs using IOU, Dynamips and QEMU nodes without dealing with multi virtual machines: everything run inside a UNetLab host, and a lab is a single file including all information needed.
+Name: Unified Networking Lab
+Homepage: http://www.unetlab.com/
+
+Package: unetlab
+Priority: optional
+Section: devel
+Installed-Size: 9912
+Maintainer: Andrea Dainese <andrea.dainese@gmail.com>
+Architecture: amd64
 Version: 1.0.0-12
 Depends: apache2, bridge-utils, cpulimit, dialog, dmidecode, genisoimage, lib32gcc1, lib32z1, libapache2-mod-php5, libc6, libc6-i386, libelf1, libpcap0.8, libsdl1.2debian, linux-headers-3.16.7-ckt8-unetlab, linux-image-3.16.7-ckt8-unetlab, logrotate, lvm2, openvswitch-controller, openvswitch-switch, python3-pexpect, php5, php5-cli, php5-imagick, php5-sqlite, plymouth-label, python3-pexpect, uml-utilities, unetlab-dynamips (>= 0.8.6-44), unetlab-qemu (>= 1.0.0-6), unetlab-vpcs, tcpdump, telnet, zip
 Filename: pool/trusty/u/unetlab/unetlab_1.0.0-12_amd64.deb

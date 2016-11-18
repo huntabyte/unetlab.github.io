@@ -1,0 +1,35 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Architectures: amd64 i386 noarch
+Codename: trusty
+Components: rrlabs
+Date: Fri, 18 Nov 2016 12:23:27 UTC
+Description: Route Reflector Labs
+Label: RR Labs archive
+Origin: RR Labs
+Suite: trusty
+Version: 14.04
+MD5Sum:
+ c055092e145816ab13907dcc310e71f5             1533 Release
+ 02ec4a9a935400455524604b53ef94d6            12100 rrlabs/binary-amd64/Packages
+ 44e67bcef67275b5d31b212a5244b02d             4120 rrlabs/binary-amd64/Packages.gz
+SHA1:
+ f931d291316f3bec61b7fc480b7d7f5f594633b1             1533 Release
+ 212b5f1f78adc4268666f8b555120ef4cb6510fb            12100 rrlabs/binary-amd64/Packages
+ bcb76aba87c5c1b1d72ce23f765e0760fe2bb2b9             4120 rrlabs/binary-amd64/Packages.gz
+SHA256:
+ ba1e034df44b357da0f0872c3e4f57a00e6480ba6a6d0a48362378bcf6e0f390             1533 Release
+ 7a10df4777bdd8eac61668d06c101437e238fd603ed79d6c9c98b4d9b58c82b6            12100 rrlabs/binary-amd64/Packages
+ b270278a723b5f23893334c15031885d94467fddc02a830ec05a33850f2af2c7             4120 rrlabs/binary-amd64/Packages.gz
+SHA512:
+ a2cf331ba9f7b7e9f6fd6636019ed71ca99b36ed94366342c36bc98d585694b3050ff31e6a18a86d3b18ac6a7e86cfd357e9e97a0735ceb36ddcd07dc5b4c0e3             1533 Release
+ a90b03277dd4cdb9b00c71878a7b8c1352e8e00f6f8c1dca8a4c3f029159c774eb00d603193df3b7955bcb6e3d8f262aac3e5bf64849a2e6758130e5a3816481            12100 rrlabs/binary-amd64/Packages
+ b534202dc566ef2e2aa92ac026e6c33152bdf60bccae5f4717fd3a623eaef9984d00705307e2d844c2e713bfb9e465906292cab05de10fc86072b20856435481             4120 rrlabs/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAlgu8r8ACgkQia4rk+dl5EVD8wCfWuirgVcsbXn7OequuMGGIfsx
+Ry8An0Oh+FLBSpODsiwNIYATD1G88QR6
+=6mig
+-----END PGP SIGNATURE-----

@@ -12,6 +12,14 @@ tags:
 - Releases
 ---
 
+## Note
+~~~
+In the Status one will see 1.0.0-12 instead of 14 version. 
+That is absolutely OK.
+
+V14 has no major updates whatsoever, just repo update.
+~~~
+
 ## To Upgrade:
 
 ~~~

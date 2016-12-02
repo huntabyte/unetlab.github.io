@@ -530,6 +530,10 @@ td {
 	margin-top: 25px;
 }
 
+.funding div {
+	float: left;
+}
+
 .modal-header, .modal-footer {
 	border: 0px;
 }

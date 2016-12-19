@@ -38,7 +38,7 @@ UNetLab sources are available on [GitHub](https://github.com/dainok/unetlab "UNe
 Client side packs:
 
 * [Windows integration pack](https://www.dropbox.com/s/w8nnvt5kiosa21t/UNetLab-Win-Client-Pack.exe?dl=0 "Windows integration pack")
-
+* [Windows integration pack mirror](https://mega.nz/#!YwUjhJbJ!ag6PWBTOpGaawPCLLmDVxzMwS7MUPro7_sXZ-r2qAOo "Windows integration pack mirror")
 
 
 ---

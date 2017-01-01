@@ -20,7 +20,19 @@ Currently UNetLab is released as OVA only:
 |:--|:--|
 MD5 | `6DB4BC92AE7030638A4E591BD757FCA4`
 SHA1 | `25B6A66913B8D4E285024122D4A6AE197B5D69D4`
-{: rules="groups"}
+
+
+EVE-NG Download Links
+
+* Ready to go OVA:
+	- [EVE-NG OVA - MEGA mirror](https://mega.nz/#!v0BQnYCa!hQAPYv9H4a_Qz5SAQcWpRfel4H1LvQ4AwIE0AFvg-48 "EVE-NG OVA - MEGA mirror")
+	- [EVE-NG OVA - mail.ru mirror](https://cloud.mail.ru/public/8ies/Tzk6cN6hc "EVE-NG OVA - mail.ru mirror")
+
+* Installtion ISO:	
+	- [EVE-NG ISO - MEGA mirror](https://mega.nz/#!n1wCHSqY!vPEumXngOzgN5yzo2hhfo6KGJUIksUUoCLf1WKbFYCE "EVE-NG ISO - MEGA mirror")
+	- [EVE-NG ISO - mail.ru mirror](https://cloud.mail.ru/public/8LF6/CtPRUoFYL "EVE-NG ISO - mail.ru mirror")
+
+
 
 ~~~
 Since we can't track vmware-tools updates and refresh ova each time there is an update, make sure that when you deploy OVA you upgrade vmware-tools from the platform OVA deployed to! For how to simple google it.

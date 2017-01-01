@@ -30,8 +30,8 @@ Bellow one will find:
 
 - Q: How to trun on/off UKSM and how to see if it is on or off?
 - A: Check if UKSM enable or not in the status screen
-	- echo 0 > /sys/kernel/mm/uksm/run - disable
-	- echo 1 > /sys/kernel/mm/uksm/run - enable
+	- "echo 0 > /sys/kernel/mm/uksm/run" without quotes to disable
+	- "echo 1 > /sys/kernel/mm/uksm/run" without quotes to enable
 	
 
 ## Features of this release

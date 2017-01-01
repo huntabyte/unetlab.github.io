@@ -22,7 +22,11 @@ Bellow one will find:
 * Feature list in that release
 * Download links
 * HowTo video and instructions
-	
+
+## FAQ
+
+* Q: When in HTML5 console, I click on disconnect and got into a guacamole login page and can't get any sessions in HTML5 now. Panic.
+* A: Logout/Login from/into eve to be able to open html console again.
 
 ## Features of this release
 
@@ -69,3 +73,4 @@ All feedbacks or issue kindly leave on our [GitLab Issues Page](https://gitlab.c
 * ISO Installtion HowTo:
 	- [ISO on ESXi](https://www.youtube.com/watch?v=0nXHNF3J0B8 "ISO on ESXi")
 	- [ISO on Vmware Workstasion](https://www.youtube.com/watch?v=1uwwO5vpqEo "ISO on Vmware Workstasion")
+	

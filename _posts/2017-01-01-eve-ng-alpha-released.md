@@ -29,9 +29,9 @@ Bellow one will find:
 - A: Logout/Login from/into eve to be able to open html console again.
 
 - Q: How to trun on/off UKSM and how to see if it is on or off?
-- A: Check if UKSM enable or not in the status screen
-	- "echo 0 > /sys/kernel/mm/uksm/run" without quotes to disable
-	- "echo 1 > /sys/kernel/mm/uksm/run" without quotes to enable
+- A: Check if UKSM enable or not in the status screen. Type bellow commands in Ubuntu CLI
+	- echo 0 > /sys/kernel/mm/uksm/run (to disable)
+	- echo 1 > /sys/kernel/mm/uksm/run (to enable)
 	
 
 ## Features of this release

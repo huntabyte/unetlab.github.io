@@ -32,7 +32,15 @@ EVE-NG Download Links
 	- [EVE-NG ISO - MEGA mirror](https://mega.nz/#!n1wCHSqY!vPEumXngOzgN5yzo2hhfo6KGJUIksUUoCLf1WKbFYCE "EVE-NG ISO - MEGA mirror")
 	- [EVE-NG ISO - mail.ru mirror](https://cloud.mail.ru/public/8LF6/CtPRUoFYL "EVE-NG ISO - mail.ru mirror")
 
+| OVA | Algorithm | Checksum |
+|:--|:--|:--|
+| | MD5 | `61D3D824BB20B989B6A4F8E4835A8349`
+| | SHA1 | `238C5C43CCDC7A161CF1AC5A1EB85A14329B634E`
 
+| ISO | Algorithm | Checksum |
+|:--|:--|:--|
+| | MD5 | `D834BC3AF29586834E099153DD788C21`
+| | SHA1 | `6BDE5F98EC7D4DAB70BABF6AEECA5B2125B5A102`
 
 ~~~
 Since we can't track vmware-tools updates and refresh ova each time there is an update, make sure that when you deploy OVA you upgrade vmware-tools from the platform OVA deployed to! For how to simple google it.

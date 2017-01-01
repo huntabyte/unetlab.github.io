@@ -25,12 +25,11 @@ Bellow one will find:
 
 ## FAQ
 
-* Q: When in HTML5 console, I click on disconnect and got into a guacamole login page and can't get any sessions in HTML5 now. Panic.
-* A: Logout/Login from/into eve to be able to open html console again.
+- Q: When in HTML5 console, I click on disconnect and got into a guacamole login page and can't get any sessions in HTML5 now. Panic.
+- A: Logout/Login from/into eve to be able to open html console again.
 
-
-* Q: How to trun on/off UKSM and how to see if it is on or off?
-* A: Check if UKSM enable or not in the status screen
+- Q: How to trun on/off UKSM and how to see if it is on or off?
+- A: Check if UKSM enable or not in the status screen
 	- echo 0 > /sys/kernel/mm/uksm/run - disable 
  	- echo 1 > /sys/kernel/mm/uksm/run - enable
 

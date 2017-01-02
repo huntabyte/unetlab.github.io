@@ -62,7 +62,7 @@ All feedbacks or issue kindly leave on our [GitLab Issues Page](https://gitlab.c
 
 ## Download Links and info
 
-* Ready to go OVA:
+* Ready to go OVA (HDD in OVA is only 20G. Increase space per need!):
 	- [EVE-NG OVA - MEGA mirror](https://mega.nz/#!v0BQnYCa!hQAPYv9H4a_Qz5SAQcWpRfel4H1LvQ4AwIE0AFvg-48 "EVE-NG OVA - MEGA mirror")
 	- [EVE-NG OVA - mail.ru mirror](https://cloud.mail.ru/public/8ies/Tzk6cN6hc "EVE-NG OVA - mail.ru mirror")
 

@@ -24,7 +24,7 @@ SHA1 | `25B6A66913B8D4E285024122D4A6AE197B5D69D4`
 
 EVE-NG Download Links
 
-* Ready to go OVA:
+* Ready to go OVA (HDD in OVA is only 20G. Increase space per need!):
 	- [EVE-NG OVA - MEGA mirror](https://mega.nz/#!v0BQnYCa!hQAPYv9H4a_Qz5SAQcWpRfel4H1LvQ4AwIE0AFvg-48 "EVE-NG OVA - MEGA mirror")
 	- [EVE-NG OVA - mail.ru mirror](https://cloud.mail.ru/public/8ies/Tzk6cN6hc "EVE-NG OVA - mail.ru mirror")
 

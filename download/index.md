@@ -59,6 +59,8 @@ EVE-NG Download Links
 | | MD5 | `D834BC3AF29586834E099153DD788C21`
 | | SHA1 | `6BDE5F98EC7D4DAB70BABF6AEECA5B2125B5A102`
 
+EVE sources are available on [GitLab](gitlab.com/eve-ng-dev/eve-ng-public "EVE repository on GitLab").
+
 ---
 
 ## Client side packs:

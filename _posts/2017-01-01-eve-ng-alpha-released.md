@@ -32,7 +32,10 @@ Bellow one will find:
 - A: Check if UKSM enable or not in the status screen. Type bellow commands in Ubuntu CLI
 	- echo 0 > /sys/kernel/mm/uksm/run (to disable)
 	- echo 1 > /sys/kernel/mm/uksm/run (to enable)
-	
+- Q: How to upgrade my EVE?
+- A: run those commands:
+	- apt-get update
+	- apt-get upgrade
 
 ## Features of this release
 

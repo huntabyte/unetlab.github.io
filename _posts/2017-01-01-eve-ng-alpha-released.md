@@ -25,23 +25,19 @@ Bellow one will find:
 
 ## FAQ
 
-1
 - Q: When in HTML5 console, I click on disconnect and got into a guacamole login page and can't get any sessions in HTML5 now. Panic.
 - A: Logout/Login from/into eve to be able to open html console again.
 
-2
 - Q: How to trun on/off UKSM and how to see if it is on or off?
 - A: Check if UKSM enable or not in the status screen. Type bellow commands in Ubuntu CLI
 	- echo 0 > /sys/kernel/mm/uksm/run (to disable)
 	- echo 1 > /sys/kernel/mm/uksm/run (to enable)
 	
-3
 - Q: How to upgrade my EVE?
 - A: run those commands:
 	- apt-get update
 	- apt-get upgrade
-	
-4
+		
 - Q: How to migrate from UNL to EVE? Is upgarde possible?
 - A: No upgrade path is possible from UNL to EVE. The only way is backup all images, labs etc from UNL, Install fresh EVE from ISO or OVA and move backup from UNL to EVE
 

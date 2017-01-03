@@ -36,6 +36,7 @@ Bellow one will find:
 
 ## Features of this release
 
+* Current release version : 2.0.2-16
 * Base upgraded to Ubuntu 16.04 and new kernel
 * [UKSM](http://kerneldedup.org/en/projects/uksm/ "UKSM") implementation
 * Brand new Home screen
@@ -49,10 +50,12 @@ Bellow one will find:
 * Official repo moved to [GitLab](https://gitlab.com/eve-ng-dev/eve-ng-public "EVE-NG Official Repo")
 	
 * New images
-	- Cisco FirePower 
+	- Cisco FirePower 6 
 	- Juniper vQFX
 	- Juniper vMX 15.X and 16.X versions
-	- Cisco CSR v1000 Denali and Everest
+	- Cisco CSR v1000 Denali and Everest (Default CSRv template uses virtio nic, for older CSR versions template editing required)
+	- CUCM (How to will be added in future)
+	- NX-OSv 9k
 	- VPCS fixes and more
 
 

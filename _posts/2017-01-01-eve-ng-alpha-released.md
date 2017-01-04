@@ -47,7 +47,7 @@ Bellow one will find:
 * Base upgraded to Ubuntu 16.04 and new kernel
 * [UKSM](http://kerneldedup.org/en/projects/uksm/ "UKSM") implementation
 * Brand new Home screen
-* Improved old lab layout UI:
+* Improved OLD lab layout UI from UNL (New LAB layout will be presented in later releases)
 	- Color change for stopped and running node
 	- HTML5 implementation for telnet,vnc and rdp (will be presented in Video HowTo)
 	- Color change for stopped and running node

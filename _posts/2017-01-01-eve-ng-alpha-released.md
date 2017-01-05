@@ -66,6 +66,7 @@ Bellow one will find:
 	- Cisco CSR v1000 Denali and Everest (Default CSRv template uses virtio nic, for older CSR versions template editing required)
 	- CUCM (How to will be added in future)
 	- NX-OSv 9k
+	- Separated templates for CSR 3.X and CSR Denali/Everest
 	- VPCS fixes and more
 
 

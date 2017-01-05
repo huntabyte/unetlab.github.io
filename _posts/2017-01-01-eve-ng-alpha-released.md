@@ -39,7 +39,10 @@ Bellow one will find:
 	- `apt-get upgrade`
 		
 - Q: How to migrate from UNL to EVE? Is upgarde possible?
-- A: No upgrade path is possible from UNL to EVE. The only way is backup all images, labs etc from UNL, Install fresh EVE from ISO or OVA and move backup from UNL to EVE
+- A: No. The only way is backup all images, labs etc from UNL, Install fresh EVE from ISO or OVA and move backup from UNL to EVE.
+	
+- Q: Why my wireshark doesn' work? :(
+- A: You need to edit C:\Program Files\UNetLab\wireshark_wrapper.bat file and edit root password to match one you use.
 
 ## Features of this release
 
@@ -74,11 +77,11 @@ All feedbacks or issue kindly leave on our [GitLab Issues Page](https://gitlab.c
 
 * Ready to go OVA (HDD in OVA is only 20G. Increase space per need!):
 	- [EVE-NG OVA - MEGA mirror](https://mega.nz/#!v0BQnYCa!hQAPYv9H4a_Qz5SAQcWpRfel4H1LvQ4AwIE0AFvg-48 "EVE-NG OVA - MEGA mirror")
-	- [EVE-NG OVA - mail.ru mirror](https://cloud.mail.ru/public/8ies/Tzk6cN6hc "EVE-NG OVA - mail.ru mirror")
+	- [EVE-NG OVA - mail.ru mirror](https://cloud.mail.ru/public/By47/YLMPag4rp "EVE-NG OVA - mail.ru mirror")
 
 * Installtion ISO:	
 	- [EVE-NG ISO - MEGA mirror](https://mega.nz/#!n1wCHSqY!vPEumXngOzgN5yzo2hhfo6KGJUIksUUoCLf1WKbFYCE "EVE-NG ISO - MEGA mirror")
-	- [EVE-NG ISO - mail.ru mirror](https://cloud.mail.ru/public/8LF6/CtPRUoFYL "EVE-NG ISO - mail.ru mirror")
+	- [EVE-NG ISO - mail.ru mirror](https://cloud.mail.ru/public/3Ejn/FaRh1kUMu "EVE-NG ISO - mail.ru mirror")
 
 ## HowTo videos and instructions
 

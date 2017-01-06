@@ -25,24 +25,40 @@ Bellow one will find:
 
 ## FAQ
 
+
 - Q: When in HTML5 console, I click on disconnect and got into a guacamole login page and can't get any sessions in HTML5 now. Panic.
-- A: Logout/Login from/into eve to be able to open html console again.
+	- A: Logout/Login from/into eve to be able to open html console again.
+
+---
 
 - Q: How to trun on/off UKSM and how to see if it is on or off?
 - A: Check if UKSM enable or not in the status screen. Type bellow commands in Ubuntu CLI
 	- `echo 0 > /sys/kernel/mm/uksm/run` (to disable)
 	- `echo 1 > /sys/kernel/mm/uksm/run` (to enable)
-	
+
+---
+
 - Q: How to upgrade my EVE?
 - A: run those commands:
 	- `apt-get update`
 	- `apt-get upgrade`
-		
+
+---
+
 - Q: How to migrate from UNL to EVE? Is upgarde possible?
 - A: No. The only way is backup all images, labs etc from UNL, Install fresh EVE from ISO or OVA and move backup from UNL to EVE.
+
+---
 	
 - Q: Why my wireshark doesn' work? :(
 - A: You need to edit C:\Program Files\UNetLab\wireshark_wrapper.bat file and edit root password to match one you use.
+
+---
+
+- Q: Starting more then 10 CSR gives CPU HOG. What to do?
+- A: UKSM is good for 10 CSR, if you want to launch more than 10 CSR, disable UKSM
+
+---
 
 ## Features of this release
 

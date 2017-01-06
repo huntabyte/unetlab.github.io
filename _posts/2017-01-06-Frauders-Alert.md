@@ -25,7 +25,7 @@ Fraudster pages:
 
 Those page belong to the same person and have no relations with UNL/EVE team.
 
-The official UNL/EVE team can [HERE](http://www.unetlab.com/about/#toc1 "UNL/EVE Team") 
+The official UNL/EVE team members are [HERE](http://www.unetlab.com/about/#toc1 "UNL/EVE Team") 
 
 If you donate, your money will not reach UNL/EVE team ever.
 

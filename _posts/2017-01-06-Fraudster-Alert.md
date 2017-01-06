@@ -1,8 +1,8 @@
 ---
 layout: post
 published: true
-title: "EVE-NG Frauders Alert"
-abstract: ! "EVE-NG Frauders Alert"
+title: "EVE-NG Fraudster Alert"
+abstract: ! "EVE-NG Fraudster Alert"
 categories:
 - Releases
 authors:
@@ -13,9 +13,9 @@ tags:
 - Releases
 ---
 
-## EVE-NG Frauders Alert
+## EVE-NG Fraudster Alert
 
-Please be aware about fraudsters trying to steal your money by asking donations for unl/eve project.
+Please be aware about Fraudsters trying to steal your money by asking donations for unl/eve project.
 
 Fraudster pages:
 

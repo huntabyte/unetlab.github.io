@@ -63,7 +63,6 @@ Bellow one will find:
 	- Cisco FirePower 6 
 	- Juniper vQFX
 	- Juniper vMX 15.X and 16.X versions
-	- Cisco CSR v1000 Denali and Everest (Default CSRv template uses virtio nic, for older CSR versions template editing required)
 	- CUCM (How to will be added in future)
 	- NX-OSv 9k
 	- Separated templates for CSR 3.X and CSR Denali/Everest

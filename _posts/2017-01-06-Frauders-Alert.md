@@ -23,11 +23,11 @@ Fraudster pages:
 * [http://eve-cloud.com](http://eve-cloud.com "http://eve-cloud.com") 
 * [http://unlcloud.com](http://unlcloud.com "http://unlcloud.com") 
 
-Those page belong to the same person and have no relations with UNL/EVE team.
+Those pages belong to the same person and have no relations with UNL/EVE team.
 
 The official UNL/EVE team members are [HERE](http://www.unetlab.com/about/#toc1 "UNL/EVE Team") 
 
-If you donate, your money will not reach UNL/EVE team ever.
+If you will donate, your money will not reach UNL/EVE team ever.
 
 For any questions join our [Skype HelpDesk](https://join.skype.com/N3cNlMa9Z60d "Skype HelpDesk") 
 

@@ -46,7 +46,7 @@ Bellow one will find:
 
 ## Features of this release
 
-* Current release version : 2.0.2-18
+* Current release version : 2.0.2-19
 * Base upgraded to Ubuntu 16.04 and new kernel
 * [UKSM](http://kerneldedup.org/en/projects/uksm/ "UKSM") implementation
 * Brand new Home screen

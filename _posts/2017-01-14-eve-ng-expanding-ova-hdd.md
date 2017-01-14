@@ -45,7 +45,6 @@ vgextend (volume from vgs command) /dev/sdb - in our case:
 ~~~
 vgextend eve-ng-vg /dev/sdb
 
-
 lvextend -l +100%FREE /dev/mapper/eve--ng--vg-root
 
 resize2fs /dev/mapper/eve--ng--vg-root

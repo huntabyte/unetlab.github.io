@@ -33,3 +33,4 @@ resize2fs /dev/mapper/eve--ng--vg-root
 Of course if later you need more space, adding a new disk will be /dev/sdc ....
 
 
+---

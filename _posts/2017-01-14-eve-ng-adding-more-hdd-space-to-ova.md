@@ -1,8 +1,8 @@
 ---
 layout: post
 published: true
-title: "How to Expand HDD in EVE OVA"
-abstract: ! "HowTo Expand HDD in EVE OVA."
+title: "How to Add more HDD space to EVE OVA"
+abstract: ! "How to Add more HDD space to EVE OVA"
 categories:
 - HowTo
 authors:
@@ -12,7 +12,7 @@ tags:
 - EVE
 ---
 
-## Expanding HDD in EVE OVA
+## Adding more HDD space to EVE OVA
 
 1. Make sure you are running -23 EVE version or later
 2. Power off VM

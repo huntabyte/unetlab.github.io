@@ -34,6 +34,29 @@ Now create the UNetLab image:
 mkdir -p /opt/unetlab/addons/qemu/asav-941-200
 mv asav941-200.qcow2 /opt/unetlab/addons/qemu/asav-941-200/virtioa.qcow2
 ~~~
+## EVE
+
+Run following commands:
+
+~~~
+cd /opt/unetlab/addons/qemu/asav-941-200/
+
+guestfish -a virtioa.qcow2 
+run
+mount /dev/sda1 /
+touch /use_ttyS0
+umount /
+exit
+totally diff way
+~~~
+
+Clean and fix permissions:
+
+~~~
+/opt/unetlab/wrappers/unl_wrapper -a fixpermissions
+~~~
+
+## UNL
 
 Run following commands:
 

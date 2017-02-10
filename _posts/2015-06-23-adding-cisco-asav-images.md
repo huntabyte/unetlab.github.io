@@ -37,7 +37,7 @@ mv asav941-200.qcow2 /opt/unetlab/addons/qemu/asav-941-200/virtioa.qcow2
 
 ## EVE
 
-Run following commands:
+Run following commands to enable telnet access instead of vnc:
 
 ~~~
 cd /opt/unetlab/addons/qemu/asav-941-200/
@@ -59,7 +59,7 @@ Clean and fix permissions:
 
 ## UNL
 
-Run following commands:
+Run following commands to enable telnet access instead of vnc:
 
 ~~~
 cd /opt/unetlab/addons/qemu/asav-941-200/

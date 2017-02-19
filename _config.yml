@@ -29,15 +29,9 @@ kramdown:
 
 # Authors
 authors:
-    alain:
-        name: Alain Degreffe 
-        title: Developer
-        display_name: Alain
-        email: adegreffe@gmail.com
-        linkedin: alaindegreffe
     andrea:
         name: Andrea Dainese
-        title: Developer
+        title: Developer and Unetlab Creator
         display_name: Andrea
         email: andrea.dainese@gmail.com
         web: http://www.routereflector.com/
@@ -45,16 +39,15 @@ authors:
         github: dainok
         linkedin: adainese
         gplus: AndreaDainese
-    dragos:
-        name: Dragoș Vasiloi
-        title: User Interface Consultant 
-        display_name: Dragoș
-        email: drgv13@gmail.com
-        web: http://3xtron.com/
-        linkedin: vdragos
+    alain:
+        name: Alain Degreffe 
+        title: Developer and EVE creator
+        display_name: Alain
+        email: adegreffe@gmail.com
+        linkedin: alaindegreffe
     michael:
         name: Michael Yandulov
-        title: Project Manager and Community Releations
+        title: Project Manager and Community Releations / Networking expert and consultant
         display_name: Michael
         email: myandulov@gmail.com
         twitter: mike_yand

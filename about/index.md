@@ -10,7 +10,8 @@ authors:
 tags:
 - UNetLab
 ---
-The UNetLab | EVE project is under heavy development. If you want to stay updated with beta release and enhancement, you can subscribe to our mailing list.
+
+The UNetLab / EVE project is under heavy development. If you want to stay updated with beta release and enhancement, you can subscribe to our mailing list.
 
 ## Team
 

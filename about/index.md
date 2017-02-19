@@ -2,7 +2,7 @@
 layout: page
 published: true
 title: "About Emulated Virtual Environment"
-abstract: ! "About UNetLab | EVE software and developers."
+abstract: ! "About EVE-NG software and developers."
 categories:
 - About
 authors:
@@ -11,7 +11,7 @@ tags:
 - EVE
 ---
 
-The EVE project is under heavy development. If you want to stay updated with beta release and enhancement, you can subscribe to our mailing list.
+The EVE-NG project is under heavy development. If you want to stay updated with beta release and enhancement, you can subscribe to our mailing list.
 
 ## Team
 

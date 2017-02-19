@@ -1,8 +1,8 @@
 ---
 layout: page
 published: true
-title: "About Unified Networking Lab"
-abstract: ! "About UNetLab software and developers."
+title: "About Emulated Virtual Environment"
+abstract: ! "About UNetLab | EVE software and developers."
 categories:
 - About
 authors:
@@ -10,7 +10,7 @@ authors:
 tags:
 - UNetLab
 ---
-The UNetLab project is under heavy development. If you want to stay updated with beta release and enhancement, you can subscribe to our mailing list.
+The UNetLab | EVE project is under heavy development. If you want to stay updated with beta release and enhancement, you can subscribe to our mailing list.
 
 ## Team
 

@@ -44,8 +44,9 @@ cd /opt/unetlab/addons/qemu/asav-941-200/
 
 guestfish -a virtioa.qcow2 
 run
-mount /dev/sda1 /
+mount /dev/sda2 /
 touch /use_ttyS0
+umount /
 exit
 ~~~
 

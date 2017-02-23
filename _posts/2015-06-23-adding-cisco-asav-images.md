@@ -46,7 +46,6 @@ guestfish -a virtioa.qcow2
 run
 mount /dev/sda1 /
 touch /use_ttyS0
-umount /
 exit
 ~~~
 

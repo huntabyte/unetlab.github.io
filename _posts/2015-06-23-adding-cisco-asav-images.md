@@ -48,7 +48,6 @@ mount /dev/sda1 /
 touch /use_ttyS0
 umount /
 exit
-totally diff way
 ~~~
 
 Clean and fix permissions:

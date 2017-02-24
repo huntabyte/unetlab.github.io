@@ -1,19 +1,18 @@
 ---
 layout: page
 published: true
-title: "Download Unified Networking Lab"
+title: "Download Emulater Virtual Environment"
 excerpt:
-  "Where download UNetLab software."
+  "Where download EVE-NG software."
 section: "Download"
 authors:
 - andrea
 tags:
 - UNetLab
-keywords: [UNetLab, UNL, download]
+keywords: [EVE-NG, EVE, download]
 ---
-## EVE
 
-EVE-NG Download Links
+## EVE-NG Download Links
 
 * Ready to go OVA (HDD in OVA is only 20G. Increase space per need!):
 	- [EVE-NG OVA - MEGA mirror](https://mega.nz/#!v0BQnYCa!hQAPYv9H4a_Qz5SAQcWpRfel4H1LvQ4AwIE0AFvg-48 "EVE-NG OVA - MEGA mirror")
@@ -42,33 +41,9 @@ EVE sources are available on [GitLab](gitlab.com/eve-ng-dev/eve-ng-public "EVE r
 * [Windows integration pack](https://www.dropbox.com/s/w8nnvt5kiosa21t/UNetLab-Win-Client-Pack.exe?dl=0 "Windows integration pack")
 * [Windows integration pack mirror](https://mega.nz/#!YwUjhJbJ!ag6PWBTOpGaawPCLLmDVxzMwS7MUPro7_sXZ-r2qAOo "Windows integration pack mirror")
 
----
-
-## UNL
-
-Currently UNetLab is released as OVA only:
-
-* [v1.0.0-8 Google Drive mirror](https://drive.google.com/file/d/0B44cQ3ClVIdwcWFfTjhXbUVTOW8/view?usp=sharing "v1.0.0-8 Google Drive mirror")
-* [v1.0.0-8 mail.ru mirror](https://cloud.mail.ru/public/7Ri8/v54Wkcr9v "v1.0.0-8 mail.ru mirror")
-
-| Algorithm | Checksum |
-|:--|:--|
-MD5 | `6DB4BC92AE7030638A4E591BD757FCA4`
-SHA1 | `25B6A66913B8D4E285024122D4A6AE197B5D69D4`
-
 ~~~
 Since we can't track vmware-tools updates and refresh ova each time there is an update, make sure that when you deploy OVA you upgrade vmware-tools from the platform OVA deployed to! For how to simple google it.
 ~~~
-
-Updates are available via APT repo:
-
-~~~
-deb http://www.unetlab.com/apt trusty rrlabs
-~~~
-
-UNetLab sources are available on [GitHub](https://github.com/dainok/unetlab "UNetLab repository on GitHub").
-
-
 
 ---
 

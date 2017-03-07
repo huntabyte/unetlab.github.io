@@ -51,7 +51,7 @@ Start the first boot installation:
 Press any key to interrupt the boot process, and select the following image:
 
 ~~~
-CSR 1000V Serial Console -- Sun-27-Jul-14-15:56
+CSR 1000V Serial Console
 ~~~
 
 After installation, the CSR is automatically rebooted. Output will be available without any further action:

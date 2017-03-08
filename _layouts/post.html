@@ -8,11 +8,16 @@
 			</div>
 			<div class="row row-eq-height">
 				<div id="main-left" class="hidden-xs hidden-sm col-md-3 col-lg-3">
+{% include toc.html %}
 				</div>
 				<div id="main-right" class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<div id="main-content">
+{% include indiegogo.html %}
+{% if page.abstract %}
+<h2>Abstract</h2>
+<p>{{ page.abstract}}</p>
+{% endif %}
 {% if page.series %}
-<h2>Series</h2>
 <p>This post is part of a series, other related posts are:</p>
 <ul>
 	{% assign allPosts = site.posts | where: "series", page.series | sort: "weight" %}
@@ -20,10 +25,6 @@
 	<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.date | date_to_string }} - {{ post.title }}</a>: {{ post.abstract | strip_html }}</li>
 	{% endfor %}
 </ul>
-{% endif %}
-{% if page.abstract %}
-<h2>Abstract</h2>
-<p>{{ page.abstract}}</p>
 {% endif %}
 {{ content }}
 					</div>

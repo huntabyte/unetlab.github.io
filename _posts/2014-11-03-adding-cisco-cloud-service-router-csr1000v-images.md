@@ -45,13 +45,13 @@ Then convert the disk to the qcow2 format:
 Start the first boot installation:
 
 ~~~
-/opt/qemu/bin/qemu-system-x86_64 --enable-kvm -serial mon:stdio -nographic -boot order=c,once=d -smp 2 -m 3072 -usb -hda hda.qcow2 -cdrom csr1000v-universalk9.03.13.00.S.154-3.S-ext.iso
+/opt/qemu/bin/qemu-system-x86_64 --enable-kvm -serial mon:stdio -nographic -boot order=c,once=d -smp 1 -m 3072 -usb -hda hda.qcow2 -cdrom csr1000v-universalk9.03.13.00.S.154-3.S-ext.iso
 ~~~
 
 Press any key to interrupt the boot process, and select the following image:
 
 ~~~
-CSR 1000V Serial Console
+CSR 1000V Serial Console -- Sun-27-Jul-14-15:56
 ~~~
 
 After installation, the CSR is automatically rebooted. Output will be available without any further action:
